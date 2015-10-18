@@ -1,2 +1,2 @@
 # harmony
-Harmonious CSS ultra-light framework
+Harmonious is a css postcss ultra-light framework
