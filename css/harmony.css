@@ -26,3 +26,17 @@ SYNTAX RULES
 - ensure clean syntax
 - "bundle" syntax for quick reference
 */
+
+/* base */
+html {
+  font-size: 16px;
+
+  -webkit-tap-highlight-color: transparent;
+}
+body {font-size:1rem; line-height:1.5; margin:0; padding-top:0; padding-bottom:0;
+  color:rgba(55,58,60,1); /* #373a3c */
+	background-color:rgba(255,255,255,1); /* #fff */
+}
+body, div, h1, h2, h3, h4, h5, h6, p {font-family:"ProximaNova-Regular" Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6 {margin-top:0; margin-bottom:.5rem;}
+
