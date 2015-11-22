@@ -31,6 +31,7 @@ SYNTAX RULES
  * fonts - lato and source code on index
  * normalize.css v3.0.3 to reset any previous styles | MIT License | github.com/necolas/normalize.css
  * Flexgrid from Bootstrap v4.0.0-alpha - the most modern grid system | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css
+ * Print style sheet from Bootstrap v4.0.0-alpha NOTE! Needs adjustment for harmony | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css
  */
 
 
@@ -253,6 +254,82 @@ td,
 th {
   padding: 0;
 }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * Print style sheet
+ * Taken from Bootstrap v4.0.0-alpha and needs to be adjusted for harmony | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css 
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .navbar {
+    display: none;
+  }
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  .label {
+    border: 1px solid #000;
+  }
+  .table {
+    border-collapse: collapse !important;
+  }
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * Base
+ * Taken from Bootstrap v4.0.0-alpha and needs to be adjusted for harmony | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css  
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
 
 /* Flexgrid */
 
