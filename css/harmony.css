@@ -357,8 +357,18 @@ html {
   width: device-width;
 }
 
+html {
+  font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+}
 
-
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(34,34,34,1); /* 222222 */
+  background-color: rgba(255,255,255,1); /* ffffff */
+}
 
 /* Flexgrid */
 
