@@ -1,0 +1,43 @@
+{
+  "author": {
+    "name": "Aaron Heckmann",
+    "email": "aaron.heckmann+github@gmail.com"
+  },
+  "name": "gridfs-stream",
+  "description": "Writable/Readable Nodejs compatible GridFS streams",
+  "version": "1.1.1",
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "gridfs"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "flushwritable": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "mongodb": "2.0.15",
+    "checksum": "~0.1.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aheckmann/gridfs-stream.git"
+  },
+  "readme": "# gridfs-stream\n\nEasily stream files to and from MongoDB [GridFS](http://www.mongodb.org/display/DOCS/GridFS).\n\n## Please note\n\ngridfs-stream v1.x uses [Stream2 API from nodejs v0.10](http://nodejs.org/docs/v0.10.36/api/stream.html) (and the mongodb v2.x driver). It provides more robust and easier to use streams. If for some reason you need nodejs v0.8 streams, please switch to the [gridfs-stream 0.x branch](https://github.com/aheckmann/gridfs-stream/tree/0.x)\n\n## Description\n\n```js\nvar mongo = require('mongodb');\nvar Grid = require('gridfs-stream');\n\n// create or use an existing mongodb-native db instance\nvar db = new mongo.Db('yourDatabaseName', new mongo.Server(\"127.0.0.1\", 27017));\nvar gfs = Grid(db, mongo);\n\n// streaming to gridfs\nvar writestream = gfs.createWriteStream({\n    filename: 'my_file.txt'\n});\nfs.createReadStream('/some/path').pipe(writestream);\n\n// streaming from gridfs\nvar readstream = gfs.createReadStream({\n  filename: 'my_file.txt'\n});\n\n//error handling, e.g. file does not exist\nreadstream.on('error', function (err) {\n  console.log('An error occurred!', err);\n  throw err;\n});\n\nreadstream.pipe(response);\n```\n\nAlternatively you could read the file using an _id. This is often a better option, since filenames don't have to be unique within the collection. e.g.\n\n```js\nvar readstream = gfs.createReadStream({\n  _id: '50e03d29edfdc00d34000001'\n});\n\n```\n\nCreated streams are compatible with other Node streams so piping anywhere is easy.\n\n## install\n\n```\nnpm install gridfs-stream\n```\n\n## use\n\n```js\nvar mongo = require('mongodb');\nvar Grid = require('gridfs-stream');\n\n// create or use an existing mongodb-native db instance.\n// for this example we'll just create one:\nvar db = new mongo.Db('yourDatabaseName', new mongo.Server(\"127.0.0.1\", 27017));\n\n// make sure the db instance is open before passing into `Grid`\ndb.open(function (err) {\n  if (err) return handleError(err);\n  var gfs = Grid(db, mongo);\n\n  // all set!\n})\n```\n\nThe `gridfs-stream` module exports a constructor that accepts an open [mongodb-native](https://github.com/mongodb/node-mongodb-native/) db and the [mongodb-native](https://github.com/mongodb/node-mongodb-native/) driver you are using. _The db must already be opened before calling `createWriteStream` or `createReadStream`._\n\nNow we're ready to start streaming.\n\n## createWriteStream\n\nTo stream data to GridFS we call `createWriteStream` passing any options.\n\n```js\nvar writestream = gfs.createWriteStream([options]);\nfs.createReadStream('/some/path').pipe(writestream);\n```\n\nOptions may contain zero or more of the following options, for more information see [GridStore](http://mongodb.github.com/node-mongodb-native/api-generated/gridstore.html):\n```js\n{\n    _id: '50e03d29edfdc00d34000001', // a MongoDb ObjectId\n    filename: 'my_file.txt', // a filename\n    mode: 'w', // default value: w\n\n    //any other options from the GridStore may be passed too, e.g.:\n\n    chunkSize: 1024,\n    content_type: 'plain/text', // For content_type to work properly, set \"mode\"-option to \"w\" too!\n    root: 'my_collection',\n    metadata: {\n        ...\n    }\n}\n```\n\n### Events\n\nThe `writeStream` is a fully compliant [Stream2 Writable Stream](http://nodejs.org/docs/v0.10.36/api/stream.html#stream_class_stream_writable), it emits all the associated events (`drain`, `finish`, `pipe`, `unpipe`, `error`), as well as additional special events (`open`, `close`).\n\n`finish` is emitted after the file has been completely written to GridFS.\n\n`open` is emitted after the GridStore is successfully opened.\n\n`close` is emitted after the GridStore is successfully closed, which means the file is fully written to GridFS, and the file object is passed as the first argument.\n\n```js\nwritestream.on('close', function (file) {\n  // do something with `file`\n  console.log(file.filename);\n});\n```\n\n### Methods\n\nThe `writeStream` has additional methods:\n\n`destroy([err])`:\nDestroy the `writeStream` as soon as possible: stop writing incoming data, close the _store. An `error` event will be emitted, as well as a `close` event.\nIt's up to you to cleanup the GridStore if it's not desired to keep half written files in GridFS (the `close` event returns a GridStore `file` which can be used to delete the file, or mark it failed).\n\n## createReadStream\n\nTo stream data out of GridFS we call `createReadStream` passing any options, at least an `_id` or `filename`.\n\n```js\nvar readstream = gfs.createReadStream(options);\nreadstream.pipe(response);\n```\n\nSee the options of `createWriteStream` for more information.\n\nTo get partial data with `createReadStream`, use `range` option. e.g.\n```js\nvar readstream = gfs.createReadStream({\n  _id: '50e03d29edfdc00d34000001',\n  range: {\n    startPos: 100,\n    endPos: 500000\n  }\n});\n```\n\n## removing files\n\nFiles can be removed by passing options (at least an `_id` or `filename`) to the `remove()` method.\n\n```js\ngfs.remove(options, function (err) {\n  if (err) return handleError(err);\n  console.log('success');\n});\n```\n\nSee the options of `createWriteStream` for more information.\n\n## check if file exists\n\nCheck if a file exist by passing options (at least an `_id` or `filename`) to the `exist()` method.\n\n```js\ngfs.exist(options, function (err, found) {\n  if (err) return handleError(err);\n  found ? console.log('File exists') : console.log('File does not exist');\n});\n```\n\nSee the options of `createWriteStream` for more information.\n\n## accessing file metadata\n\nAll file meta-data (file name, upload date, contentType, etc) are stored in a special mongodb collection separate from the actual file data. This collection can be queried directly:\n\n```js\n  var gfs = Grid(conn.db);\n  gfs.files.find({ filename: 'myImage.png' }).toArray(function (err, files) {\n    if (err) ...\n    console.log(files);\n  })\n```\n\nAlternatively you can use the ```gfs.findOne```-shorthand to find a single file\n\n```js\n  gfs.findOne({ _id: '54da7b013706c1e7ab25f9fa'}, function (err, file) {\n    console.log(file);\n  });\n```\n\n## using with mongoose\n\n```js\nvar mongoose = require('mongoose');\nvar Grid = require('gridfs-stream');\n\nvar conn = mongoose.createConnection(..);\nconn.once('open', function () {\n  var gfs = Grid(conn.db, mongoose.mongo);\n\n  // all set!\n})\n```\n\nYou may optionally assign the driver directly to the `gridfs-stream` module so you don't need to pass it along each time you construct a grid:\n\n```js\nvar mongoose = require('mongoose');\nvar Grid = require('gridfs-stream');\nGrid.mongo = mongoose.mongo;\n\nvar conn = mongoose.createConnection(..);\nconn.once('open', function () {\n  var gfs = Grid(conn.db);\n\n  // all set!\n})\n```\n\n[LICENSE](https://github.com/aheckmann/gridfs-stream/blob/master/LICENSE)\n",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/aheckmann/gridfs-stream/issues"
+  },
+  "homepage": "https://github.com/aheckmann/gridfs-stream#readme",
+  "_id": "gridfs-stream@1.1.1",
+  "_shasum": "3dd3a100ec2021a181282f6eb46709636074df89",
+  "_resolved": "https://registry.npmjs.org/gridfs-stream/-/gridfs-stream-1.1.1.tgz",
+  "_from": "https://registry.npmjs.org/gridfs-stream/-/gridfs-stream-1.1.1.tgz"
+}

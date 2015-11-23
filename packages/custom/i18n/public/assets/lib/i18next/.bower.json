@@ -1,0 +1,30 @@
+{
+  "name": "i18next",
+  "version": "1.11.1",
+  "main": "./i18next.js",
+  "dependencies": {},
+  "ignore": [
+    "test/",
+    "release/",
+    "spec/",
+    "src/",
+    "sample/",
+    "report/",
+    "buildtasks/",
+    ".gitignore",
+    "Gruntfile.js",
+    "package.json",
+    "testacular.conf.js",
+    "**/*.zip"
+  ],
+  "homepage": "https://github.com/i18next/i18next",
+  "_release": "1.11.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.11.1",
+    "commit": "b3d0c1b2fd0a79f23095183c4962c53e3191be6b"
+  },
+  "_source": "git://github.com/i18next/i18next.git",
+  "_target": ">=1.9.0",
+  "_originalSource": "i18next"
+}
