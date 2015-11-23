@@ -326,8 +326,21 @@ th {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  * Base
- * Taken from Bootstrap v4.0.0-alpha and needs to be adjusted for harmony | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css  
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+html {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+}
+
 
 
 
