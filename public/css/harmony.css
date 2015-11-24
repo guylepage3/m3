@@ -1,5 +1,5 @@
 /*
-harmony v1.0.1
+harmony v1.0.2
 Creators: Guy Lepage
 Copyright 
 Licensed under MIT
@@ -255,6 +255,12 @@ th {
   padding: 0;
 }
 
+/* Issue with Bootstrap v4.0.0 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  * Print style sheet
  * Taken from Bootstrap v4.0.0-alpha and needs to be adjusted for harmony | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css 
@@ -329,7 +335,7 @@ th {
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 html {
-	-webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -1222,9 +1228,4 @@ body {
     margin-left: 100%;
   }
 }
-
-
-
-
-
 
