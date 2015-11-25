@@ -24,6 +24,7 @@ SYNTAX RULES
 - always ensure there is a reset after creation of containers
 - ensure clean syntax
 - "bundle" syntax for quick reference
+- issues will be marked with <<<<<<<<<<<<
 */
 
 /* 
@@ -255,6 +256,7 @@ th {
   padding: 0;
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 /* Issue with Bootstrap v4.0.0 */
 * {
   margin: 0;
