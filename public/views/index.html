@@ -1,28 +1,58 @@
+<!-- public/index.html -->
 <!doctype html>
-
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	
-	<title></title>
+    <meta charset="UTF-8">
+    <base href="/">
+
+    <title>Starter Node and Angular</title>
+
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
+    <!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic|Source+Code+Pro:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/harmony.css?v=1.0">
-	
+	<link rel="stylesheet" href="css/style.css">
+
+    <!-- JS -->
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-route/angular-route.min.js"></script>
+
+    <!-- Angular custom -->
+    <script src="js/controllers/MainCtrl.js"></script>
+    <script src="js/controllers/NerdCtrl.js"></script>
+    <script src="js/services/NerdService.js"></script>
+    <script src="js/appRoutes.js"></script>
+    <script src="js/app.js"></script>
+
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 
-<body>
-  <script src="js/scripts.js"></script>
-  <header>
-  	<nav><a href="/">Harmony logo</a></nav>
-  </header>
-  <article>
-  	Welcome to harmony
-  </article>
+<body ng-app="sampleApp" ng-controller="NerdController">
+<div class="container">
+
+	<!-- Header -->
+	<nav class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">Harmony logo</a>
+		</div>
+
+		<!-- Link to our pages. Angular handles the routing here -->
+		<ul class="nav navbar-nav">
+			<li><a href="/nerds">Nerds</a></li>
+		</ul>
+	</nav>
+
+	<!-- Angular dynamic content -->
+	<div ng-view></div>
+
+</div>
+
 </body>
 </html>
