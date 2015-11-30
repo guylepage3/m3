@@ -27,15 +27,15 @@ Several quick start options are available:
 
 **Guy Lepage**
 
-* blockchain ID <https://onename.com/guylepage3>
-* twitter <https://twitter.com/guylepage3>
-* github <https://github.com/guylepage3>
+* blockchain ID - <https://onename.com/guylepage3>
+* twitter - <https://twitter.com/guylepage3>
+* github - <https://github.com/guylepage3>
 
 **Ryan Shea**
 
-* blockchain ID <https://onename.com/ryan>
-* twitter <https://twitter.com/ryaneshea>
-* github <https://github.com/shea256>
+* blockchain ID - <https://onename.com/ryan>
+* twitter - <https://twitter.com/ryaneshea>
+* github - <https://github.com/shea256>
 
 
 ## License
