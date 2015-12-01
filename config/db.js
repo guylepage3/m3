@@ -1,4 +1,4 @@
 // config/db.js
     module.exports = {
-        url : 'mongodb://<harmony>:<*HP7BqB>mm-8>7Up>@ds057244.mongolab.com:57244/harmonydb'
+        url : 'mongodb://<useradmin>:<saKR7ce5V47xKTffqE>@ds059804.mongolab.com:59804/uiframeworkdb'
     }

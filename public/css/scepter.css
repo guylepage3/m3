@@ -1,5 +1,5 @@
 /*
-harmony v1.0.3
+scepter v1.0.4
 Creators: Guy Lepage
 Copyright 
 Licensed under MIT
@@ -32,7 +32,7 @@ SYNTAX RULES
  * fonts - lato and source code on index
  * normalize.css v3.0.3 to reset any previous styles | MIT License | github.com/necolas/normalize.css
  * Flexgrid from Bootstrap v4.0.0-alpha - the most modern grid system | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css
- * Print style sheet from Bootstrap v4.0.0-alpha NOTE! Needs adjustment for harmony | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css
+ * Print style sheet from Bootstrap v4.0.0-alpha NOTE! Needs adjustment for scepter | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css
  */
 
 
@@ -265,7 +265,7 @@ th {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  * Print style sheet
- * Taken from Bootstrap v4.0.0-alpha and needs to be adjusted for harmony | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css 
+ * Taken from Bootstrap v4.0.0-alpha and needs to be adjusted for scepter | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css 
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media print {

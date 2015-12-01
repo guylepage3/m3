@@ -1,7 +1,7 @@
 # scepter
-Harmonious is a css postcss ultra-light framework
+Scepter is a css postcss ultra-light framework
 
-scepter is an opensource postcss framework with a Bootstrap 4 foundation built with blockchain and decentralized projects in mind.
+Scepter is an opensource postcss framework with a Bootstrap 4 foundation built with blockchain and decentralized projects in mind.
 
 ## Table of contents
 
