@@ -1,7 +1,7 @@
-# harmony
+# scepter
 Harmonious is a css postcss ultra-light framework
 
-Harmony is an opensource postcss framework with a Bootstrap 4 foundation built with blockchain and decentralized projects in mind.
+scepter is an opensource postcss framework with a Bootstrap 4 foundation built with blockchain and decentralized projects in mind.
 
 ## Table of contents
 
@@ -15,12 +15,12 @@ Harmony is an opensource postcss framework with a Bootstrap 4 foundation built w
 
 Several quick start options are available:
 
-* Clone the repo: `git clone https://github.com/guylepage3/harmony.git`.
+* Clone the repo: `git clone https://github.com/guylepage3/scepter.git`.
 
 
 ## Changelog
 
-* 1.0.0 - Initial harmony framework build
+* 1.0.0 - Initial scepter framework build
 
 
 ## Creators
