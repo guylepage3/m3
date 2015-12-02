@@ -1,5 +1,9 @@
 /* custom styles */
 
+body {
+    background-color: rgba(30,30,30,1);
+}
+
 #main-footer {
 	position: relative;
 	margin-top: 20px;
