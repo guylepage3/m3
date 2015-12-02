@@ -36,31 +36,35 @@
 
 <body ng-app="sampleApp" ng-controller="NerdController">
 <div class="container">
+	<div class="inner-col">
 
-	<!-- Header -->
-	<nav class="navbar navbar-inverse">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="/">Scepter</a>
-		</div>
+		<!-- Header -->
+		<nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Scepter</a>
+			</div>
+			
+			<!-- Link to our pages. Angular handles the routing here -->
+			<ul class="nav navbar-nav">
+				<li><a href="/nerds">Components</a></li>
+			</ul>
+		</nav>
 
-		<!-- Link to our pages. Angular handles the routing here -->
-		<ul class="nav navbar-nav">
-			<li><a href="/nerds">Components</a></li>
-		</ul>
-	</nav>
+	</div>
 
 	<!-- Angular dynamic content -->
 	<div ng-view></div>
 
 	<footer id="main-footer" class="">
 		<div class="inner-col">
-			<p>This is an open sourced site hosted on GitHub. Patches, suggestions and comments are welcome.</p>
+			<p class="block">This is an open sourced site hosted on GitHub. Patches, suggestions and comments are welcome.</p>
+			
+			<p class="pull-right">Order stickers</p>
 			<ul>
-				<li><a href="#"><span>Slack</span></a></li>
-				<li><a href="#"><span>Blog</span></a></li>
+				<li><a href="#"><span>Medium</span></a></li>
+				<li><a href="#"><span>Open Source</a></li>
 				<li><a href="#"><span>About</a></li>
 				<li><a href="#"><span>Press Kit</span></a></li>
-				<li><a href="#"><span>Open Source</a></li>
 				<li><a href="#"><span>Twitter</a></li>
 				<li><a href="#"><span>Github</a></li>
 			</ul>

@@ -1,0 +1,32 @@
+/* custom styles */
+
+#main-footer {
+	position: relative;
+	margin-top: 20px;
+	padding-bottom: 60px;
+	color: #b0bfc7;
+	font-size: 1.2em;
+}
+
+footer#main-footer div.inner-col {
+    padding-top: 15px;
+    border-top: 1px solid #e6eaed;
+}
+
+footer#main-footer ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+footer#main-footer ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px 0 0;
+    display: inline;
+}
+
+.inner-col {
+    margin: 0 auto;
+    width: 952px;
+}
