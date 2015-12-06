@@ -6,32 +6,6 @@ body {
     font-weight: 300;
 }
 
-#main-footer {
-	position: relative;
-	margin-top: 20px;
-	padding-bottom: 60px;
-	color: #b0bfc7;
-	font-size: 1.2em;
-}
-
-footer#main-footer div.inner-col {
-    font-size: 13px;
-    padding-top: 15px;
-}
-
-footer#main-footer ul {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-
-footer#main-footer ul li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 10px 0 0;
-    display: inline;
-}
-
 .inner-col {
     margin: 0 auto;
     width: 952px;
@@ -43,4 +17,30 @@ footer#main-footer ul li {
 
 .hero {
     width: 650px;
+}
+
+.main-footer {
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    color: #b0bfc7;
+    font-size: 1.2em;
+}
+
+footer.main-footer div.inner-col {
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+footer.main-footer ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+footer.main-footer ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px 0 0;
+    display: inline;
 }
