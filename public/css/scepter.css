@@ -36,6 +36,28 @@ SYNTAX RULES
  */
 
 
+/* 
+ * Reference of Responsice Breakpoints
+ * Extra small devices (portrait phones, less than ???px)
+ * No media query since this is the default in Bootstrap
+ */
+
+/* Small devices (landscape phones, 34em and up)*/
+@media (min-width: 34em) { ... }
+
+/* Medium devices (tablets, 48em and up)*/
+@media (min-width: 48em) { ... }
+
+/* Large devices (desktops, 62em and up)*/
+@media (min-width: 62em) { ... }
+
+/* Extra large devices (large desktops, 75em and up)*/
+@media (min-width: 75em) { ... }
+
+
+
+
+
 @charset "UTF-8";
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
