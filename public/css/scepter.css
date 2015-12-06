@@ -35,36 +35,28 @@ SYNTAX RULES
  * Print style sheet from Bootstrap v4.0.0-alpha NOTE! Needs adjustment for scepter | MIT License | https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap.css
  */
 
-
 /* 
  * Reference of Responsice Breakpoints
  * Extra small devices (portrait phones, less than ???px)
  * No media query since this is the default in Bootstrap
  */
-
 /* Small devices (landscape phones, 34em and up)*/
 @media (min-width: 34em) { ... }
-
 /* Medium devices (tablets, 48em and up)*/
 @media (min-width: 48em) { ... }
-
 /* Large devices (desktops, 62em and up)*/
 @media (min-width: 62em) { ... }
-
 /* Extra large devices (large desktops, 75em and up)*/
 @media (min-width: 75em) { ... }
 
 
-
-
-
+/* 6 */
 @charset "UTF-8";
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
 html {
   font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
 
 body {
@@ -277,6 +269,7 @@ td,
 th {
   padding: 0;
 }
+/* 230 */
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 /* Issue with Bootstrap v4.0.0 */
@@ -822,12 +815,13 @@ pre code {
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-/* Pasted from Bootstrap v4.0.0 - GL 2015-11-29 21-41 
+/* Bootstrap v4.0.0 - GL 2015-11-29 21-41 
  End
  */
 
 /* Flexgrid */
 
+/* 808 */
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
   position: relative;
   min-height: 1px;
@@ -1678,4 +1672,51 @@ pre code {
     margin-left: 100%;
   }
 }
+/* 1659 */
+/*****************************************/
+/* 3666 */
+.navbar {
+  position: relative;
+  padding: .5rem 1rem;
+}
+
+.navbar:before,
+.navbar:after {
+  display: table;
+  content: " ";
+}
+
+.navbar:after {
+  clear: both;
+}
+/* 3681 */
+/*****************************************/
+
+/*****************************************/
+/* 3735 */
+.navbar-brand {
+  float: left;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.navbar-brand > img {
+  display: block;
+}
+/* 3752 */
+/*****************************************/
+
+
+
+
+
+
+
 

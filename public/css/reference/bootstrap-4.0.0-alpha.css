@@ -3679,11 +3679,11 @@ input[type="button"].btn-block {
   clear: both;
 }
 
-@media (min-width: 34em) {
+/* --------- removed ------------------------------- @media (min-width: 34em) {
   .navbar {
     border-radius: .25rem;
   }
-}
+}-------------------------------------------------- */
 
 .navbar-static-top {
   z-index: 1000;
