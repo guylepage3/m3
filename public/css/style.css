@@ -6,11 +6,6 @@ body {
     font-weight: 300;
 }
 
-.inner-col {
-    margin: 0 auto;
-    width: 952px;
-}
-
 .slides {
     color: rgba(255,255,255,1);
 }
@@ -43,4 +38,9 @@ footer.main-footer ul li {
     padding: 0;
     margin: 0 10px 0 0;
     display: inline;
+}
+
+.inner-col {
+    margin: 0 auto;
+    width: 952px;
 }
