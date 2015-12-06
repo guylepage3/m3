@@ -41,3 +41,7 @@ footer#main-footer ul li {
 .slides {
     color: rgba(255,255,255,1);
 }
+
+.hero {
+    width: 550px;
+}
