@@ -1,7 +1,7 @@
-# Scepter
-Scepter is an ultra-light postcss framework for designers
+# harmony
+Harmony is an ultra-light postcss framework for designers
 
-Scepter is an opensource postcss framework with a Bootstrap 4 foundation built with blockchain and decentralized projects in mind.
+Harmony is an opensource postcss framework with a Bootstrap 4 foundation built with blockchain and decentralized projects in mind.
 
 ## Table of contents
 
@@ -15,12 +15,12 @@ Scepter is an opensource postcss framework with a Bootstrap 4 foundation built w
 
 Several quick start options are available:
 
-* Clone the repo: `git clone https://github.com/guylepage3/scepter.git`.
+* Clone the repo: `git clone https://github.com/guylepage3/harmony.git`.
 
 
 ## Changelog
 
-* 1.0.4 - Initial scepter framework build
+* 1.0.4 - Initial harmony framework build
 
 
 ## Creators
