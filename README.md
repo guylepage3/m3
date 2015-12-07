@@ -1,5 +1,5 @@
 # Scepter
-Scepter is a ultra-light postcss framework
+Scepter is an ultra-light postcss framework for designers
 
 Scepter is an opensource postcss framework with a Bootstrap 4 foundation built with blockchain and decentralized projects in mind.
 
