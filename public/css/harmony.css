@@ -1918,10 +1918,10 @@ pre code {
 
 .navbar-brand {
   float: left;
-  padding-top: .25rem;
-  padding-bottom: .25rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
+  padding: 0.9375rem;
+  margin-right: 0.9375rem;
+  line-height: 20px;
+  font-size: 1.125rem;
 }
 
 .navbar-brand:focus,
@@ -2157,6 +2157,8 @@ pre code {
 }
 /* 4185 */ /* bootstrap-3.3.6 */
 /*****************************************/
+
+
 
 
 
