@@ -2066,8 +2066,15 @@ pre code {
 }
 /* 3883 */
 /*****************************************/
-
-
+/* 4179 */ /* bootstrap-3.3.6 */
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+}
+/* 4185 */ /* bootstrap-3.3.6 */
+/*****************************************/
+/* 4229 */ /* bootstrap-3.3.6 */
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
@@ -2084,6 +2091,9 @@ pre code {
     margin-left: 0;
   }
 }
+/* 4246 */ /* bootstrap-3.3.6 */
+/*****************************************/
+/* 6463 */ /* bootstrap-3.3.6 */
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
@@ -2137,7 +2147,16 @@ pre code {
 .modal-footer:after {
   clear: both;
 }
-
+/* 6517 */ /* bootstrap-3.3.6 */
+/*****************************************/
+/* 4179 */ /* bootstrap-3.3.6 */
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+}
+/* 4185 */ /* bootstrap-3.3.6 */
+/*****************************************/
 
 
 
