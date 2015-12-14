@@ -20,7 +20,7 @@ Several quick start options are available:
 
 ## Changelog
 
-* 1.0.4 - Initial harmony framework build
+* 1.0.5 - Initial harmony framework build
 
 
 ## Creators
