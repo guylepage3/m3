@@ -22,6 +22,21 @@ Several quick start options are available:
 
 * 1.0.5 - Initial harmony framework build
 
+## Design
+
+This Github repository contains all design files for harmony. Files are located in the following directories
+
+```
+design/
+├── comps/
+├── proofs/
+└── support/
+```
+
+* `comps/` directory is where you'll find working design files with dates for organanizational purposes.
+* `proofs/` directory is for the most current design files.
+* `support/` directory is a folder where all supporting files are stored.
+
 
 ## Creators
 
