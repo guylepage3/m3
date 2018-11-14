@@ -35,7 +35,7 @@
 <br/>
 <p align="center">
   <a href="https://universe.engineering">
-    <img width="800" alt="polypropylene" src="">
+    <img width="800" alt="polypropylene-v0.1.0" src="https://user-images.githubusercontent.com/1711854/48501891-47673d80-e80c-11e8-988f-a173548d94ea.png">
   </a>
 </p>
 
