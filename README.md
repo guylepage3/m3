@@ -3,7 +3,7 @@
   <h3>Polypropylene</h3>
 
   <p>
-    Polypropylene is an open source blockchain UI framework ([Bootstrap](http://getbootstrap.com/) based).
+    Polypropylene is an open source blockchain UI framework ([Bootstrap](http://getbootstrap.com/)) based).
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
