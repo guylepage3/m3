@@ -1,9 +1,9 @@
 <div align="center">
 
-  <h3>Blockchain front-end framework (Built off Bootstrap)</h3>
+  <h3>Polypropylene</h3>
 
   <p>
-    Universe is a blockchain agnostic UX solutions community focusing on decentralized apps.
+    Polypropylene is a blockchain UI framework (Built off Bootstrap).
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
