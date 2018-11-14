@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import HeaderLight from './HeaderLight';
-import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Typography extends Component {

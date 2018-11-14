@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 import './styles/App.css';
 import Home from './components/Home';
 import NoMatch from './components/NoMatch';
-import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faAngleUp, faAngleRight, faExternalLinkAlt, faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons'
