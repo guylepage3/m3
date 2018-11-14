@@ -1,0 +1,150 @@
+/* App.css */
+
+ul {
+  margin-top: 1rem;
+}
+
+dd, dt {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1.5rem;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1rem;
+}
+
+.text-footer {
+  font-size: 80%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .lead {
+    font-size: 1.3125rem;
+  }
+  .lead-md {
+    font-size: 1.5rem;
+  }
+  .lead-lg {
+    font-size: 1.75rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  html, body {
+    font-size: 17px;
+    line-height: 1.75;
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    line-height: 1.125!important;
+  }
+  h1, .h1 {
+    font-size: 3.1727rem; /* == 50.7632px */
+    margin-top: 6.75rem!important; /* == 108px */
+  }
+  h2, .h2 {
+    font-size: 2.6438rem; /* == 42.3008px */
+    margin-top: 5.625rem!important; /* == 90px */
+  }
+  h3, .h3 {
+    font-size: 2.2032rem; /* == 35.2512px */
+    margin-top: 4.5rem!important; /* == 72px */
+  }
+  h4, .h4 {
+    font-size: 1.836rem; /* == 29.376px */
+    margin-top: 3.9375rem!important; /* == 63px */
+  }
+  h5, .h5 {
+    font-size: 1.53rem; /* == 24.48px */
+    margin-top: 3.375rem!important; /* == 54px */
+  }
+  h6, .h6 {
+    font-size: 1.275rem; /* == 20.4px */
+    margin-top: 2.8125rem!important; /* == 45px */
+  }
+  .display-1 {
+    font-size: 6.5788rem; /* == 105.2608px */
+  }
+  .display-2 {
+    font-size: 5.4823rem; /* == 87.7168px */
+  }
+  .display-3 {
+    font-size: 4.5686rem; /* == 73.0976px */
+  }
+  .display-4 {
+    font-size: 3.8072rem; /* == 60.9152px */
+  }  
+  .navbar-brand {
+    margin-left: 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra Extra small devices devices */
+@media (max-width:348px) {}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops)*/
+/* No media query since the extra-large breakpoint has no upper bound on its width */
+
+/* Pattern Library */
+/* .typetemplate-boxy classes are for typography testing purposes only */
+
+.typetemplate-boxy-img-box {
+  height: 325px;
+  background-color: #212121;
+  margin: 2.75rem auto;
+}
+
+.typetemplate-boxy-line {
+  height: 1px;
+  width: 50%;
+  background-color: #555;
+  margin: 5.5rem auto;
+}
+
+.pattern-library-typography-footnote {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+}
+
+.pattern-libarary-typography-code {
+  color: #000; 
+  font-weight: 600;
+  background-color: #E0E0E0;
+  border-radius: 2px;
+  padding: 2px 3px 1px 3px;
+  margin: auto 3px;
+}
+
+/* End typography testing */
