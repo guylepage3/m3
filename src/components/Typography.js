@@ -22,9 +22,9 @@ class Typography extends Component {
         ">
         <div className="row px-3">
           <div className="col-lg-12 col-xl-11 mx-auto">
-            <h4 className="text-white">
+            <h6 className="text-white">
               Pattern Library / Typography
-            </h4>
+            </h6>
             <h1 className="display-1 text-white mb-1">
               Aa
             </h1>
