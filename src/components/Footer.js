@@ -22,6 +22,13 @@ class Footer extends Component {
               </a>
             </li>
             <li className="list-inline-item mx-2">
+              <a href="https://medium.com/universelabs" 
+                alt="UniverseLabs – Medium"
+                className="text-white">
+                <FontAwesomeIcon className="mr-1" icon={['fab', 'medium']} /> Medium
+              </a>
+            </li>
+            <li className="list-inline-item mx-2">
               <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE" 
                 alt="Universe – Slack"
                 className="text-white">
