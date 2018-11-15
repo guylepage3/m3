@@ -58,6 +58,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 
 [![CircleCI](https://circleci.com/gh/universelabs/polypropylene.svg?style=svg&circle-token=c8c59e2e9bf86e8aa656500fd86bbdac6f60f481)](https://circleci.com/gh/universelabs/polypropylene)
 [![Polypropylene version](https://img.shields.io/badge/dynamic/json.svg?label=Polypropylene&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/polypropylene)
+[![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![Dependencies Status](https://david-dm.org/universelabs/polypropylene.svg)](https://david-dm.org/universelabs/polypropylene)
 [![@fortawesome/fontawesome-svg-core version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/fontawesome-svg-core&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/fontawesome-svg-core%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)
