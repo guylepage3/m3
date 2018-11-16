@@ -58,7 +58,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 - [Repository maintainers](#repository-maintainers)
 
 ## Status
-- Initiated framework `[Meta](https://github.com/univereselabs/meta/blob/master/src/styles/Custom.scss)`.
+- Initiated framework [`Meta`](https://github.com/univereselabs/meta/blob/master/src/styles/Custom.scss).
   - Color System
   - Spacing Rules
   - Communication Typography System
