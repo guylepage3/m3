@@ -92,6 +92,8 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 
 ```
 Meta
+├── .circleci
+│  └── config.yml
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
@@ -104,7 +106,7 @@ Meta
 │  └── App.test.js
 │  └── components
 |  │  └── Footer.js
-|  │  └── HeaderLight.js
+|  │  └── Header.js
 |  │  └── Home.js
 |  │  └── NoMatch.js
 |  │  └── Page404.js
