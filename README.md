@@ -54,7 +54,13 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 - [Repository maintainers](#repository-maintainers)
 
 ## Status
-- Initiated framework
+- Initiated framework `[Polypropylene](https://github.com/univereselabs/polypropylene/blob/master/src/styles/Custom.scss)`.
+  - Color System
+  - Spacing Rules
+  - Communication Typography System
+    - Calculations for a `1rem` and `1.0625rem` base `font-size`.
+    - Full definition of Base Typography, Headings, Display Headings, Leads, 
+      and Paragraphs.
 
 [![CircleCI](https://circleci.com/gh/universelabs/polypropylene.svg?style=svg&circle-token=c8c59e2e9bf86e8aa656500fd86bbdac6f60f481)](https://circleci.com/gh/universelabs/polypropylene)
 [![Polypropylene version](https://img.shields.io/badge/dynamic/json.svg?label=Polypropylene&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/polypropylene)
