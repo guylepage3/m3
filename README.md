@@ -54,7 +54,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 - [Repository maintainers](#repository-maintainers)
 
 ## Status
-- Initiated framework `[Polypropylene](https://github.com/univereselabs/meta/blob/master/src/styles/Custom.scss)`.
+- Initiated framework `[Meta](https://github.com/univereselabs/meta/blob/master/src/styles/Custom.scss)`.
   - Color System
   - Spacing Rules
   - Communication Typography System
@@ -63,7 +63,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
       and Paragraphs.
 
 [![CircleCI](https://circleci.com/gh/universelabs/meta.svg?style=svg&circle-token=c8c59e2e9bf86e8aa656500fd86bbdac6f60f481)](https://circleci.com/gh/universelabs/meta)
-[![Polypropylene version](https://img.shields.io/badge/dynamic/json.svg?label=Polypropylene&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
+[![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![Dependencies Status](https://david-dm.org/universelabs/meta.svg)](https://david-dm.org/universelabs/meta)
