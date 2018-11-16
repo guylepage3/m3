@@ -13,12 +13,16 @@
     </a>
   </p>
   <p>
-    <a href="https://github.com/universelabs/meta/issues/new">
+    <a href="https://github.com/universelabs/meta/issues/new" alt="Report a Bug (Meta)">
       Report bug
     </a>
     &middot;
-    <a href="https://github.com/universelabs/">
+    <a href="https://github.com/universelabs/" alt="GitHub universelabs (Universe Labs)">
       Explore
+    </a>
+    &middot;
+    <a href="https://medium.com/universelabs" alt="UniverseLabs – Medium">
+      Medium
     </a>
     &middot;
     <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE">
@@ -27,7 +31,7 @@
     <br/>
     <br/>
     <a href="https://twitter.com/intent/follow?screen_name=universelabs">
-      <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="follow on Twitter" />
+      <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="Follow UniverseLabs on Twitter" />
     </a>
     &middot;
     <a href="https://github.com/universelabs/meta/stargazers">
