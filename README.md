@@ -87,7 +87,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 
 
 ```
-Polypropylene
+Meta
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
@@ -110,7 +110,7 @@ Polypropylene
 │  └── serviceWorker.js
 │  └── styles
 |     └── App.css
-|     └── Custom.scss (Polypropylene UI)
+|     └── Custom.scss (Meta UI)
 |     └── index.css
 └── static.json
 ```
