@@ -1,9 +1,9 @@
 <div align="center">
 
-  <h3>Polypropylene</h3>
+  <h3>Meta</h3>
 
   <p>
-    Polypropylene is an open source blockchain UI framework.
+    Meta is an open source blockchain UI framework.
     <br />
     (<a href="http://getbootstrap.com/">Bootstrap</a> foundational base)
     <br/>
@@ -13,7 +13,7 @@
     </a>
   </p>
   <p>
-    <a href="https://github.com/universelabs/polypropylene/issues/new">
+    <a href="https://github.com/universelabs/meta/issues/new">
       Report bug
     </a>
     &middot;
@@ -30,15 +30,15 @@
       <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="follow on Twitter" />
     </a>
     &middot;
-    <a href="https://github.com/universelabs/polypropylene/stargazers">
-      <img src="https://img.shields.io/github/stars/universelabs/polypropylene.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
+    <a href="https://github.com/universelabs/meta/stargazers">
+      <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
     </a>
   </p>
 </div>
 <br/>
 <p align="center">
   <a href="https://universe.engineering">
-    <img width="800" alt="polypropylene-v0.1.4" src="https://user-images.githubusercontent.com/1711854/48504496-f575e600-e812-11e8-92e0-3ab3552bd37b.png">
+    <img width="800" alt="meta-v0.1.4" src="https://user-images.githubusercontent.com/1711854/48504496-f575e600-e812-11e8-92e0-3ab3552bd37b.png">
   </a>
 </p>
 
@@ -54,7 +54,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 - [Repository maintainers](#repository-maintainers)
 
 ## Status
-- Initiated framework `[Polypropylene](https://github.com/univereselabs/polypropylene/blob/master/src/styles/Custom.scss)`.
+- Initiated framework `[Polypropylene](https://github.com/univereselabs/meta/blob/master/src/styles/Custom.scss)`.
   - Color System
   - Spacing Rules
   - Communication Typography System
@@ -62,28 +62,28 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
     - Full definition of Base Typography, Headings, Display Headings, Leads, 
       and Paragraphs.
 
-[![CircleCI](https://circleci.com/gh/universelabs/polypropylene.svg?style=svg&circle-token=c8c59e2e9bf86e8aa656500fd86bbdac6f60f481)](https://circleci.com/gh/universelabs/polypropylene)
-[![Polypropylene version](https://img.shields.io/badge/dynamic/json.svg?label=Polypropylene&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/polypropylene)
+[![CircleCI](https://circleci.com/gh/universelabs/meta.svg?style=svg&circle-token=c8c59e2e9bf86e8aa656500fd86bbdac6f60f481)](https://circleci.com/gh/universelabs/meta)
+[![Polypropylene version](https://img.shields.io/badge/dynamic/json.svg?label=Polypropylene&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
-[![Dependencies Status](https://david-dm.org/universelabs/polypropylene.svg)](https://david-dm.org/universelabs/polypropylene)
-[![@fortawesome/fontawesome-svg-core version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/fontawesome-svg-core&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/fontawesome-svg-core%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)
-[![@fortawesome/free-brands-svg-icons version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/free-brands-svg-icons&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/free-brands-svg-icons%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons)
-[![@fortawesome/free-solid-svg-icons version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/free-solid-svg-icons&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/free-solid-svg-icons%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons)
-[![@fortawesome/react-fontawesome version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/react-fontawesome&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/react-fontawesome%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
-[![Ajv version](https://img.shields.io/badge/dynamic/json.svg?label=Ajv&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22ajv%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/ajv)
-[![Bootstrap version](https://img.shields.io/badge/dynamic/json.svg?label=Bootstrap&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22bootstrap%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/bootstrap)
-[![jQuery version](https://img.shields.io/badge/dynamic/json.svg?label=jQuery&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22jquery%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/jquery)
-[![node-sass version](https://img.shields.io/badge/dynamic/json.svg?label=node-sass&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22node-sass%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/node-sass)
+[![Dependencies Status](https://david-dm.org/universelabs/meta.svg)](https://david-dm.org/universelabs/meta)
+[![@fortawesome/fontawesome-svg-core version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/fontawesome-svg-core&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/fontawesome-svg-core%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)
+[![@fortawesome/free-brands-svg-icons version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/free-brands-svg-icons&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/free-brands-svg-icons%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons)
+[![@fortawesome/free-solid-svg-icons version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/free-solid-svg-icons&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/free-solid-svg-icons%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons)
+[![@fortawesome/react-fontawesome version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/react-fontawesome&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/react-fontawesome%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
+[![Ajv version](https://img.shields.io/badge/dynamic/json.svg?label=Ajv&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22ajv%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/ajv)
+[![Bootstrap version](https://img.shields.io/badge/dynamic/json.svg?label=Bootstrap&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22bootstrap%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/bootstrap)
+[![jQuery version](https://img.shields.io/badge/dynamic/json.svg?label=jQuery&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22jquery%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/jquery)
+[![node-sass version](https://img.shields.io/badge/dynamic/json.svg?label=node-sass&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22node-sass%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/node-sass)
 [![npm version](https://img.shields.io/npm/v/npm.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/npm)
-[![Popper version](https://img.shields.io/badge/dynamic/json.svg?label=Popper&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22popper.js%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/popper.js)
-[![px-rem-reference version](https://img.shields.io/badge/dynamic/json.svg?label=px-rem-reference&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.devDependencies%5B%22px-rem-reference%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/px-rem-reference)
-[![React version](https://img.shields.io/badge/dynamic/json.svg?label=React&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react)
-[![ReactDOM version](https://img.shields.io/badge/dynamic/json.svg?label=ReactDOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-dom)
-[![React Router DOM version](https://img.shields.io/badge/dynamic/json.svg?label=React+Router+DOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-router-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-router-dom)
-[![react-scripts version](https://img.shields.io/badge/dynamic/json.svg?label=react-scripts+%28Create+React+App%29&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-scripts%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-scripts)
-[![Serve version](https://img.shields.io/badge/dynamic/json.svg?label=Serve&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22serve%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/serve)
-[![Source Map Explorer version](https://img.shields.io/badge/dynamic/json.svg?label=Source+Map+Explorer&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fpolypropylene%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22source-map-explorer%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/source-map-explorer)
+[![Popper version](https://img.shields.io/badge/dynamic/json.svg?label=Popper&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22popper.js%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/popper.js)
+[![px-rem-reference version](https://img.shields.io/badge/dynamic/json.svg?label=px-rem-reference&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.devDependencies%5B%22px-rem-reference%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/px-rem-reference)
+[![React version](https://img.shields.io/badge/dynamic/json.svg?label=React&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react)
+[![ReactDOM version](https://img.shields.io/badge/dynamic/json.svg?label=ReactDOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-dom)
+[![React Router DOM version](https://img.shields.io/badge/dynamic/json.svg?label=React+Router+DOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-router-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-router-dom)
+[![react-scripts version](https://img.shields.io/badge/dynamic/json.svg?label=react-scripts+%28Create+React+App%29&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-scripts%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-scripts)
+[![Serve version](https://img.shields.io/badge/dynamic/json.svg?label=Serve&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22serve%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/serve)
+[![Source Map Explorer version](https://img.shields.io/badge/dynamic/json.svg?label=Source+Map+Explorer&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22source-map-explorer%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/source-map-explorer)
 
 
 ```
@@ -121,7 +121,7 @@ Polypropylene
 Quickly start by cloning the repository to your local machine
 
 ```
-$ git clone git@github.com:universelabs/polypropylene.git
+$ git clone git@github.com:universelabs/meta.git
 ```
 
 Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/)

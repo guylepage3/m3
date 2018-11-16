@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class HeaderLight extends Component {
+class Header extends Component {
   render() {
     return (
       <nav className="navbar fixed-top" 
@@ -14,11 +14,11 @@ class HeaderLight extends Component {
             lineHeight: '2.5rem',
             fontSize: '1.2rem'
           }}>
-          Polypropylene
+          Meta
         </a>
       </nav>
     );
   }
 }
 
-export default HeaderLight;
+export default Header;
