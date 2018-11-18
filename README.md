@@ -112,13 +112,13 @@ Meta
 |  │  └── NoMatch.js
 |  │  └── Page404.js
 |  │  └── Typography.js
-│  └── components
-│  └── index.js
-│  └── serviceWorker.js
-│  └── styles
+│  └── css
 |     └── App.css
-|     └── Custom.scss (Meta UI)
 |     └── index.css
+│  └── index.js
+│  └── scss
+|     └── meta.scss
+│  └── serviceWorker.js
 └── static.json
 ```
 
