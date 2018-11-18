@@ -88,6 +88,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![React Router DOM version](https://img.shields.io/badge/dynamic/json.svg?label=React+Router+DOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-router-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-router-dom)
 [![react-scripts version](https://img.shields.io/badge/dynamic/json.svg?label=react-scripts+%28Create+React+App%29&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-scripts%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-scripts)
 [![Serve version](https://img.shields.io/badge/dynamic/json.svg?label=Serve&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22serve%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/serve)
+[![shx version](https://img.shields.io/badge/dynamic/json.svg?label=shx&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22shx%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/shx)
 [![Source Map Explorer version](https://img.shields.io/badge/dynamic/json.svg?label=Source+Map+Explorer&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22source-map-explorer%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/source-map-explorer)
 
 
@@ -102,6 +103,7 @@ Meta
 │  └── index.html
 │  └── manifest.json
 ├── README.md
+└── scss
 └── src
 │  └── App.js
 │  └── App.test.js
