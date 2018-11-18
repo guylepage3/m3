@@ -1,6 +1,6 @@
 {
   "short_name": "Meta",
-  "name": "Meta Blockchain Framework",
+  "name": "Meta Blockchain Frontend Framework",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
