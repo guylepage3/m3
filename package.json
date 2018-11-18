@@ -1,7 +1,45 @@
 {
-  "name": "Meta",
-  "version": "0.2.9",
-  "private": true,
+  "name": "meta",
+  "version": "1.0.0",
+  "description": "A blockchain enhhanced front-end framework based off Bootstrap for developing decentralized apps.",
+  "keywords": [
+    "framework",
+    "web3",
+    "blockchain",
+    "dapp",
+    "css",
+    "sass",
+    "front-end",
+    "bootstrap"
+  ],
+  "maintainers": [
+    {
+      "name": "Guy Lepage",
+      "email": "guylepage3@gmail.com",
+      "url": "https://lepage.cc"
+    }
+  ],
+  "contributors": {
+    "url": "https://github.com/universelabs/meta/graphs/contributors"
+  },
+  "bugs": {
+    "url": "https://github.com/universelabs/meta/issues/new"
+  },
+  "licenses": "MIT",
+  "repositoris": {
+    "type": "git",
+    "url": "https://github.com/universelabs/meta.git"
+  },
+  "homepage": "https",
+  "main": "",
+  "sass": "dist/scss/meta.scss",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dist": "",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
@@ -19,14 +57,8 @@
     "serve": "^10.0.2",
     "source-map-explorer": "^1.6.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "px-rem-reference": "^1.3.3"
   },
   "browserslist": [
     ">0.2%",
@@ -34,7 +66,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "px-rem-reference": "^1.3.3"
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }
