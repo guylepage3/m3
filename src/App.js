@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from "react-router-dom";
-import './styles/App.css';
+import './css/App.css';
 import Home from './components/Home';
 import NoMatch from './components/NoMatch';
 import { library } from '@fortawesome/fontawesome-svg-core';
