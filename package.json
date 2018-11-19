@@ -1,6 +1,6 @@
 {
-  "name": "@unimeta/meta",
-  "version": "1.0.4",
+  "name": "@universelabs/meta",
+  "version": "1.0.5",
   "description": "A blockchain enhhanced front-end framework based off Bootstrap for developing decentralized apps.",
   "keywords": [
     "framework",
