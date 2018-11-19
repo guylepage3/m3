@@ -43,6 +43,7 @@
 
 - [Quick Start](#quick-start)
 - [Status](#status)
+- [What's included](#whats-included)
 - [Documentation](#documentation)
 - [Maintainers](#maintainers)
 - [License](#license)
@@ -64,39 +65,20 @@ Several quick start options are available:
 [![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
 [![Build status](https://img.shields.io/circleci/project/github/universelabs/meta.svg?label=Build+Status&colorA=%23212121)](https://circleci.com/gh/universelabs/meta)
 [![devDependencies Status](https://img.shields.io/david/dev/universelabs/meta.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/meta?type=dev)
-[![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121)](https://www.npmjs.com/package/@universelabs/meta)
+[![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@universelabs/meta)
 
 
-```
-meta
-├── .circleci
-│  └── config.yml
-├── .gitignore
-├── package-lock.json
+## What's included
+
+Meta is currently a simple Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/). More componentry and compatibility coming soon.
+
+```text
+@universelabs/meta/
+├── LICENSE
 ├── package.json
-├── public
-│  └── index.html
-│  └── manifest.json
 ├── README.md
-└── scss
-└── src
-│  └── App.js
-│  └── App.test.js
-│  └── components
-|  │  └── Footer.js
-|  │  └── Header.js
-|  │  └── Home.js
-|  │  └── NoMatch.js
-|  │  └── Page404.js
-|  │  └── Typography.js
-│  └── css
-|     └── App.css
-|     └── index.css
-│  └── index.js
-│  └── scss
-|     └── meta.scss
-│  └── serviceWorker.js
-└── static.json
+└── scss/
+    └── meta.scss
 ```
 
 

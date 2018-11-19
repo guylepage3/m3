@@ -95,7 +95,7 @@ $ npm start
 [![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 [![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
 [![Build status](https://img.shields.io/circleci/project/github/universelabs/meta.svg?label=Build+Status&colorA=%23212121)](https://circleci.com/gh/universelabs/meta)
-[![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121)](https://www.npmjs.com/package/@universelabs/meta)
+[![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@universelabs/meta)
 
 [![devDependencies Status](https://img.shields.io/david/dev/universelabs/meta.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/meta?type=dev)
 [![@fortawesome/fontawesome-svg-core version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/fontawesome-svg-core&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.devDpendencies%5B%22@fortawesome/fontawesome-svg-core%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)
@@ -119,40 +119,42 @@ $ npm start
 [![Source Map Explorer version](https://img.shields.io/badge/dynamic/json.svg?label=Source+Map+Explorer&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.devDpendencies%5B%22source-map-explorer%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/source-map-explorer)
 
 
-## What's Included
+## What's included
 
-```
+Meta is currently a simple Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/). More componentry and compatibility coming soon.
+
+```text
 meta
 ├── .circleci/
-│  └── config.yml
+|   └── config.yml
 ├── .gitignore
 ├── DOCUMENTATION.md
 ├── LICENSE
 ├── package-lock.json
 ├── package.json
 ├── public/
-│  └── index.html
-│  └── manifest.json
+|   └── index.html
+|   └── manifest.json
 ├── README.md
-└── scss/
-│  └── meta.scss
-└── src/
-│  └── App.js
-│  └── App.test.js
-│  └── components/
-|  │  └── Footer.js
-|  │  └── Header.js
-|  │  └── Home.js
-|  │  └── NoMatch.js
-|  │  └── Page404.js
-|  │  └── Typography.js
-│  └── css/
-|     └── App.css
-|     └── index.css
-│  └── index.js
-│  └── scss/
-|     └── meta.scss
-│  └── serviceWorker.js
+├── scss/
+|   └── meta.scss
+├── src/
+|   └── App.js
+|   └── App.test.js
+|   └── components/
+|   │   └── Footer.js
+|   │   └── Header.js
+|   │   └── Home.js
+|   │   └── NoMatch.js
+|   │   └── Page404.js
+|   │   └── Typography.js
+│   └── css/
+|   |   └── App.css
+|   |   └── index.css
+│   └── index.js
+│   └── scss/
+|   |   └── meta.scss
+│   └── serviceWorker.js
 └── static.json
 ```
 
