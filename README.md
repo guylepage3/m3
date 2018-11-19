@@ -155,9 +155,6 @@ MIT License](LICENSE).
 
 This project was bootstrapped with [Create React App `v2`](https://github.com/facebookincubator/create-react-app) and uses the UI framework [Bootstrap](https://github.com/twbs/bootstrap) as it's foundational base.
 
-**Guy Lepage**
-- <https://twitter.com/guylepage3>
-- <https://github.com/guylepage3>
 
 <div align="right">
   <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
