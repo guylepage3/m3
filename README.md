@@ -23,20 +23,21 @@
     <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE">
       Slack
     </a>
-    <br/>
-    <a href="https://twitter.com/intent/follow?screen_name=universelabs">
-      <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="Follow UniverseLabs on Twitter" />
-    </a>
-    &middot;
-    <a href="https://github.com/universelabs/meta/stargazers">
-      <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
-    </a>
   </p>
 </div>
 <br/>
 <p align="center">
   <a href="https://universe.engineering">
     <img width="500" alt="meta-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
+  </a>
+</p>
+<p align="center">
+  <a href="https://twitter.com/intent/follow?screen_name=universelabs">
+    <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="Follow UniverseLabs on Twitter" />
+  </a>
+  &#32;&#32;&#32;
+  <a href="https://github.com/universelabs/meta/stargazers">
+    <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
   </a>
 </p>
 
