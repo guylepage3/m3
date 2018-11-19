@@ -169,18 +169,24 @@ The Meta documentation is a simple and easy to use `Meta Design System` for you 
 
 ## Theming
 
-In order to theme Meta, you'll need to first install and connect Meta to your project using `npm i @universelabs/meta`.
+In order to theme Meta, you'll need to first install and connect Meta to your project using...
+
+```
+npm i @universelabs/meta
+```
 
 Once you have installed Meta via npm you can theme or cusomize Meta.
 
 When theming Meta we want to import bootstrap.scss and then meta.scss to ensure we get the correct compiled CSS. We do this by first creating a `custom.scss`.
 
 ```
+
 // Custom.scss
 // Include all of Bootstrap and Meta
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/@universelabs/meta/scss/meta";
+
 ```
 
 Since Meta uses Bootstrap as it's foundation, Meta uses the same class names and properties as Bootstrap.
@@ -188,6 +194,7 @@ Since Meta uses Bootstrap as it's foundation, Meta uses the same class names and
 From there you can simply start overwriting your SCSS with the following
 
 ```
+
 // Your variable overrides
 $body-bg: #000;
 $body-color: #111;
@@ -195,6 +202,7 @@ $body-color: #111;
 // Bootstrap or Meta and its default variables
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/@universelabs/meta/scss/meta";
+
 ```
 
 
@@ -212,8 +220,6 @@ Get updates on Meta's development and chat with the project maintainers and comm
 
 - Follow [@universelabs on Twitter](https://twitter.com/universelabs).
 - Join the official [Universe Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE) chat room.
-
-[Universe Community page](https://github.com/universelabs/universe/blob/master/COMMUNITY.md)
 
 For more details on how to get involved in the Universe Community visit the [Universe Community page](https://github.com/universelabs/universe/blob/master/COMMUNITY.md) and learn more about events, roadmap, weekly & daily scrum, past weekly community scrum calls, and more...
 
