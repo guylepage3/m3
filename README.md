@@ -1,8 +1,6 @@
 <div align="center">
-
-  <h3>Meta</h3>
-
-  <p>
+  <h3 align="center">Meta</h3>
+  <p align="center">
     Meta is an open source blockchain UI framework.
     <br />
     (<a href="http://getbootstrap.com/">Bootstrap</a> foundational base)
@@ -12,7 +10,7 @@
       <strong>universe.engineering</strong>
     </a>
   </p>
-  <p>
+  <p align="center">
     <a href="https://github.com/universelabs/meta/issues/new" alt="Report a Bug (Meta)">
       Report bug
     </a>
@@ -93,7 +91,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 
 
 ```
-Meta
+meta
 ├── .circleci
 │  └── config.yml
 ├── .gitignore
