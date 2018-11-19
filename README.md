@@ -32,7 +32,7 @@
 <br/>
 <p align="center">
   <a href="https://universe.engineering">
-    <img width="500" alt="meta-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
+    <img width="550" alt="meta-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
   </a>
 </p>
 
@@ -43,8 +43,10 @@
 
 - [Status](#status)
 - [Quick Start](#quick-start)
+- [Documentation](#documentation)
 - [Maintainers](#maintainers)
 - [License](#license)
+
 
 ## Status
 - Initiated framework [`Meta`](https://github.com/univereselabs/meta/blob/master/src/styles/Custom.scss).
@@ -139,6 +141,19 @@ Start the local client side server and run the app. The app will automatically o
 ```
 $ npm start
 ```
+
+
+## Documentation
+
+The Meta documentation is a simple and easy to use `Meta Design System` for you to reference and/or modify. There currently is no homepage to reference but will be coming soon. In the meantime, we recommend simply following the instructions below to get your version of the `Meta Design System` up and running.
+
+### Running Meta Design System locally
+1. Quickly start by cloning the repository to your local machine `git clone git@github.com:universelabs/meta.git`.
+2. Ensure you have [`npm`](https://www.npmjs.com/get-npm) installed. `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/). `brew install node`.
+3. Add dependencies `npm install`.
+4. Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm start`.
+
+For detailed instructions on how to customize Meta and the Meta Design System, visit [Documentation](https://github.com/universelabs/meta/DOCUMENTATION.md).
 
 
 ## Maintainers
