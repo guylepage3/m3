@@ -53,10 +53,10 @@
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/universelabs/meta/releases)
-- Clone the repo: `git@github.com:universelabs/meta.git`
-- **Recommeded**: Install with [npm](https://www.npmjs.com/): `npm install @universelabs/meta`
-- Install with [yarn](https://yarnpkg.com/): `yarn add @universelabs/meta`
+- [Download the latest release.](https://github.com/universelabs/meta/releases).
+- Clone the repo: `git@github.com:universelabs/meta.git`.
+- Install with [npm](https://www.npmjs.com/): `npm install @universelabs/meta`.
+- Install with [yarn](https://yarnpkg.com/): `yarn add @universelabs/meta`.
 
 
 ## Status
@@ -90,6 +90,24 @@ The Meta documentation is a simple and easy to use `Meta Design System` for you 
 4. Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm start`.
 
 For detailed instructions on how to customize Meta and the Meta Design System, visit [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md).
+
+
+## Contributing
+
+Please read through our [contributing guidelines](CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Moreover, if your pull request contains JavaScript patches or features, you
+must include relevant unit tests. All code should conform to the [Code Guidelines](CONTRIBUTING.md#code-guidelines).
+
+
+## Community
+
+Get updates on Meta's development and chat with the project maintainers and community members.
+
+- Follow [@universelabs on Twitter](https://twitter.com/universelabs).
+- Join the official [Universe Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE) chat room.
+
+For more details on how to get involved in the Universe Community visit the [Universe Community page](https://github.com/universelabs/universe/blob/master/COMMUNITY.md) and learn more about events, roadmap, weekly & daily scrum, past weekly community scrum calls, and more...
 
 
 ## Maintainers
