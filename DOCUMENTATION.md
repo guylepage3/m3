@@ -51,6 +51,8 @@
 - [What's included](#whats-included)
 - [Getting started](#getting-started)
 - [Theming](#theming)
+- [Contributing](#contributing)
+- [Community](#community)
 - [Maintainers](#maintainers)
 - [License](#license)
 
@@ -236,29 +238,3 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
     <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
   </a>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. Quickly start by cloning the repository to your local machine `git clone git@github.com:universelabs/meta.git`.
-2. Ensure you have [`npm`](https://www.npmjs.com/get-npm) installed. `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/). `brew install node`.
-3. Add dependencies `npm install`.
-4. Now install [Meta](https://github.com/universelabs/meta). `npm i @universelabs/meta`.
-5. Import `meta.scss` by  
-
-
-1. Meta uses [Bootstrap](https://github.com/twbs/bootstrap) as it's foundational base. You'll need to install Bootstrap.
-2.  the Run through the [tooling setup](https://getbootstrap.com/docs/4.1/getting-started/build-tools/#tooling-setup) to install Jekyll (the site builder) and other Ruby dependencies with `bundle install`.
-2. Run `npm install` to install Node.js dependencies.
-3. Run `npm start` to compile CSS and JavaScript files, generate our docs, and watch for changes.
-4. Open `http://localhost:9001` in your browser, and voilà.

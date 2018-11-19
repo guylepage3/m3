@@ -153,7 +153,7 @@ The Meta documentation is a simple and easy to use `Meta Design System` for you 
 3. Add dependencies `npm install`.
 4. Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm start`.
 
-For detailed instructions on how to customize Meta and the Meta Design System, visit [Documentation](https://github.com/universelabs/meta/DOCUMENTATION.md).
+For detailed instructions on how to customize Meta and the Meta Design System, visit [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md).
 
 
 ## Maintainers
