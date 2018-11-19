@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">Meta</h3>
   <p align="center">
-    Meta is an open source blockchain UI framework. (Built from <a href="http://getbootstrap.com/">Bootstrap</a>)
+    Meta is an open source blockchain UI framework.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
@@ -38,14 +38,13 @@
 
 <br/>
 
-This project was bootstrapped with [Create React App `v2`](https://github.com/facebookincubator/create-react-app).
-
 
 ## Table of contents
 
 - [Status](#status)
 - [Quick Start](#quick-start)
-- [Repository maintainers](#repository-maintainers)
+- [Maintainers](#maintainers)
+- [License](#license)
 
 ## Status
 - Initiated framework [`Meta`](https://github.com/univereselabs/meta/blob/master/src/styles/Custom.scss).
@@ -142,7 +141,19 @@ $ npm start
 ```
 
 
-## Repository maintainers
+## Maintainers
+
+**Guy Lepage**
+- <https://twitter.com/guylepage3>
+- <https://github.com/guylepage3>
+
+
+## License
+
+By contributing your code, you agree to license your contribution under the [
+MIT License](LICENSE).
+
+This project was bootstrapped with [Create React App `v2`](https://github.com/facebookincubator/create-react-app) and uses the UI framework [Bootstrap](https://github.com/twbs/bootstrap) as it's foundational base.
 
 **Guy Lepage**
 - <https://twitter.com/guylepage3>
