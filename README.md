@@ -55,7 +55,7 @@ Several quick start options are available:
 
 - [Download the latest release.](https://github.com/universelabs/meta/releases)
 - Clone the repo: `git@github.com:universelabs/meta.git`
-- [Recommeded] Install with [npm](https://www.npmjs.com/): `npm install @universelabs/meta`
+- **Recommeded**: Install with [npm](https://www.npmjs.com/): `npm install @universelabs/meta`
 - Install with [yarn](https://yarnpkg.com/): `yarn add @universelabs/meta`
 
 
@@ -74,9 +74,6 @@ Meta is currently a simple Sass file that gets compiled with [Bootstrap Theming]
 
 ```text
 @universelabs/meta/
-├── LICENSE
-├── package.json
-├── README.md
 └── scss/
     └── meta.scss
 ```
