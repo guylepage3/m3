@@ -38,7 +38,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "dist": "",
+    "dist": "shx mkdir -p scss/ && shx cp -r src/scss/meta.scss scss/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

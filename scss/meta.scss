@@ -1,0 +1,463 @@
+// Meta UI (v1.3.3)
+// Meta UI is a custom base theme for the Bootstrap UI framework.
+
+// How to use Meta UI with Sass
+// To manually compile Sass using Sass, run;
+// `$ sass src/styles/Custom.scss src/styles/Custom.css`
+
+
+//
+// Color system
+//
+
+$white:    #fff; // !default
+$gray-50:  #FAFAFA;
+$gray-100: #F5F5F5;
+$gray-200: #EEEEEE;
+$gray-300: #E0E0E0;
+$gray-400: #BDBDBD;
+$gray-500: #9E9E9E;
+$gray-600: #757575;
+$gray-700: #616161;
+$gray-800: #424242;
+$gray-900: #212121;
+$midnight: #000;
+$black:    #000; // !default
+
+$grays: (); // !default
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+  (
+    "50":  $gray-50,
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$electric-blue:           #007BFF;
+$electric-magenta:        #F700D6;
+$success-green:           #00BB00;
+$danger-red:              #FF0000;
+$warning-yellow:          #FBC02D;
+$info-blue:               #1E90FF;
+$red-500:                 #F44336; // Red 500
+$red-600:                 #E53935; // Red 600
+$pink-500:                #E91E63; // Pink 500
+$pink-600:                #D81B60; // Pink 600
+$purple-500:              #9C27B0; // Purple 500
+$purple-600:              #8E24AA; // Purple 600
+$deep-purple-500:         #673AB7; // Deep Purple 500
+$deep-purple-600:         #5E35B1; // Deep Purple 600
+$indigo-500:              #3F51B5; // Indigo 500
+$indigo-600:              #3949AB; // Indigo 600
+$blue-500:                #2196F3; // Blue 500
+$blue-600:                #1E88E5; // Blue 600
+$light-blue-500:          #03A9F4; // Light Blue 500
+$light-blue-600:          #039BE5; // Light Blue 600
+$cyan-500:                #00BCD4; // Cyan 500
+$cyan-600:                #00ACC1; // Cyan 600
+$teal-500:                #009688; // Teal 500
+$teal-600:                #00897B; // Teal 600
+$green-500:               #4CAF50; // Green 500
+$green-600:               #43A047; // Green 600
+$light-green-500:         #8BC34A; // Light Green 500
+$light-green-600:         #7CB342; // Light Green 600
+$lime-500:                #CDDC39; // Lime 500
+$lime-600:                #C0CA33; // Lime 600
+$yellow-500:              #FFEB3B; // Yellow 500
+$yellow-600:              #FDD835; // Yellow 600
+$amber-500:               #FFC107; // Amber 500
+$amber-600:               #FFB300; // Amber 600
+$orange-500:              #FF9800; // Orange 500
+$orange-600:              #FB8C00; // Orange 600
+$deep-orange-500:         #FF5722; // Deep Orange 500
+$deep-orange-600:         #F4511E; // Deep Orange 600
+$brown-500:               #795548; // Brown 500
+$brown-600:               #6D4C41; // Brown 600
+$blue-gray-500:           #607D8B; // Blue Gray 500
+$blue-gray-600:           #546E7A; // Blue Gray 600
+
+$colors: (); // !default
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "electric-blue":      $electric-blue,
+    "electric-magenta":   $electric-magenta,
+    "success-green":      $success-green,
+    "danger-red":         $danger-red,
+    "warning-yellow":     $warning-yellow,
+    "info-blue":          $info-blue,
+    "red-500":            $red-500,
+    "red-600":            $red-600,
+    "pink-500":           $pink-500,
+    "pink-600":           $pink-600,
+    "purple-500":         $purple-500,
+    "purple-600":         $purple-600,
+    "deep-purple-500":    $deep-purple-500,
+    "deep-purple-600":    $deep-purple-600,
+    "indigo-500":         $indigo-500,
+    "indigo-600":         $indigo-600,
+    "blue-500":           $blue-500,
+    "blue-600":           $blue-600,
+    "light-blue-500":     $light-blue-500,
+    "light-blue-600":     $light-blue-600,
+    "cyan-500":           $cyan-500,
+    "cyan-600":           $cyan-600,
+    "teal-500":           $teal-500,
+    "teal-600":           $teal-600,
+    "green-500":          $green-500,
+    "green-600":          $green-600,
+    "light-green-500":    $light-green-500,
+    "light-green-600":    $light-green-600,
+    "lime-500":           $lime-500,
+    "lime-600":           $lime-600,
+    "yellow-500":         $yellow-500,
+    "yellow-600":         $yellow-600,
+    "amber-500":          $amber-500,
+    "amber-600":          $amber-600,
+    "orange-500":         $orange-500,
+    "orange-600":         $orange-600,
+    "deep-orange-500":    $deep-orange-500,
+    "deep-orange-600":    $deep-orange-600,
+    "brown-500":          $brown-500,
+    "brown-600":          $brown-600,
+    "blue-gray-500":      $blue-gray-500,
+    "blue-gray-600":      $blue-gray-600
+  ),
+  $colors
+);
+
+$primary:       $electric-blue;
+$secondary:     $electric-magenta;
+$success:       $success-green;
+$info:          $info-blue;
+$warning:       $warning-yellow;
+$danger:        $danger-red;
+$light:         $gray-100; // !default
+$dark:          $gray-900; // !default
+
+$theme-colors: (); // !default
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:      8%; // !default
+
+// The yiq lightness value that determines when the lightness of color changes 
+// from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  150; // !default
+
+// Customize the light and dark text colors for use in our YIQ color contrast 
+// function.
+$yiq-text-dark:             $gray-900; // !default
+$yiq-text-light:            $white; // !default
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem; // !default
+$spacers: (); // !default
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0:  0,
+    1:  ($spacer * .25),
+    2:  ($spacer * .5),
+    3:  $spacer,
+    4:  ($spacer * 1.5),
+    4b: ($spacer * 2),    // Custom value
+    4c: ($spacer * 2.5),  // Custom value
+    5:  ($spacer * 3),
+    6:  ($spacer * 3.5),  // Custom value
+    7:  ($spacer * 4),    // Custom value
+    8:  ($spacer * 4.5),  // Custom value
+    9:  ($spacer * 5),    // Custom value
+    10: ($spacer * 5.5),  // Custom value
+    11: ($spacer * 6),    // Custom value
+    auto: auto            // Custom value
+  ),
+  $spacers
+);
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $black !default;
+$body-color:                $gray-900 !default;
+
+
+// Typography
+//
+// Custom typography patterns
+//
+// Two typographic style sets are defined.
+// 1. Communication type - Sets of copy that are for written communications. 
+//    (ie. promotional pages, blog posts, documentation, etc.).
+// 2. Graphical UI type - Graphical user interface type within the GUI itself. 
+//    (ie. List of songs, play button, settings).
+
+
+// Communication Typography
+
+// Base Typography
+//
+// Important! < ------------------! Important ! -------------------------- !
+// Changes to the base font-size or line-height significantly affect the all 
+// other typography.
+
+$font-size-base:              1rem; // !default
+$letter-spacing:              .0.008em;
+$line-height-base:            1.5; // Multiplied by the element's font-size
+$font-weight-normal:          500; // default weight = Medium
+$small-font-size-50:           50%; // Custom
+$small-font-size-60:           60%; // Custom
+$small-font-size-70:           70%; // Custom
+
+html, body {
+  letter-spacing:             $letter-spacing;
+}
+
+.small-font-size-50 { font-size: $small-font-size-50; }
+.small-font-size-60 { font-size: $small-font-size-60; }
+.small-font-size-70 { font-size: $small-font-size-70; }
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                $white;
+$link-hover-color:          primary;
+$link-hover-decoration:     none;
+
+.underline {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.underline:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  transition: width .3s ease, background-color .3s ease;
+  background-color: white;
+}
+
+.underline:hover:after {
+  width: 0;
+  background: white;
+}
+
+// Headings
+//
+// Style h1, h2, h3, h4, h5, h6 elements and 
+// .h1, .h2, .h3, .h4, .h5, .h6 classes.
+
+$headings-font-weight:        600;
+$headings-letter-spacing:     -0.005em;
+$headings-line-height:        1.2; // default
+$headings-margin-bottom:      (1.0625rem * 1.5);
+
+$h6-font-size:                $font-size-base * 1.125;
+                              // 1.125rem == 18px
+$h5-font-size:                $h6-font-size * 1.125;
+                              // 1.2656rem == 20.2496px
+$h4-font-size:                $h5-font-size * 1.125;
+                              // 1.4238rem == 22.7808px
+$h3-font-size:                $h4-font-size * 1.125;
+                              // 1.6018rem == 25.6288px
+$h2-font-size:                $h3-font-size * 1.125;
+                              // 1.802rem == 28.832px
+$h1-font-size:                $h2-font-size * 1.125;
+                              // 2.0273rem == 32.4368px
+
+// Descending headings line-height
+// For descending line-height values, use the following method
+
+$h6-line-height:              1.35rem * 1.125;
+                              // 1.51875rem == 24.3px
+$h5-line-height:              $h6-line-height * 1.125;
+                              // 1.70859rem == 27.3374px
+$h4-line-height:              $h5-line-height * 1.125;
+                              // 1.92217rem == 30.7547px
+$h3-line-height:              $h4-line-height * 1.125;
+                              // .16244rem == 34.599px
+$h2-line-height:              $h3-line-height * 1.125;
+                              // 2.43274rem == 38.9238px
+$h1-line-height:              $h2-line-height * 1.125;
+                              // 2.73684rem == 43.7894px
+
+h6, .h6 { line-height: $h6-line-height!important; }
+h5, .h5 { line-height: $h5-line-height!important; }
+h4, .h4 { line-height: $h4-line-height!important; }
+h3, .h3 { line-height: $h3-line-height!important; }
+h2, .h2 { line-height: $h2-line-height!important; }
+h1, .h1 { line-height: $h1-line-height!important; }
+
+// Descending headings margin-top
+// For descending margin-top values, use the following method
+
+h1, .h1 { margin-top: ($h1-font-size * 2.25)!important; }
+                      // 5.625rem == 90px
+h2, .h2 { margin-top: ($h2-font-size * 2.25)!important; }
+                      // 4.5rem == 72px
+h3, .h3 { margin-top: ($h3-font-size * 2.25)!important; }
+                      // 3.9375rem == 63px
+h4, .h4 { margin-top: ($h4-font-size * 2.25)!important; }
+                      // 3.375rem == 54px
+h5, .h5 { margin-top: ($h5-font-size * 2.25)!important; }
+                      // 2.8125rem == 45px
+h6, .h6 { margin-top: ($h6-font-size * 2.25)!important; }
+                      // 2.25rem == 36px
+
+// Explicit margin-top
+// For an equal margin-top value, use the following method
+
+// h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { 
+//   margin-top: ($font-size-base * 4)!important;
+// }
+
+// Display Headings
+//
+// Style .display-* heading classes.
+
+// font-size, margin-bottom & line-height do not change
+// and work withh both 1rem & 1.0625rem values.
+//
+// margin-top     (1rem == 16px)         5.625rem == 90px
+// margin-top     (1.0625rem == 17px)    ????? == ??????
+// margin-bottom                         1.59375rem == 25.5px
+// line-hheight                          1.2rem == 86.4px
+
+$display1-size:               5rem; // !default
+                              // 5rem == 80px
+$display2-size:               4.5rem; // !default
+                              // 4.5rem == 72px
+$display3-size:               3.5rem; // !default
+                              // 3.5rem == 56px
+$display4-size:               2.5rem; // !default
+                              // 2.5rem == 40px
+$display1-weight:             700;
+$display2-weight:             700;
+$display3-weight:             700;
+$display4-weight:             700;
+$display-line-height:         1.05!important; // !default
+
+// Leads
+//
+// Style .lead classes.
+
+$lead-font-size:              1.15rem; // < ---------------------------- !
+                              // 1.3125rem == 21px       (1.3125rem == 21px)
+$lead-font-weight:            400;
+$lead-margin-top:             ($lead-font-size * 1.5)!important;
+                              // 1.96875rem == 31.5px    (1.3125rem == 21px)
+                              // 1.875rem  == 30px       (1rem == 16px)
+$lead-line-height:            1.45; 
+                              // == 30.45px              (1.3125rem == 21px)
+                              // == 29px                 (1rem == 16px)
+
+.lead, .lead-md, .lead-lg {
+  margin-top: $lead-margin-top; // Custom Sass variable
+  line-height: $lead-line-height; // Custom Sass variable
+  font-weight: $lead-font-weight; // Custom Sass variable
+  // margin-bottom: 1.0625rem; // == 17px // Inherited from the p element
+  // letter-spacing: -0.015em; // == -0.315px // Inherited from the p element
+}
+
+.lead-md { 
+  font-size: 1.35rem;
+}
+
+.lead-lg { 
+  font-size: 1.5rem;
+}
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-top:        1rem!important;
+$paragraph-margin-bottom:     1.0625rem!important;
+$paragraph-letter-spacing:    -.015em;
+
+p {
+  letter-spacing: $paragraph-letter-spacing; // Custom Sass variable
+  margin-top: $paragraph-margin-top; // Custom Sass variable
+}
+
+// Graphical UI Typography
+
+// Headings
+//
+// Style h1, h2, h3, h4, h5, h6 elements and 
+// .h1, .h2, .h3, .h4, .h5, .h6 classes.
+
+// Leads
+//
+// Style .lead class.
+
+// Paragraphs
+//
+// Style p element.
+
+
+// Utilities
+
+// Utilites > Text
+//
+
+// Contextual colors
+
+.text-black-10 { color: rgba($black, .1) !important; }
+.text-black-20 { color: rgba($black, .2) !important; }
+.text-black-30 { color: rgba($black, .3) !important; }
+.text-black-40 { color: rgba($black, .4) !important; }
+.text-black-50 { color: rgba($black, .5) !important; }
+.text-black-60 { color: rgba($black, .6) !important; }
+.text-black-70 { color: rgba($black, .7) !important; }
+.text-black-80 { color: rgba($black, .8) !important; }
+.text-black-90 { color: rgba($black, .9) !important; }
+
+.text-white-10 { color: rgba($white, .1) !important; }
+.text-white-20 { color: rgba($white, .2) !important; }
+.text-white-30 { color: rgba($white, .3) !important; }
+.text-white-40 { color: rgba($white, .4) !important; }
+.text-white-50 { color: rgba($white, .5) !important; }
+.text-white-60 { color: rgba($white, .6) !important; }
+.text-white-70 { color: rgba($white, .7) !important; }
+.text-white-80 { color: rgba($white, .8) !important; }
+.text-white-90 { color: rgba($white, .9) !important; }
+
+
+// Override default variables before the import
+// Import Bootstrap and its default variables
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
