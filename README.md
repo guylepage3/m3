@@ -45,6 +45,8 @@
 - [Status](#status)
 - [What's included](#whats-included)
 - [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Community](#community)
 - [Maintainers](#maintainers)
 - [License](#license)
 
