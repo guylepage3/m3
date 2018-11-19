@@ -55,7 +55,7 @@
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/universelabs/meta/releases).
+- [Download the latest release.](https://github.com/universelabs/meta/releases/tag/1.1.20).
 - Clone the repo: `git@github.com:universelabs/meta.git`.
 - Install with [npm](https://www.npmjs.com/): `npm install @universelabs/meta`.
 - Install with [yarn](https://yarnpkg.com/): `yarn add @universelabs/meta`.
