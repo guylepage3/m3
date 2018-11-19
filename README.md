@@ -16,6 +16,10 @@
       Explore
     </a>
     &middot;
+    <a href="https://twitter.com/intent/follow?screen_name=universelabs" alt="Follow UniverseLabs on Twitter">
+      Twitter
+    </a>
+    &middot;
     <a href="https://medium.com/universelabs" alt="UniverseLabs – Medium">
       Medium
     </a>
@@ -29,15 +33,6 @@
 <p align="center">
   <a href="https://universe.engineering">
     <img width="500" alt="meta-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
-  </a>
-</p>
-<p align="center">
-  <a href="https://twitter.com/intent/follow?screen_name=universelabs">
-    <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="Follow UniverseLabs on Twitter" />
-  </a>
-  &#32;&#32;&#32;
-  <a href="https://github.com/universelabs/meta/stargazers">
-    <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
   </a>
 </p>
 
