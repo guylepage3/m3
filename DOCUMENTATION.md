@@ -4,16 +4,16 @@
     Meta Design System Documentation
   </p>
   <p align="center">
-    <a href="https://github.com/universelabs/meta/issues/new" alt="Report a Bug (Meta)">
+    <a href="https://github.com/universelabs/meta/issues/new?labels=&template=bug_report.md" alt="Report a Bug (Meta)">
       Report bug
     </a>
     &middot;
-    <a href="https://github.com/universelabs/" alt="GitHub universelabs (Universe Labs)">
-      Explore
+    <a href="https://github.com/universelabs/meta/issues/new?labels=&template=feature_request.md" alt="Request feature (Meta)">
+      Request feature
     </a>
     &middot;
-    <a href="https://www.npmjs.com/package/@universelabs/meta" alt="@universelabs/meta  -  npm">
-      npm
+    <a href="https://twitter.com/intent/follow?screen_name=universelabs" alt="Follow UniverseLabs on Twitter">
+      Twitter
     </a>
     &middot;
     <a href="https://medium.com/universelabs" alt="UniverseLabs – Medium">
