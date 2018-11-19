@@ -1,5 +1,5 @@
 {
-  "name": "meta",
+  "name": "@unimeta/meta",
   "version": "1.0.3",
   "description": "A blockchain enhhanced front-end framework based off Bootstrap for developing decentralized apps.",
   "keywords": [
