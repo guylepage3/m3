@@ -84,7 +84,7 @@ $ npm start
 ```
 
 ## Status
-- Initiated framework [`Meta`](https://github.com/univereselabs/meta/blob/master/src/scss/meta.scss).
+- Initiated framework [`Meta`](https://github.com/universelabs/meta/blob/master/src/scss/meta.scss).
   - Color System
   - Spacing Rules
   - Communication Typography System
