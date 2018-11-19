@@ -1,6 +1,6 @@
 {
   "name": "@universelabs/meta",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A blockchain enhhanced front-end framework based off Bootstrap for developing decentralized apps.",
   "keywords": [
     "framework",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/universelabs/meta/issues/new"
   },
-  "licenses": "MIT",
+  "license": "MIT",
   "repositoris": {
     "type": "git",
     "url": "https://github.com/universelabs/meta.git"
