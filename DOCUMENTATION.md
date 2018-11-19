@@ -92,11 +92,11 @@ $ npm start
     - Full definition of Base Typography, Headings, Display Headings, Leads, 
       and Paragraphs.
 
-[![CircleCI](https://circleci.com/gh/universelabs/meta.svg?style=svg&circle-token=c8c59e2e9bf86e8aa656500fd86bbdac6f60f481)](https://circleci.com/gh/universelabs/meta)
+[![Build status](https://img.shields.io/circleci/project/github/universelabs/meta.svg?label=Build+Status&colorA=%23212121)](https://circleci.com/gh/universelabs/meta)
 [![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
-[![Universe Community](https://img.shields.io/badge/Universe_Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
+[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
-[![Dependencies Status](https://david-dm.org/universelabs/meta.svg)](https://david-dm.org/universelabs/meta)
+[![devDependencies Status](https://img.shields.io/david/dev/universelabs/meta.svglabel=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/meta?type=dev)
 [![@fortawesome/fontawesome-svg-core version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/fontawesome-svg-core&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.devDpendencies%5B%22@fortawesome/fontawesome-svg-core%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)
 [![@fortawesome/free-brands-svg-icons version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/free-brands-svg-icons&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.devDpendencies%5B%22@fortawesome/free-brands-svg-icons%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons)
 [![@fortawesome/free-solid-svg-icons version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/free-solid-svg-icons&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.devDpendencies%5B%22@fortawesome/free-solid-svg-icons%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons)
