@@ -1,21 +1,19 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.11, written by Peter Selinger 2001-2013
-</metadata>
-<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M1269 5116 c-2 -2 -42 -6 -89 -10 -47 -4 -98 -9 -115 -11 -319 -53
--509 -144 -712 -343 -99 -98 -166 -192 -219 -308 -37 -81 -86 -246 -98 -327
--4 -27 -9 -59 -12 -70 -16 -82 -19 -328 -19 -1492 0 -1150 4 -1423 20 -1485 2
--8 7 -35 10 -60 20 -148 98 -357 179 -479 57 -85 173 -205 271 -280 86 -65
-264 -153 365 -181 90 -24 216 -47 325 -57 103 -10 2652 -10 2765 0 161 14 315
-47 427 91 69 27 155 68 163 77 3 3 16 12 30 19 90 47 272 221 342 326 114 172
-181 383 206 649 9 104 9 2653 0 2765 -30 350 -137 609 -330 802 -201 200 -409
-304 -693 347 -38 6 -88 13 -110 17 -40 7 -2698 17 -2706 10z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<g id="Symbols">
+	<g>
+		<g id="guylepage-bug-icon-rounded">
+			<g>
+				<path id="Fill-1" class="st0" d="M461,174c0-26.1-0.6-64.9-24.9-90.3C412.7,59.1,389.5,51,340.3,51H171.7
+					c-49.2,0-72.4,8.1-95.8,32.7C51.6,109.1,51,147.9,51,174V338c0,26.1,0.6,64.9,24.9,90.3c23.4,24.5,46.6,32.7,95.8,32.7h168.6
+					c49.2,0,72.4-8.1,95.8-32.7c24.3-25.4,24.9-64.2,24.9-90.3V174z"/>
+			</g>
+		</g>
+	</g>
 </g>
 </svg>
