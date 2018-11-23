@@ -7,8 +7,7 @@ class Typography extends Component {
       <div>
       <div 
         style={{
-          paddingTop: '57px',
-          backgroundColor: '#212121'
+          paddingTop: '57px'
         }}>
       </div>
       <main 
