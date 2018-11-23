@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import CopyrightUpdate from 'copyright-update';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Footer extends Component {
   render() {
@@ -38,7 +39,8 @@ class Footer extends Component {
           </ul>
         </div>
         <div className="text-footer text-white-50 font-weight-normal">
-          Universe Labs &copy; 2018
+          Universe Labs
+          <CopyrightUpdate />
         </div>
       </footer>
     );
