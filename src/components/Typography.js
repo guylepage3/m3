@@ -311,11 +311,11 @@ class Typography extends Component {
 
             <div className="row">
               <div className="col-md-12">
-                <blockquote class="blockquote">
-                  <p class="text-white mb-0">
+                <blockquote className="blockquote">
+                  <p className="text-white mb-0">
                     Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                   </p>
-                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
                 <p className="text-white">
                   <span className="pattern-library-typography-footnote">
@@ -326,11 +326,11 @@ class Typography extends Component {
             </div>
             <div className="row">
               <div className="col-md-12">
-                <blockquote class="blockquote text-center">
-                  <p class="text-white mb-0">
+                <blockquote className="blockquote text-center">
+                  <p className="text-white mb-0">
                     Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                   </p>
-                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
                 <p className="text-white">
                   <span className="pattern-library-typography-footnote">
@@ -341,11 +341,11 @@ class Typography extends Component {
             </div>
             <div className="row">
               <div className="col-md-12">
-                <blockquote class="blockquote text-right">
-                  <p class="text-white mb-0">
+                <blockquote className="blockquote text-right">
+                  <p className="text-white mb-0">
                     Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                   </p>
-                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
                 <p className="text-white">
                   <span className="pattern-library-typography-footnote">
