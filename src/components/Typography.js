@@ -309,6 +309,60 @@ class Typography extends Component {
                 ">
             </div>
 
+            <div className="row">
+              <div className="col-md-12">
+                <blockquote class="blockquote">
+                  <p class="text-white mb-0">
+                    Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
+                  </p>
+                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+                <p className="text-white">
+                  <span className="pattern-library-typography-footnote">
+                    <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote</code>, <code className="pattern-libarary-typography-code">.blockquote</code> and <code className="pattern-libarary-typography-code">.blockquote-footer</code>.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+                <blockquote class="blockquote text-center">
+                  <p class="text-white mb-0">
+                    Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
+                  </p>
+                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+                <p className="text-white">
+                  <span className="pattern-library-typography-footnote">
+                    <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote</code> with <code className="pattern-libarary-typography-code">.text-center</code>.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+                <blockquote class="blockquote text-right">
+                  <p class="text-white mb-0">
+                    Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
+                  </p>
+                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+                <p className="text-white">
+                  <span className="pattern-library-typography-footnote">
+                    <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote</code> with <code className="pattern-libarary-typography-code">.text-right</code>.
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div 
+              className="
+                container 
+                typetemplate-boxy-line 
+                text-center
+                ">
+            </div>
+
             <h1 className="display-1 text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
             </h1>
