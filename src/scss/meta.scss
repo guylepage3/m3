@@ -374,7 +374,7 @@ $display-line-height:         1.05!important; // !default
 //
 // Style .lead classes.
 
-$lead-font-size:              1.15rem; // < ---------------------------- !
+$lead-font-size:              1.3125rem; // < ---------------------------- !
                               // 1.3125rem == 21px       (1.3125rem == 21px)
 $lead-font-weight:            400;
 $lead-margin-top:             ($lead-font-size * 1.5)!important;
@@ -383,6 +383,10 @@ $lead-margin-top:             ($lead-font-size * 1.5)!important;
 $lead-line-height:            1.45; 
                               // == 30.45px              (1.3125rem == 21px)
                               // == 29px                 (1rem == 16px)
+$lead-font-size-md:           1.5rem; // < ------------------------------- !
+                              // 1.5rem == 25.5px         (1.5rem == 25.5px)
+$lead-font-size-lg:           1.75rem; // < ------------------------------ !
+                              // 1.75rem == 29.75px     (1.75rem == 29.75px)
 
 .lead, .lead-md, .lead-lg {
   margin-top: $lead-margin-top; // Custom Sass variable
@@ -393,24 +397,44 @@ $lead-line-height:            1.45;
 }
 
 .lead-md { 
-  font-size: 1.35rem;
+  font-size: $lead-font-size-md;
 }
 
 .lead-lg { 
-  font-size: 1.5rem;
+  font-size: $lead-font-size-lg;
 }
 
 // Blockquotes
 //
 // Style blockquote elements and classes.
 
-$blockquote-font-weight:            400;
-$blockquote-small-color:      rgba(255,255,255,0.5);
-$blockquote-font-size:        1.3125rem;
+$blockquote-font-weight:                      400;
+$blockquote-small-color:    rgba(255,255,255,0.5);
+$blockquote-font-size:                  1.3125rem;
 
-.blockquote {
+.blockquote, .blockquote-md, .blockquote-lg {
   font-weight: $blockquote-font-weight;
+  line-height: $lead-line-height;
 }
+
+.blockquote-md {
+  font-size: $lead-font-size-md;
+}
+
+.blockquote-lg {
+  font-size: $lead-font-size-lg;
+}
+
+.blockquote-footer-md, .blockquote-footer-lg {
+  display: block;
+  font-size: 80%;
+  color: $blockquote-small-color;
+
+  &::before {
+    content: "\2014 \00A0"; // em dash, nbsp
+  }
+}
+
 
 // Paragraphs
 //

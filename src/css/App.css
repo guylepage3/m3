@@ -33,7 +33,7 @@ blockquote {
   margin-bottom: 1.0625rem !important;
 }
 
-.blockquote p {
+.blockquote p, .blockquote-lg p {
   margin-bottom: 0.5rem!important;
 }
 
@@ -44,17 +44,7 @@ blockquote {
 @media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .lead {
-    font-size: 1.3125rem;
-  }
-  .lead-md {
-    font-size: 1.5rem;
-  }
-  .lead-lg {
-    font-size: 1.75rem;
-  }
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
