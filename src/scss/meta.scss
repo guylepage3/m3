@@ -275,7 +275,7 @@ $link-hover-decoration:     none;
   background: white;
 }
 
-// Headings
+// Headings (! ------- Large breakpoint values ------!)
 //
 // Style h1, h2, h3, h4, h5, h6 elements and 
 // .h1, .h2, .h3, .h4, .h5, .h6 classes.
@@ -344,7 +344,7 @@ h6, .h6 { margin-top: ($h6-font-size * 2.25)!important; }
 //   margin-top: ($font-size-base * 4)!important;
 // }
 
-// Display Headings
+// Display Headings (! ------- Large breakpoint values ------!)
 //
 // Style .display-* heading classes.
 
@@ -370,7 +370,7 @@ $display3-weight:             700;
 $display4-weight:             700;
 $display-line-height:         1.05!important; // !default
 
-// Leads
+// Leads (! ------- Large breakpoint values ------!)
 //
 // Style .lead classes.
 
@@ -396,15 +396,10 @@ $lead-font-size-lg:           1.75rem; // < ------------------------------ !
   // letter-spacing: -0.015em; // == -0.315px // Inherited from the p element
 }
 
-.lead-md { 
-  font-size: $lead-font-size-md;
-}
+.lead-md { font-size: $lead-font-size-md; }
+.lead-lg { font-size: $lead-font-size-lg; }
 
-.lead-lg { 
-  font-size: $lead-font-size-lg;
-}
-
-// Blockquotes
+// Blockquotes (! ------- Large breakpoint values ------!)
 //
 // Style blockquote elements and classes.
 
@@ -417,13 +412,8 @@ $blockquote-font-size:                  1.3125rem;
   line-height: $lead-line-height;
 }
 
-.blockquote-md {
-  font-size: $lead-font-size-md;
-}
-
-.blockquote-lg {
-  font-size: $lead-font-size-lg;
-}
+.blockquote-md { font-size: $lead-font-size-md; }
+.blockquote-lg { font-size: $lead-font-size-lg; }
 
 .blockquote-footer-md, .blockquote-footer-lg {
   display: block;
