@@ -49,48 +49,9 @@ blockquote {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   html, body {
-    font-size: 17px;
+    /*font-size: 17px;*/
     line-height: 1.75;
   }
-  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    line-height: 1.125!important;
-  }
-  h1, .h1 {
-    font-size: 3.1727rem; /* == 50.7632px */
-    margin-top: 6.75rem!important; /* == 108px */
-  }
-  h2, .h2 {
-    font-size: 2.6438rem; /* == 42.3008px */
-    margin-top: 5.625rem!important; /* == 90px */
-  }
-  h3, .h3 {
-    font-size: 2.2032rem; /* == 35.2512px */
-    margin-top: 4.5rem!important; /* == 72px */
-  }
-  h4, .h4 {
-    font-size: 1.836rem; /* == 29.376px */
-    margin-top: 3.9375rem!important; /* == 63px */
-  }
-  h5, .h5 {
-    font-size: 1.53rem; /* == 24.48px */
-    margin-top: 3.375rem!important; /* == 54px */
-  }
-  h6, .h6 {
-    font-size: 1.275rem; /* == 20.4px */
-    margin-top: 2.8125rem!important; /* == 45px */
-  }
-  .display-1 {
-    font-size: 6.5788rem; /* == 105.2608px */
-  }
-  .display-2 {
-    font-size: 5.4823rem; /* == 87.7168px */
-  }
-  .display-3 {
-    font-size: 4.5686rem; /* == 73.0976px */
-  }
-  .display-4 {
-    font-size: 3.8072rem; /* == 60.9152px */
-  }  
   .navbar-brand {
     margin-left: 0;
   }
@@ -101,7 +62,6 @@ blockquote {
 
 /* Extra Extra small devices devices */
 @media (max-width:348px) {}
-
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {}

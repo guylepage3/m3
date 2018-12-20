@@ -200,7 +200,7 @@ class Typography extends Component {
               </span>
             </p>
             <h5 className="text-white">
-              Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
+              Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis.
             </h5>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
@@ -210,7 +210,7 @@ class Typography extends Component {
               </span>
             </p>
             <h6 className="text-white">
-              Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
+              Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
             </h6>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;

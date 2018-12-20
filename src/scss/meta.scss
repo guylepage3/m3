@@ -227,21 +227,16 @@ $body-color:                $gray-900 !default;
 
 // Base Typography
 //
-// Important! < ------------------! Important ! -------------------------- !
-// Changes to the base font-size or line-height significantly affect the all 
-// other typography.
 
-$font-size-base:              1rem; // !default
-$letter-spacing:              .0.008em;
-$line-height-base:            1.5; // Multiplied by the element's font-size
-$font-weight-normal:          500; // default weight = Medium
-$small-font-size-50:           50%; // Custom
-$small-font-size-60:           60%; // Custom
-$small-font-size-70:           70%; // Custom
+$font-size-base:                1rem; // !default
+$letter-spacing:            .0.008em;
+$line-height-base:               1.5; // Multiplied by the element's font-size
+$font-weight-normal:             500; // default weight = Medium
+$small-font-size-50:             50%; // Custom
+$small-font-size-60:             60%; // Custom
+$small-font-size-70:             70%; // Custom
 
-html, body {
-  letter-spacing:             $letter-spacing;
-}
+html, body { letter-spacing: $letter-spacing; }
 
 .small-font-size-50 { font-size: $small-font-size-50; }
 .small-font-size-60 { font-size: $small-font-size-60; }
@@ -275,131 +270,47 @@ $link-hover-decoration:     none;
   background: white;
 }
 
-// Headings (! ------- Large breakpoint values ------!)
+// Headings
 //
 // Style h1, h2, h3, h4, h5, h6 elements and 
 // .h1, .h2, .h3, .h4, .h5, .h6 classes.
 
-$headings-font-weight:        600;
+$headings-font-weight:        700;
 $headings-letter-spacing:     -0.005em;
-$headings-line-height:        1.2; // default
 $headings-margin-bottom:      (1.0625rem * 1.5);
 
-$h6-font-size:                $font-size-base * 1.125;
-                              // 1.125rem == 18px
-$h5-font-size:                $h6-font-size * 1.125;
-                              // 1.2656rem == 20.2496px
-$h4-font-size:                $h5-font-size * 1.125;
-                              // 1.4238rem == 22.7808px
-$h3-font-size:                $h4-font-size * 1.125;
-                              // 1.6018rem == 25.6288px
-$h2-font-size:                $h3-font-size * 1.125;
-                              // 1.802rem == 28.832px
-$h1-font-size:                $h2-font-size * 1.125;
-                              // 2.0273rem == 32.4368px
-
-// Descending headings line-height
-// For descending line-height values, use the following method
-
-$h6-line-height:              1.35rem * 1.125;
-                              // 1.51875rem == 24.3px
-$h5-line-height:              $h6-line-height * 1.125;
-                              // 1.70859rem == 27.3374px
-$h4-line-height:              $h5-line-height * 1.125;
-                              // 1.92217rem == 30.7547px
-$h3-line-height:              $h4-line-height * 1.125;
-                              // .16244rem == 34.599px
-$h2-line-height:              $h3-line-height * 1.125;
-                              // 2.43274rem == 38.9238px
-$h1-line-height:              $h2-line-height * 1.125;
-                              // 2.73684rem == 43.7894px
-
-h6, .h6 { line-height: $h6-line-height!important; }
-h5, .h5 { line-height: $h5-line-height!important; }
-h4, .h4 { line-height: $h4-line-height!important; }
-h3, .h3 { line-height: $h3-line-height!important; }
-h2, .h2 { line-height: $h2-line-height!important; }
-h1, .h1 { line-height: $h1-line-height!important; }
-
-// Descending headings margin-top
-// For descending margin-top values, use the following method
-
-h1, .h1 { margin-top: ($h1-font-size * 2.25)!important; }
-                      // 5.625rem == 90px
-h2, .h2 { margin-top: ($h2-font-size * 2.25)!important; }
-                      // 4.5rem == 72px
-h3, .h3 { margin-top: ($h3-font-size * 2.25)!important; }
-                      // 3.9375rem == 63px
-h4, .h4 { margin-top: ($h4-font-size * 2.25)!important; }
-                      // 3.375rem == 54px
-h5, .h5 { margin-top: ($h5-font-size * 2.25)!important; }
-                      // 2.8125rem == 45px
-h6, .h6 { margin-top: ($h6-font-size * 2.25)!important; }
-                      // 2.25rem == 36px
-
-// Explicit margin-top
-// For an equal margin-top value, use the following method
-
-// h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { 
-//   margin-top: ($font-size-base * 4)!important;
-// }
-
-// Display Headings (! ------- Large breakpoint values ------!)
+// Display Headings
 //
 // Style .display-* heading classes.
 
-// font-size, margin-bottom & line-height do not change
-// and work withh both 1rem & 1.0625rem values.
-//
-// margin-top     (1rem == 16px)         5.625rem == 90px
-// margin-top     (1.0625rem == 17px)    ????? == ??????
-// margin-bottom                         1.59375rem == 25.5px
-// line-hheight                          1.2rem == 86.4px
-
-$display1-size:               5rem; // !default
-                              // 5rem == 80px
-$display2-size:               4.5rem; // !default
-                              // 4.5rem == 72px
-$display3-size:               3.5rem; // !default
-                              // 3.5rem == 56px
-$display4-size:               2.5rem; // !default
-                              // 2.5rem == 40px
-$display1-weight:             700;
-$display2-weight:             700;
-$display3-weight:             700;
-$display4-weight:             700;
+$display-font-weight:         700;
+$display1-weight:             $display-font-weight;
+$display2-weight:             $display-font-weight;
+$display3-weight:             $display-font-weight;
+$display4-weight:             $display-font-weight;
 $display-line-height:         1.05!important; // !default
 
-// Leads (! ------- Large breakpoint values ------!)
+// Leads
 //
 // Style .lead classes.
 
-$lead-font-size:              1.3125rem; // < ---------------------------- !
-                              // 1.3125rem == 21px       (1.3125rem == 21px)
+$lead-font-size:              1.3125rem;
 $lead-font-weight:            400;
 $lead-margin-top:             ($lead-font-size * 1.5)!important;
-                              // 1.96875rem == 31.5px    (1.3125rem == 21px)
-                              // 1.875rem  == 30px       (1rem == 16px)
 $lead-line-height:            1.45; 
-                              // == 30.45px              (1.3125rem == 21px)
-                              // == 29px                 (1rem == 16px)
-$lead-font-size-md:           1.5rem; // < ------------------------------- !
-                              // 1.5rem == 25.5px         (1.5rem == 25.5px)
-$lead-font-size-lg:           1.75rem; // < ------------------------------ !
-                              // 1.75rem == 29.75px     (1.75rem == 29.75px)
+$lead-font-size-md:           1.5rem;
+$lead-font-size-lg:           1.75rem;
 
 .lead, .lead-md, .lead-lg {
-  margin-top: $lead-margin-top; // Custom Sass variable
-  line-height: $lead-line-height; // Custom Sass variable
-  font-weight: $lead-font-weight; // Custom Sass variable
-  // margin-bottom: 1.0625rem; // == 17px // Inherited from the p element
-  // letter-spacing: -0.015em; // == -0.315px // Inherited from the p element
+  margin-top: $lead-margin-top;
+  line-height: $lead-line-height;
+  font-weight: $lead-font-weight;
 }
 
 .lead-md { font-size: $lead-font-size-md; }
 .lead-lg { font-size: $lead-font-size-lg; }
 
-// Blockquotes (! ------- Large breakpoint values ------!)
+// Blockquotes
 //
 // Style blockquote elements and classes.
 
@@ -415,7 +326,7 @@ $blockquote-font-size:                  1.3125rem;
 .blockquote-md { font-size: $lead-font-size-md; }
 .blockquote-lg { font-size: $lead-font-size-lg; }
 
-.blockquote-footer-md, .blockquote-footer-lg {
+%blockquote-shared {
   display: block;
   font-size: 80%;
   color: $blockquote-small-color;
@@ -425,6 +336,9 @@ $blockquote-font-size:                  1.3125rem;
   }
 }
 
+.blockquote-footer-md, .blockquote-footer-lg {
+  @extend %blockquote-shared;
+}
 
 // Paragraphs
 //
@@ -438,21 +352,6 @@ p {
   letter-spacing: $paragraph-letter-spacing; // Custom Sass variable
   margin-top: $paragraph-margin-top; // Custom Sass variable
 }
-
-// Graphical UI Typography
-
-// Headings
-//
-// Style h1, h2, h3, h4, h5, h6 elements and 
-// .h1, .h2, .h3, .h4, .h5, .h6 classes.
-
-// Leads
-//
-// Style .lead class.
-
-// Paragraphs
-//
-// Style p element.
 
 
 // Utilities
@@ -487,3 +386,176 @@ p {
 // Import Bootstrap and its default variables
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+
+// Type Scales
+//
+// Create a map of pre-defined typographic scales as found on
+// type-scale.com. These scales can be passed to the mixin that
+// creates the font sizes by using their key from the key: value
+// pairs.
+//
+// After the map of scales, two variables are defined.
+// $heading-type-scale-base and $display-type-scale-base, these
+// variables hold the initial scales that are used from a 0 width
+// viewport or browser and upward. These variables accept a key 
+// from the $type-scales map or can be passed a unitless value.
+// 
+// By default Bootstraps .display-4 font size is 1rem larger than
+// the h1.  
+$type-scales : (
+  minor-second: 1.067,
+  major-second: 1.125,
+  minor-third: 1.2,
+  mid-third: 1.215,
+  major-third: 1.25,
+  perfect-fourth: 1.333,
+  augmented-fourth: 1.414,
+  perfect-fifth: 1.5,
+  golden-ratio: 1.618
+);
+
+$heading-type-scale-base : major-second;
+$display-type-scale-base : major-second;
+
+// Function That Checks For A Valid Type Scale Value
+//
+// It is important that you are not restricted to only
+// the values in the map as they may not be suitable for
+// your design.
+//
+// For this reason, the function below will check if
+// the value passed to the mixin is one of the values
+// set in the $type-scales map or it must be a unitless
+// value to create the type scale.
+@function check-type-scale-value($scale) {
+  
+  // Check $scale against the values in $type-scales.
+  @if map-has-key($type-scales, $scale) {
+    
+    // If the value of $scale is defined in
+    // $type-scales, return the value of $scale.
+      @return map-get($type-scales, $scale);
+    
+  // If the value of $scale is not defined in the 
+  // $type-scales map, check if the value is a number
+  // and that the number is a unitless value.
+  } @else if type-of($scale) == number and unitless($scale) {
+    
+    // If the value of $scale is a unitless number, 
+    // return the number.
+    @return $scale;
+    
+  // Lastly, should the value passed to $scale be neither
+  // found in the $type-scales map nor a unitless number,
+  // throw a Sass error to explain the issue.
+  } @else {
+    
+    // Throw a Sass error if the $scale value is
+    // neither found in the $type-scales map nor
+    // a unitless number.
+    @error "Sorry, `#{$scale}` is not a unitless number value or a pre-defined key in the $type-scales map.";
+  }
+  
+}
+
+// Mixins That Create Font Sizes
+//
+// Below are two mixin's that do very similar things.
+// They both take a type scale value either from the $type-scales
+// map or a custom unitless number.
+//
+// From there it uses the checkTypeScaleValue() function to 
+// evaluate the $scale value and then create the font sizes.
+@mixin create-heading-type-scale($scale) {
+  
+  // Check the $scale value and store in a variable to be 
+  // used when calculating the font sizes.
+  $the-heading-type-scale: check-type-scale-value($scale);
+  
+  // Starting from h6, multiply each previous value by the scale
+  // to get the next font size
+  $font-size-h6 : $font-size-base * $the-heading-type-scale;
+  $font-size-h5 : $font-size-h6 * $the-heading-type-scale;
+  $font-size-h4 : $font-size-h5 * $the-heading-type-scale;
+  $font-size-h3 : $font-size-h4 * $the-heading-type-scale;
+  $font-size-h2 : $font-size-h3 * $the-heading-type-scale;
+  $font-size-h1 : $font-size-h2 * $the-heading-type-scale;
+  // $font-size-display-base is made global to allow for accessing the 
+  // varibale in the next mixin.
+  $font-size-display-base : $font-size-h1 !global;
+  
+  // Add the created font sizes and margin-top to the elements and classes
+  h1, .h1 {
+    font-size: $font-size-h1; 
+    margin-top: $font-size-h1 * 2.25!important;
+  }
+  h2, .h2 {
+    font-size: $font-size-h2; 
+    margin-top: $font-size-h2 * 2.25!important;
+  }
+  h3, .h3 {
+    font-size: $font-size-h3; 
+    margin-top: $font-size-h3 * 2.25!important;
+  }
+  h4, .h4 {
+    font-size: $font-size-h4; 
+    margin-top: $font-size-h4 * 2.25!important;
+  }
+  h5, .h5 {
+    font-size: $font-size-h5; 
+    margin-top: $font-size-h5 * 2.25!important;
+  }
+  h6, .h6 {
+    font-size: $font-size-h6; 
+    margin-top: $font-size-h6 * 2.25!important;
+  }
+}
+
+@mixin create-display-type-scale($scale) {
+
+  // Store default type scale in a variable for calculations
+  $the-display-type-scale: check-type-scale-value($scale);
+  
+  // Create variables to reference the previous font size
+  $font-size-display-4 : $font-size-display-base + $font-size-base;
+  $font-size-display-3 : $font-size-display-4 * $the-display-type-scale;
+  $font-size-display-2 : $font-size-display-3 * $the-display-type-scale;
+  $font-size-display-1 : $font-size-display-2 * $the-display-type-scale;
+
+  // Add the created font sizes to the elements and classes
+  .display-4 { font-size: $font-size-display-4; }
+  .display-3 { font-size: $font-size-display-3; }
+  .display-2 { font-size: $font-size-display-2; }
+  .display-1 { font-size: $font-size-display-1; }
+}
+
+// Create the base heading and display font sizes to be used
+// from 0px width viewports and up.
+// These can be adjusted through the use of media queries
+// by simply using the mixin again at your desired breakpoint
+
+// Set the root font size in px on the html element to 14px,
+// so that it is 2px lower that the aprox default for browsers.
+// Then the font size is bumped up 2px at the md and then lg
+// breakpoints.
+
+html {
+  font-size: 15px;
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+  @media (min-width: 992px) {
+    font-size: 17px;
+  }
+}
+
+// Define the heading and display font sizes
+@include create-heading-type-scale($heading-type-scale-base);
+@include create-display-type-scale($display-type-scale-base);
+
+// At the Bootstrap md breakpoint, adjust the heading dont sizes.
+@media (min-width: 992px) {
+  @include create-heading-type-scale(minor-third);
+  @include create-display-type-scale(minor-third);
+}
