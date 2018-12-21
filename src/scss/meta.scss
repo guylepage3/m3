@@ -475,7 +475,7 @@ $display-type-scale-base : major-second;
   
   // Starting from h6, multiply each previous value by the scale
   // to get the next font size
-  $font-size-h6 : $font-size-base * $the-heading-type-scale;
+  $font-size-h6 : 1.0625rem * $the-heading-type-scale;
   $font-size-h5 : $font-size-h6 * $the-heading-type-scale;
   $font-size-h4 : $font-size-h5 * $the-heading-type-scale;
   $font-size-h3 : $font-size-h4 * $the-heading-type-scale;
