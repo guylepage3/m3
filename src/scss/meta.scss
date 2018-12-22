@@ -318,6 +318,10 @@ $blockquote-font-weight:                      400;
 $blockquote-small-color:    rgba(255,255,255,0.5);
 $blockquote-font-size:                  1.3125rem;
 
+blockquote {
+  margin-bottom: 1.0625rem;
+}
+
 .blockquote, .blockquote-md, .blockquote-lg {
   font-weight: $blockquote-font-weight;
   line-height: $lead-line-height;
@@ -330,6 +334,7 @@ $blockquote-font-size:                  1.3125rem;
   display: block;
   font-size: 80%;
   color: $blockquote-small-color;
+  margin-bottom: 0.5rem!important;
 
   &::before {
     content: "\2014 \00A0"; // em dash, nbsp
@@ -390,19 +395,17 @@ p {
 
 // Type Scales
 //
-// Create a map of pre-defined typographic scales as found on
-// type-scale.com. These scales can be passed to the mixin that
-// creates the font sizes by using their key from the key: value
-// pairs.
+// Create a map of pre-defined typographic scales as found on type-scale.com. 
+// These scales can be passed to the mixin that creates the font sizes by 
+// using their key from the key: value pairs.
 //
 // After the map of scales, two variables are defined.
-// $heading-type-scale-base and $display-type-scale-base, these
-// variables hold the initial scales that are used from a 0 width
-// viewport or browser and upward. These variables accept a key 
-// from the $type-scales map or can be passed a unitless value.
+// $heading-type-scale-base and $display-type-scale-base, these variables hold 
+// the initial scales that are used from a 0 width viewport or browser and 
+// upward. These variables accept a key from the $type-scales map or can be 
+// passed a unitless value.
 // 
-// By default Bootstraps .display-4 font size is 1rem larger than
-// the h1.  
+// By default Bootstraps .display-4 font size is 1rem larger than the h1.  
 $type-scales : (
   minor-second: 1.067,
   major-second: 1.125,
@@ -418,42 +421,32 @@ $type-scales : (
 $heading-type-scale-base : major-second;
 $display-type-scale-base : major-second;
 
-// Function That Checks For A Valid Type Scale Value
+// Function to Check for Valid Type Scale Value
 //
-// It is important that you are not restricted to only
-// the values in the map as they may not be suitable for
-// your design.
-//
-// For this reason, the function below will check if
-// the value passed to the mixin is one of the values
-// set in the $type-scales map or it must be a unitless
-// value to create the type scale.
+// The function prevents restriction of values in the Sass map above. It 
+// checks if the value passed to the mixin is one of the values in the 
+// $type-scales map or it must be a unitless value to create the type scale.
 @function check-type-scale-value($scale) {
   
   // Check $scale against the values in $type-scales.
   @if map-has-key($type-scales, $scale) {
     
-    // If the value of $scale is defined in
-    // $type-scales, return the value of $scale.
+      // If the value of $scale is defined in $type-scales, 
+      // return the value of $scale.
       @return map-get($type-scales, $scale);
     
-  // If the value of $scale is not defined in the 
-  // $type-scales map, check if the value is a number
-  // and that the number is a unitless value.
+  // If the value of $scale is not defined in the $type-scales map, check if 
+  // the value is a number and that the number is a unitless value.
   } @else if type-of($scale) == number and unitless($scale) {
     
-    // If the value of $scale is a unitless number, 
-    // return the number.
+    // If the value of $scale is a unitless number, return the number.
     @return $scale;
     
-  // Lastly, should the value passed to $scale be neither
-  // found in the $type-scales map nor a unitless number,
-  // throw a Sass error to explain the issue.
+  // Lastly, should the value passed to $scale be neither found in the 
+  // $type-scales map nor a unitless number, throw an error.
   } @else {
     
-    // Throw a Sass error if the $scale value is
-    // neither found in the $type-scales map nor
-    // a unitless number.
+    // Sass error.
     @error "Sorry, `#{$scale}` is not a unitless number value or a pre-defined key in the $type-scales map.";
   }
   
@@ -487,28 +480,28 @@ $display-type-scale-base : major-second;
   
   // Add the created font sizes and margin-top to the elements and classes
   h1, .h1 {
-    font-size: $font-size-h1; 
-    margin-top: $font-size-h1 * 2.25!important;
+    font-size: $font-size-h1; // 3.17261rem (53.9344px)
+    margin-top: $font-size-h1 * 2.15; // 6.82111rem (115.959px)
   }
   h2, .h2 {
-    font-size: $font-size-h2; 
-    margin-top: $font-size-h2 * 2.25!important;
+    font-size: $font-size-h2; // 2.64384rem (44.9453px)
+    margin-top: $font-size-h2 * 2.15; // 5.68426rem (96.6324px)
   }
   h3, .h3 {
-    font-size: $font-size-h3; 
-    margin-top: $font-size-h3 * 2.25!important;
+    font-size: $font-size-h3; // 2.2032rem (37.4544px)
+    margin-top: $font-size-h3 * 2.15; // 4.73688rem (80.527px)
   }
   h4, .h4 {
-    font-size: $font-size-h4; 
-    margin-top: $font-size-h4 * 2.25!important;
+    font-size: $font-size-h4; // 1.836rem (31.212px)
+    margin-top: $font-size-h4 * 2.15; // 3.9474rem (67.1058px)
   }
   h5, .h5 {
-    font-size: $font-size-h5; 
-    margin-top: $font-size-h5 * 2.25!important;
+    font-size: $font-size-h5; // 1.53rem (26.01px)
+    margin-top: $font-size-h5 * 2.15; // 3.2895rem (55.9215px)
   }
   h6, .h6 {
-    font-size: $font-size-h6; 
-    margin-top: $font-size-h6 * 2.25!important;
+    font-size: $font-size-h6; // 1.275rem (21.675px)
+    margin-top: $font-size-h6 * 2.15; // 2.74125rem (46.6012px)
   }
 }
 
@@ -530,23 +523,21 @@ $display-type-scale-base : major-second;
   .display-1 { font-size: $font-size-display-1; }
 }
 
-// Create the base heading and display font sizes to be used
-// from 0px width viewports and up.
-// These can be adjusted through the use of media queries
-// by simply using the mixin again at your desired breakpoint
-
-// Set the root font size in px on the html element to 14px,
-// so that it is 2px lower that the aprox default for browsers.
-// Then the font size is bumped up 2px at the md and then lg
-// breakpoints.
-
-html {
+// The base heading and display font sizes to be used from 0px width viewports 
+// and up. These can be adjusted through the use of media queries by simply 
+// using the mixin again at your desired breakpoint
+//
+// Set the root font size in px on the html element to 14px, so that it is 2px 
+// lower that the aprox default for browsers. Then the font size is bumped up 
+// 2px at the md and then lg breakpoints.
+html, body {
   font-size: 15px;
   @media (min-width: 768px) {
     font-size: 16px;
   }
   @media (min-width: 992px) {
     font-size: 17px;
+    line-height: 1.75;
   }
 }
 
