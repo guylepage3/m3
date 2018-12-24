@@ -288,27 +288,17 @@ $display1-weight:             $display-font-weight;
 $display2-weight:             $display-font-weight;
 $display3-weight:             $display-font-weight;
 $display4-weight:             $display-font-weight;
-$display-line-height:         1.05; // !default
+$display-line-height:         1.1;
 
 // Leads
 //
 // Style .lead classes.
 
-$lead-font-size:              1.3125rem;
 $lead-font-weight:            400;
-$lead-margin-top:             ($lead-font-size * 1.5)!important;
-$lead-line-height:            1.45; 
-$lead-font-size-md:           1.5rem;
-$lead-font-size-lg:           1.75rem;
 
 .lead, .lead-md, .lead-lg {
-  margin-top: $lead-margin-top;
-  line-height: $lead-line-height;
   font-weight: $lead-font-weight;
 }
-
-.lead-md { font-size: $lead-font-size-md; }
-.lead-lg { font-size: $lead-font-size-lg; }
 
 // Blockquotes
 //
@@ -324,11 +314,11 @@ blockquote {
 
 .blockquote, .blockquote-md, .blockquote-lg {
   font-weight: $blockquote-font-weight;
-  line-height: $lead-line-height;
+  line-height: 1.45;
 }
 
-.blockquote-md { font-size: $lead-font-size-md; }
-.blockquote-lg { font-size: $lead-font-size-lg; }
+.blockquote-md { font-size: 1.5rem; }
+.blockquote-lg { font-size: 1.75rem; }
 
 %blockquote-shared {
   display: block;
@@ -395,6 +385,8 @@ p {
 
 // Type Scales
 //
+// ALL VALUES: http://bit.ly/meta-scaling-typography-values
+//
 // Create a map of pre-defined typographic scales as found on type-scale.com. 
 // These scales can be passed to the mixin that creates the font sizes by 
 // using their key from the key: value pairs.
@@ -406,7 +398,7 @@ p {
 // passed a unitless value.
 // 
 // By default Bootstraps .display-4 font size is 1rem larger than the h1.  
-$type-scales : (
+$type-scales: (
   minor-second: 1.067,
   major-second: 1.125,
   minor-third: 1.2,
@@ -418,8 +410,9 @@ $type-scales : (
   golden-ratio: 1.618
 );
 
-$heading-type-scale-base : major-second;
-$display-type-scale-base : major-second;
+$heading-type-scale-base: major-second;
+$display-type-scale-base: major-second;
+$lead-type-scale-base: major-second;
 
 // Function to Check for Valid Type Scale Value
 //
@@ -449,7 +442,6 @@ $display-type-scale-base : major-second;
     // Sass error.
     @error "Sorry, `#{$scale}` is not a unitless number value or a pre-defined key in the $type-scales map.";
   }
-  
 }
 
 // Mixins That Create Font Sizes
@@ -468,46 +460,47 @@ $display-type-scale-base : major-second;
   
   // Starting from h6, multiply each previous value by the scale
   // to get the next font size
-  $font-size-h6 : 1.0625rem * $the-heading-type-scale;
-  $font-size-h5 : $font-size-h6 * $the-heading-type-scale;
-  $font-size-h4 : $font-size-h5 * $the-heading-type-scale;
-  $font-size-h3 : $font-size-h4 * $the-heading-type-scale;
-  $font-size-h2 : $font-size-h3 * $the-heading-type-scale;
-  $font-size-h1 : $font-size-h2 * $the-heading-type-scale;
+  $font-size-h6: 1.0625rem * $the-heading-type-scale;
+  $font-size-h5: $font-size-h6 * $the-heading-type-scale;
+  $font-size-h4: $font-size-h5 * $the-heading-type-scale;
+  $font-size-h3: $font-size-h4 * $the-heading-type-scale;
+  $font-size-h2: $font-size-h3 * $the-heading-type-scale;
+  $font-size-h1: $font-size-h2 * $the-heading-type-scale;
   // $font-size-display-base is made global to allow for accessing the 
   // varibale in the next mixin.
   $font-size-display-base : $font-size-h1 !global;
+  $font-size-lead-base : 1rem !global;
   
   // Add the created font sizes and margin-top to the elements and classes
   h1, .h1 {
-    font-size: $font-size-h1; // 3.17261rem (53.9344px)
-    margin-top: $font-size-h1 * 2.15; // 6.82111rem (115.959px)
+    font-size: $font-size-h1;
     line-height: 1.2;
+    margin-top: $font-size-h1 * 2.15;
   }
   h2, .h2 {
-    font-size: $font-size-h2; // 2.64384rem (44.9453px)
-    margin-top: $font-size-h2 * 2.15; // 5.68426rem (96.6324px)
+    font-size: $font-size-h2;
     line-height: 1.25;
+    margin-top: $font-size-h2 * 2.15;
   }
   h3, .h3 {
-    font-size: $font-size-h3; // 2.2032rem (37.4544px)
-    margin-top: $font-size-h3 * 2.15; // 4.73688rem (80.527px)
+    font-size: $font-size-h3;
     line-height: 1.3;
+    margin-top: $font-size-h3 * 2.15;
   }
   h4, .h4 {
-    font-size: $font-size-h4; // 1.836rem (31.212px)
-    margin-top: $font-size-h4 * 2.15; // 3.9474rem (67.1058px)
+    font-size: $font-size-h4;
     line-height: 1.35;
+    margin-top: $font-size-h4 * 2.15;
   }
   h5, .h5 {
-    font-size: $font-size-h5; // 1.53rem (26.01px)
-    margin-top: $font-size-h5 * 2.15; // 3.2895rem (55.9215px)
+    font-size: $font-size-h5;
     line-height: 1.4;
+    margin-top: $font-size-h5 * 2.15;
   }
   h6, .h6 {
-    font-size: $font-size-h6; // 1.275rem (21.675px)
-    margin-top: $font-size-h6 * 2.15; // 2.74125rem (46.6012px)
+    font-size: $font-size-h6;
     line-height: 1.45;
+    margin-top: $font-size-h6 * 2.15;
   }
 }
 
@@ -517,16 +510,44 @@ $display-type-scale-base : major-second;
   $the-display-type-scale: check-type-scale-value($scale);
   
   // Create variables to reference the previous font size
-  $font-size-display-4 : $font-size-display-base + $font-size-base;
-  $font-size-display-3 : $font-size-display-4 * $the-display-type-scale;
-  $font-size-display-2 : $font-size-display-3 * $the-display-type-scale;
-  $font-size-display-1 : $font-size-display-2 * $the-display-type-scale;
+  $font-size-display-4: $font-size-display-base + $font-size-base;
+  $font-size-display-3: $font-size-display-4 * $the-display-type-scale;
+  $font-size-display-2: $font-size-display-3 * $the-display-type-scale;
+  $font-size-display-1: $font-size-display-2 * $the-display-type-scale;
 
   // Add the created font sizes to the elements and classes
   .display-4 { font-size: $font-size-display-4; }
   .display-3 { font-size: $font-size-display-3; }
   .display-2 { font-size: $font-size-display-2; }
   .display-1 { font-size: $font-size-display-1; }
+}
+
+@mixin create-lead-type-scale($scale) {
+
+  // Store default type scale in a variable for calculations
+  $the-lead-type-scale: check-type-scale-value($scale);
+  
+  // Create variables to reference the previous font size
+  $font-size-lead: 1.25rem;
+  $font-size-lead-md: $font-size-lead * $the-lead-type-scale;
+  $font-size-lead-lg: $font-size-lead-md * $the-lead-type-scale;
+
+  // Add the created font sizes to the elements and classes
+  .lead {
+    font-size: $font-size-lead;
+    line-height: 1.45;
+    margin-top: $font-size-lead * 2.15;
+  }
+  .lead-md {
+    font-size: $font-size-lead-md;
+    line-height: 1.4;
+    margin-top: $font-size-lead-md * 2.15;
+  }
+  .lead-lg {
+    font-size: $font-size-lead-lg;
+    line-height: 1.35;
+    margin-top: $font-size-lead-lg * 2.15;
+  }
 }
 
 // The base heading and display font sizes to be used from 0px width viewports 
@@ -537,22 +558,29 @@ $display-type-scale-base : major-second;
 // lower that the aprox default for browsers. Then the font size is bumped up 
 // 2px at the md and then lg breakpoints.
 html, body {
+  
+  // Base values
   font-size: 15px;
+  line-height: 1.75;
+
   @media (min-width: 768px) {
     font-size: 16px;
   }
+
   @media (min-width: 992px) {
     font-size: 17px;
-    line-height: 1.75;
   }
+
 }
 
 // Define the heading and display font sizes
 @include create-heading-type-scale($heading-type-scale-base);
 @include create-display-type-scale($display-type-scale-base);
+@include create-lead-type-scale($lead-type-scale-base);
 
 // At the Bootstrap md breakpoint, adjust the heading dont sizes.
 @media (min-width: 992px) {
   @include create-heading-type-scale(minor-third);
   @include create-display-type-scale(minor-third);
+  @include create-lead-type-scale(minor-third);
 }

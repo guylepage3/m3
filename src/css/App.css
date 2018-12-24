@@ -29,7 +29,7 @@ dd {
 /* Blockquote */
 blockquote {
   padding-left: 1.5rem;
-  border-left: 0.65rem solid rgba(255,255,255,0.25); /* variable */
+  border-left: 0.35rem solid rgba(255,255,255,0.25); /* variable */
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
