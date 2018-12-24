@@ -288,7 +288,7 @@ $display1-weight:             $display-font-weight;
 $display2-weight:             $display-font-weight;
 $display3-weight:             $display-font-weight;
 $display4-weight:             $display-font-weight;
-$display-line-height:         1.05!important; // !default
+$display-line-height:         1.05; // !default
 
 // Leads
 //
@@ -482,26 +482,32 @@ $display-type-scale-base : major-second;
   h1, .h1 {
     font-size: $font-size-h1; // 3.17261rem (53.9344px)
     margin-top: $font-size-h1 * 2.15; // 6.82111rem (115.959px)
+    line-height: 1.2;
   }
   h2, .h2 {
     font-size: $font-size-h2; // 2.64384rem (44.9453px)
     margin-top: $font-size-h2 * 2.15; // 5.68426rem (96.6324px)
+    line-height: 1.25;
   }
   h3, .h3 {
     font-size: $font-size-h3; // 2.2032rem (37.4544px)
     margin-top: $font-size-h3 * 2.15; // 4.73688rem (80.527px)
+    line-height: 1.3;
   }
   h4, .h4 {
     font-size: $font-size-h4; // 1.836rem (31.212px)
     margin-top: $font-size-h4 * 2.15; // 3.9474rem (67.1058px)
+    line-height: 1.35;
   }
   h5, .h5 {
     font-size: $font-size-h5; // 1.53rem (26.01px)
     margin-top: $font-size-h5 * 2.15; // 3.2895rem (55.9215px)
+    line-height: 1.4;
   }
   h6, .h6 {
     font-size: $font-size-h6; // 1.275rem (21.675px)
     margin-top: $font-size-h6 * 2.15; // 2.74125rem (46.6012px)
+    line-height: 1.45;
   }
 }
 
