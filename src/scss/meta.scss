@@ -277,7 +277,6 @@ $link-hover-decoration:     none;
 
 $headings-font-weight:        700;
 $headings-letter-spacing:     -0.005em;
-$headings-margin-bottom:      (1.0625rem * 1.5);
 
 // Display Headings
 //
@@ -414,6 +413,11 @@ $heading-type-scale-base: major-second;
 $display-type-scale-base: major-second;
 $lead-type-scale-base: major-second;
 
+// Set the base values for margin-top and margin-bottom for all headings and 
+// lead elements and classes.
+$margin-top-base: 2.15;
+$margin-bottom-base: 1.5;
+
 // Function to Check for Valid Type Scale Value
 //
 // The function prevents restriction of values in the Sass map above. It 
@@ -474,33 +478,39 @@ $lead-type-scale-base: major-second;
   // Add the created font sizes and margin-top to the elements and classes
   h1, .h1 {
     font-size: $font-size-h1;
-    line-height: 1.2;
-    margin-top: $font-size-h1 * 2.15;
+    line-height: 1.2; // Scaled down by 0.5
+    margin-top: $font-size-h1 * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
   h2, .h2 {
     font-size: $font-size-h2;
-    line-height: 1.25;
-    margin-top: $font-size-h2 * 2.15;
+    line-height: 1.25; // Scaled down by 0.5
+    margin-top: $font-size-h2 * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
   h3, .h3 {
     font-size: $font-size-h3;
-    line-height: 1.3;
-    margin-top: $font-size-h3 * 2.15;
+    line-height: 1.3; // Scaled down by 0.5
+    margin-top: $font-size-h3 * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
   h4, .h4 {
     font-size: $font-size-h4;
-    line-height: 1.35;
-    margin-top: $font-size-h4 * 2.15;
+    line-height: 1.35; // Scaled down by 0.5
+    margin-top: $font-size-h4 * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
   h5, .h5 {
     font-size: $font-size-h5;
-    line-height: 1.4;
-    margin-top: $font-size-h5 * 2.15;
+    line-height: 1.4; // Scaled down by 0.5
+    margin-top: $font-size-h5 * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
   h6, .h6 {
     font-size: $font-size-h6;
-    line-height: 1.45;
-    margin-top: $font-size-h6 * 2.15;
+    line-height: 1.45; // Manually set
+    margin-top: $font-size-h6 * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
 }
 
@@ -535,18 +545,21 @@ $lead-type-scale-base: major-second;
   // Add the created font sizes to the elements and classes
   .lead {
     font-size: $font-size-lead;
-    line-height: 1.45;
-    margin-top: $font-size-lead * 2.15;
+    line-height: 1.45; // Manually set
+    margin-top: $font-size-lead * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
   .lead-md {
     font-size: $font-size-lead-md;
-    line-height: 1.4;
-    margin-top: $font-size-lead-md * 2.15;
+    line-height: 1.4; // Scaled down by 0.5
+    margin-top: $font-size-lead-md * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
   .lead-lg {
     font-size: $font-size-lead-lg;
-    line-height: 1.35;
-    margin-top: $font-size-lead-lg * 2.15;
+    line-height: 1.35; // Scaled down by 0.5
+    margin-top: $font-size-lead-lg * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
   }
 }
 
