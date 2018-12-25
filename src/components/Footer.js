@@ -38,7 +38,7 @@ class Footer extends Component {
             </li>
           </ul>
         </div>
-        <div className="text-footer text-white-50 font-weight-normal">
+        <div className="text-white-50 font-weight-normal small">
           Universe Labs
           <CopyrightUpdate />
         </div>

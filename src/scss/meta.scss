@@ -6,7 +6,15 @@
 // `$ sass src/styles/Custom.scss src/styles/Custom.css`
 
 
-//
+// Reboot
+
+html {
+  dd {
+    margin-bottom: 1rem;
+  }
+}
+
+
 // Color system
 //
 
@@ -214,19 +222,8 @@ $body-color:                $gray-900 !default;
 
 // Typography
 //
-// Custom typography patterns
-//
-// Two typographic style sets are defined.
-// 1. Communication type - Sets of copy that are for written communications. 
-//    (ie. promotional pages, blog posts, documentation, etc.).
-// 2. Graphical UI type - Graphical user interface type within the GUI itself. 
-//    (ie. List of songs, play button, settings).
-
-
-// Communication Typography
 
 // Base Typography
-//
 
 $font-size-base:                1rem; // !default
 $letter-spacing:            .0.008em;
@@ -243,8 +240,6 @@ html, body { letter-spacing: $letter-spacing; }
 .small-font-size-70 { font-size: $small-font-size-70; }
 
 // Links
-//
-// Style anchor elements.
 
 $link-color:                $white;
 $link-hover-color:          primary;
@@ -305,47 +300,31 @@ $lead-font-weight:            400;
 
 $blockquote-font-weight:                      400;
 $blockquote-small-color:    rgba(255,255,255,0.5);
-$blockquote-font-size:                  1.3125rem;
-
-blockquote {
-  margin-bottom: 1.0625rem;
-}
 
 .blockquote, .blockquote-md, .blockquote-lg {
   font-weight: $blockquote-font-weight;
-  line-height: 1.45;
 }
 
-.blockquote-md { font-size: 1.5rem; }
-.blockquote-lg { font-size: 1.75rem; }
-
-%blockquote-shared {
+%blockquote-footer-shared {
   display: block;
   font-size: 80%;
   color: $blockquote-small-color;
-  margin-bottom: 0.5rem!important;
+  padding-bottom: 1rem;
 
   &::before {
     content: "\2014 \00A0"; // em dash, nbsp
   }
 }
 
-.blockquote-footer-md, .blockquote-footer-lg {
-  @extend %blockquote-shared;
+.blockquote-footer, .blockquote-footer-md, .blockquote-footer-lg {
+  @extend %blockquote-footer-shared;
 }
 
 // Paragraphs
 //
 // Style p element.
 
-$paragraph-margin-top:        1rem!important;
-$paragraph-margin-bottom:     1.0625rem!important;
-$paragraph-letter-spacing:    -.015em;
-
-p {
-  letter-spacing: $paragraph-letter-spacing; // Custom Sass variable
-  margin-top: $paragraph-margin-top; // Custom Sass variable
-}
+$paragraph-margin-bottom:     1.0625rem;
 
 
 // Utilities
@@ -412,16 +391,23 @@ $type-scales: (
 $heading-type-scale-base: major-second;
 $display-type-scale-base: major-second;
 $lead-type-scale-base: major-second;
+$blockquote-type-scale-base: major-second;
 
 // Variable base settings
 //
 // The variable base settings are set manually.
-$font-size-heading-base: 1.0625rem;
-$line-height-heading-base: 1.45;
-$font-size-lead-base: 1.25rem;
-$line-height-lead-base: 1.45;
-$margin-top-base: 2.15;
-$margin-bottom-base: 1.5;
+$font-size-heading-base:       1.0625rem;
+$line-height-heading-base:          1.45;
+$font-size-lead-base:            1.25rem;
+$line-height-lead-base:             1.45;
+$font-size-blockquote-base:      1.25rem;
+$line-height-blockquote-base:       1.45;
+$margin-top-base:                   2.15;
+$margin-bottom-base:                 1.5;
+
+$paragraph-margin-top:              1rem;
+$paragraph-letter-spacing:       -.015em;
+
 
 // Function to Check for Valid Type Scale Value
 //
@@ -566,6 +552,36 @@ $margin-bottom-base: 1.5;
   }
 }
 
+@mixin create-blockquote-type-scale($scale) {
+
+  // Store default type scale in a variable for calculations
+  $the-blockquote-type-scale: check-type-scale-value($scale);
+  
+  // Create variables to reference the previous font size
+  $font-size-blockquote-md: $font-size-blockquote-base * $the-blockquote-type-scale;
+  $font-size-blockquote-lg: $font-size-blockquote-md * $the-blockquote-type-scale;
+
+  // Add the created font sizes to the elements and classes
+  .blockquote {
+    font-size: $font-size-blockquote-base;
+    line-height: $line-height-blockquote-base; // Variable base setting
+    margin-top: $font-size-blockquote-base * $margin-top-base;
+    margin-bottom: $font-size-blockquote-base * $margin-bottom-base;
+  }
+  .blockquote-md {
+    font-size: $font-size-blockquote-md;
+    line-height: $line-height-blockquote-base - .05; // Scaled down by .05
+    margin-top: $font-size-blockquote-md * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
+  }
+  .blockquote-lg {
+    font-size: $font-size-blockquote-lg;
+    line-height: $line-height-blockquote-base - .1; // Scaled down by .05
+    margin-top: $font-size-blockquote-lg * $margin-top-base;
+    margin-bottom: $font-size-base * $margin-bottom-base;
+  }
+}
+
 // The base heading and display font sizes to be used from 0px width viewports 
 // and up. These can be adjusted through the use of media queries by simply 
 // using the mixin again at your desired breakpoint
@@ -578,6 +594,11 @@ html, body {
   // Base values
   font-size: 15px;
   line-height: 1.75;
+  
+  p {
+    letter-spacing:    $paragraph-letter-spacing;
+    margin-top:            $paragraph-margin-top;
+  }
 
   @media (min-width: 768px) {
     font-size: 16px;
@@ -593,10 +614,12 @@ html, body {
 @include create-heading-type-scale($heading-type-scale-base);
 @include create-display-type-scale($display-type-scale-base);
 @include create-lead-type-scale($lead-type-scale-base);
+@include create-blockquote-type-scale($blockquote-type-scale-base);
 
 // At the Bootstrap md breakpoint, adjust the heading dont sizes.
 @media (min-width: 992px) {
   @include create-heading-type-scale(minor-third);
   @include create-display-type-scale(minor-third);
   @include create-lead-type-scale(minor-third);
+  @include create-blockquote-type-scale(minor-third);
 }

@@ -327,7 +327,7 @@ class Typography extends Component {
             <div className="row">
               <div className="col-md-12">
                 <blockquote className="blockquote">
-                  <p className="text-white mb-0">
+                  <p className="text-white">
                     Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                   </p>
                   <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -340,7 +340,7 @@ class Typography extends Component {
             <div className="row">
               <div className="col-md-12">
                 <blockquote className="blockquote-md">
-                  <p className="text-white mb-0">
+                  <p className="text-white">
                     Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                   </p>
                   <footer className="blockquote-footer-md">Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -353,7 +353,7 @@ class Typography extends Component {
             <div className="row">
               <div className="col-md-12">
                 <blockquote className="blockquote-lg">
-                  <p className="text-white mb-0">
+                  <p className="text-white">
                     Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                   </p>
                   <footer className="blockquote-footer-lg">Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -366,7 +366,7 @@ class Typography extends Component {
             <div className="row">
               <div className="col-md-12">
                 <blockquote className="blockquote text-center">
-                  <p className="text-white mb-0">
+                  <p className="text-white">
                     Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                   </p>
                   <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -379,7 +379,7 @@ class Typography extends Component {
             <div className="row">
               <div className="col-md-12">
                 <blockquote className="blockquote text-right">
-                  <p className="text-white mb-0">
+                  <p className="text-white">
                     Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                   </p>
                   <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
