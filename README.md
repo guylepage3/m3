@@ -72,7 +72,10 @@ Several quick start options are available:
 
 ## What's included
 
-Meta is currently a simple Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/). More componentry and compatibility coming soon.
+#### Meta v1.2
+We've added the most functional typography out of the box with full Type Scaling ratio capability. No other UI framework takes care of typography from extra small to small to large devices better than Meta.
+
+Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) framework. An easy to use Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/). Blockchain componentry and other compatibility coming soon.
 
 ```text
 @universelabs/meta/
@@ -83,15 +86,19 @@ Meta is currently a simple Sass file that gets compiled with [Bootstrap Theming]
 
 ## Documentation
 
-The Meta documentation is a simple and easy to use `Meta Design System` for you to reference and/or modify. There currently is no homepage to reference but will be coming soon. In the meantime, we recommend simply following the instructions below to get your version of the `Meta Design System` up and running.
+Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) framework. An easy to use Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/).
 
-### Running Meta Design System locally
+Meta handles complex typography and scaling like no other framework providing the most readable type right out of the box.
+
+There currently is no homepage to reference but will be coming soon. In the meantime, we recommend simply following the instructions below to get your version of the `Meta Documentation` up and running.
+
+### Running Meta Documentation locally
 1. Quickly start by cloning the repository to your local machine `git clone git@github.com:universelabs/meta.git`.
 2. Ensure you have [`npm`](https://www.npmjs.com/get-npm) installed. `npm` comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/). `brew install node`.
 3. Add dependencies `npm install`.
 4. Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm start`.
 
-For detailed instructions on how to customize Meta and the Meta Design System, visit [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md).
+For detailed instructions on how to customize Meta and the Meta Documentation, visit [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md).
 
 
 ## Contributing
