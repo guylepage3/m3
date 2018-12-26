@@ -85,12 +85,12 @@ $ npm start
 
 ## Status
 
-We've worked hard to make `Meta v1.2` the most functional typography UI kit for both the web 2.0 and web3. The `v1.2` implements Complex Type Scaling combining responsive and ratio type scaling for greater readability out of the box. 
+We've worked hard to build `Meta v1.2`, a super functional typography UI kit for web2 & web3. `v1.2` implements complex type scaling with responsive & ratio scaling for greater readability out of the box. No design skills necessary.
 
-No design expertise is required. We've done the hard work for you. There is no need to adjust font-size, line-height, margins and spacing. But if you would a custom type experience, you can simply edit a few lines of code to dramatically alter your typographic needs while still maintaining 100% readability. No design experience needed.
+The difficult typography design, layout, etc. has been done for you. There is no need to adjust font-size, line-height, margins, spacing. But if you would a custom type experience, you can simply edit a few lines of code to dramatically alter your typographic needs while still maintaining 100% readability. No design experience needed.
 
 Meta v1.2 release features:
-- Greatest readability out of the box.
+- Enhanced readability out of the box.
 - Zero design skills necessary.
 - Ratio scaling including the following ratios;
   - minor-second (1.067)
