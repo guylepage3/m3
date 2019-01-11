@@ -72,8 +72,26 @@ Several quick start options are available:
 
 ## What's included
 
-#### Meta v1.2
-We've added the most functional typography out of the box with full Type Scaling ratio capability. No other UI framework takes care of typography from extra small to small to large devices better than Meta.
+Meta is framework assists designers and developers to design and build polished apps with little effort. By adjusting the typography, color, etc., you are able to create a unique looking interfaces in less time. Think of the Meta as your design assistant.
+
+Meta also comes with a FREE [Meta UI Sketch Library](https://www.dropbox.com/sh/bgaexmz9gzf7bj3/AABEqSBWuAYwZLCTFzAm55Hta?dl=0) for rapid prototyping and component sharing. Simply download the library, place it in a sharable location (ie. Dropbox), import the file by going to Preferences > Add Library in Sketch.
+
+- Color system.
+  - WCAG accessibile.
+  - Full color spectrum.
+  - Variety of grays.
+  - Alternate color set.
+- Typography.
+  - Complex Type Scaling Typography.
+  - Responsive typography set to small, medium and large devices.
+  - Quick and easy type scaling setup.
+  - Utilizes musical scaling ratios for better vertical harmony.
+- FREE [Meta UI Sketch Library](https://www.dropbox.com/sh/bgaexmz9gzf7bj3/AABEqSBWuAYwZLCTFzAm55Hta?dl=0).
+
+Meta v1.3 release features:
+In v1.3 we've added a full-spectrum color system that is inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color).
+
+The Meta Color System guides you through fool proof color theming while providing you with a wide selection of color options. No need to go to any other color tools to choose your interface's theme.
 
 Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) framework. An easy to use Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/). Blockchain componentry and other compatibility coming soon.
 
@@ -87,8 +105,6 @@ Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) fra
 ## Documentation
 
 Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) framework. An easy to use Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/).
-
-Meta handles complex typography and scaling like no other framework providing the most readable type right out of the box.
 
 There currently is no homepage to reference but will be coming soon. In the meantime, we recommend simply following the instructions below to get your version of the `Meta Documentation` up and running.
 
