@@ -72,23 +72,17 @@ Several quick start options are available:
 
 ## What's included
 
-Meta is framework assists designers and developers to design and build polished apps with little effort. By adjusting the typography, color, etc., you are able to create a unique looking interfaces in less time. Think of the Meta as your design assistant.
+Meta assists allows developers to quickly design and build quality user interfaces with little effort. With minimual adjustment, developers are able to create unique interfaces in less time. Think of the Meta as your design assistant.
 
-Meta also comes with a FREE [Meta UI Sketch Library](https://www.dropbox.com/sh/bgaexmz9gzf7bj3/AABEqSBWuAYwZLCTFzAm55Hta?dl=0) for rapid prototyping and component sharing. Simply download the library, place it in a sharable location (ie. Dropbox), import the file by going to Preferences > Add Library in Sketch.
-
-- Color system.
-  - WCAG accessibile.
-  - Full color spectrum.
-  - Variety of grays.
-  - Alternate color set.
-- Typography.
-  - Complex Type Scaling Typography.
-  - Responsive typography set to small, medium and large devices.
-  - Quick and easy type scaling setup.
-  - Utilizes musical scaling ratios for better vertical harmony.
-- FREE [Meta UI Sketch Library](https://www.dropbox.com/sh/bgaexmz9gzf7bj3/AABEqSBWuAYwZLCTFzAm55Hta?dl=0).
+Meta comes with a [**FREE Meta UI Sketch Library**](https://www.dropbox.com/sh/bgaexmz9gzf7bj3/AABEqSBWuAYwZLCTFzAm55Hta?dl=0) for rapid prototyping. Simply download the library, place it in a sharable location (ie. Dropbox), import the file by going to Preferences > Add Library in Sketch.
 
 Meta v1.3 release features:
+- Simple color theming
+- WCAG accessibile Color system.
+- Full color spectrum.
+- Easy to use Responsive Type Scaling offering a wide variety of type options. 
+- FREE [Meta UI Sketch Library](https://www.dropbox.com/sh/bgaexmz9gzf7bj3/AABEqSBWuAYwZLCTFzAm55Hta?dl=0).
+
 In v1.3 we've added a full-spectrum color system that is inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color).
 
 The Meta Color System guides you through fool proof color theming while providing you with a wide selection of color options. No need to go to any other color tools to choose your interface's theme.
