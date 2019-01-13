@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">Meta</h3>
   <p align="center">
-    Meta Design System Documentation
+    Meta Documentation
   </p>
   <p align="center">
     <a href="https://github.com/universelabs/meta/issues/new?labels=&template=bug_report.md" alt="Report a Bug (Meta)">
@@ -35,11 +35,6 @@
   </p>
 </div>
 <br/>
-<p align="center">
-  <a href="https://universe.engineering">
-    <img width="600" alt="meta-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
-  </a>
-</p>
 
 <br/>
 

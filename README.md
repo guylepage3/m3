@@ -44,6 +44,7 @@
 - [Quick Start](#quick-start)
 - [Status](#status)
 - [What's included](#whats-included)
+- [Meta UI](#meta-ui)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -82,18 +83,7 @@ Functional typography that implements complex type scaling with responsive & rat
 #### Sketch Shared Library
 Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style Guide and Symbol resources. The library allows developers to add Meta UI to their Sketch App for in app access to Meta styles, colors, type, components, and more. Once added, the **Meta UI** library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
 
-#### Add Meta UI Sketch Shared Library
-1. Sketch Shared Libraries require you to have **[Sketch installed](https://www.sketchapp.com/get/)** on your Mac.
-2. Once Sketch is installed, Add **Meta UI** to Sketch by visiting the **[Meta UI Sketch Shared Library](https://sketch.cloud/s/Plnvv)** in Sketch Cloud.
-3. Next, click the ”Add Library to Sketch” button in the bottom right corner.
-4. A modal window will pop up.
-5. Click ”Add Library to Sketch.”
-6. Meta UI is now syncing to your Sketch app.
-
-#### To view Meta UI Style Guide and Symbols
-1. Open Sketch App > **Preferences** > **Libraries** > **Meta UI**
-2. Click the "**eye**" icon. This will open a preview. 
-3. Then click "**Open with Sketch**" in the top right corner of the preview window.
+Install and learn more about [Meta UI](https://github.com/universelabs/meta/blob/master/META-UI.md).
 
 ```text
 @universelabs/meta/
