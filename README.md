@@ -69,12 +69,18 @@ Several quick start options are available:
 [![devDependencies Status](https://img.shields.io/david/dev/universelabs/meta.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/meta?type=dev)
 [![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@universelabs/meta)
 
-
 ## What's included
 
 Meta allows developers to quickly design and build quality user interfaces with little effort. With minimal adjustment, developers are able to create unique interfaces in less time. Think of the Meta as your design assistant.
 
-Meta now comes with a **FREE Sketch Shared Library Resource** called, **"Meta UI"**, for rapid prototyping. The Meta UI Library allows developers to quickly access Meta UI styles, colors, type, components, etc. within the Sketch App itself. Once installed, Meta UI syncs to the Sketch Cloud. Users simply subscribe to **Meta UI** and Sketch will notify them of updates.
+#### Full-spectrum Color System
+Meta contains a Full-spectrum Color System. Inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color), Meta's Color System guides developers through fool proof color theming while providing them with a wide gamut of colors to choose from. No additional color tools necessary.
+
+### Responsive Ratio Type Scaling
+Functional typography that implements complex type scaling with responsive & ratio scaling for greater readability out of the box. Meta provides complex typography and layout. No need to adjust font-size, line-height, margins, spacing. For those looking for greater flexibility, Meta is easily adjustable. With only a few values, developers can quickly test and deploy dramatic changes to their application.
+
+### Sketch Shared Library
+Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style Guide and Symbol resources. The library allows developers to quickly access Meta styles, colors, type, components, and more, within Sketch itself. Once installed, the **Meta UI** library syncs directly to Sketch Cloud. Users simply subscribe to **Meta UI** and Sketch will notify them of updates. No need to worry about version updates, etc.
 
 #### To subscribe to Meta UI Sketch Shared Library
 1. Sketch Shared Libraries require you to have **[Sketch installed](https://www.sketchapp.com/get/)** on your Mac.
@@ -88,15 +94,6 @@ Meta now comes with a **FREE Sketch Shared Library Resource** called, **"Meta UI
 1. Open Sketch App > **Preferences** > **Libraries** > **Meta UI**
 2. Click the "**eye**" icon. This will open a preview. 
 3. Then click "**Open with Sketch**" in the top right corner of the preview window.
-
-Meta v1.3 release features:
-- Simple color theming
-- WCAG accessible Color system.
-- Full color spectrum.
-- Easy to use Responsive Type Scaling offering a wide variety of type options. 
-- FREE **[Meta UI]()** Sketch library resource.
-
-In v1.3 we've added a full-spectrum color system that is inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color). The Meta Color System guides developers through fool proof color theming while providing them with a wide selection of color options. No need to use additional color tools.
 
 Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) framework. An easy to use Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/). Blockchain componentry and other compatibility coming soon.
 
