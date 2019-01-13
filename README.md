@@ -74,7 +74,7 @@ Several quick start options are available:
 
 Meta allows developers to quickly design and build quality user interfaces with little effort. With minimal adjustment, developers are able to create unique interfaces in less time. Think of the Meta as your design assistant.
 
-Meta now comes with a **FREE Sketch Shared Library resource** called, **"Meta UI"**, for rapid prototyping. The Sketch Shared Library allows developers to easily get add Meta UI styles, colors, typography, components, etc., all while staying synced to the latest version of the **Meta UI** library. Simply Subscribe to the shared **Meta UI**. Sketch will notify you of additions to the library as well as any changes to existing componentry. Giving you full control of what changes you'd like to add to your version of Meta UI.
+Meta now comes with a **FREE Sketch Shared Library Resource** called, **"Meta UI"**, for rapid prototyping. The Meta UI Library allows developers to quickly access Meta UI styles, colors, type, components, etc. within the Sketch App itself. Once installed, Meta UI syncs to the Sketch Cloud. Users simply subscribe to **Meta UI** and Sketch will notify them of updates.
 
 #### To subscribe to Meta UI Sketch Shared Library
 1. Sketch Shared Libraries require you to have **[Sketch installed](https://www.sketchapp.com/get/)** on your Mac.
