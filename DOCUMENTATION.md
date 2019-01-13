@@ -85,26 +85,7 @@ $ npm start
 
 ## Status
 
-We've worked hard to build `Meta v1.2`, a super functional typography UI kit for web2 & web3. `v1.2` implements complex type scaling with responsive & ratio scaling for greater readability out of the box. No design skills necessary.
-
-The difficult typography design, layout, etc. has been done for you. There is no need to adjust font-size, line-height, margins, spacing. But if you would a custom type experience, you can simply edit a few lines of code to dramatically alter your typographic needs while still maintaining 100% readability. No design experience needed.
-
-Meta v1.2 release features:
-- Enhanced readability out of the box.
-- Zero design skills necessary.
-- Ratio scaling including the following ratios;
-  - minor-second (1.067)
-  - major-second (1.125)
-  - minor-third (1.2)
-  - mid-third (1.215)
-  - major-third (1.25)
-  - perfect-fourth (1.333)
-  - augmented-fourth (1.414)
-  - perfect-fifth (1.5)
-  - golden-ratio (1.618)
-- Responsive type scaling for extra small, small and large devices.
-- Web 2.0 and web3 compatible.
-- Built in design system and documentation for quick testing.
+See [Releases](/releases) to view the latest features and updates.
 
 [![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 [![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)

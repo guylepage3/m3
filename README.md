@@ -95,8 +95,6 @@ Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style 
 2. Click the "**eye**" icon. This will open a preview. 
 3. Then click "**Open with Sketch**" in the top right corner of the preview window.
 
-Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) framework. An easy to use Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/). Blockchain componentry and other compatibility coming soon.
-
 ```text
 @universelabs/meta/
 └── scss/
@@ -108,7 +106,7 @@ Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) fra
 
 Meta is currently an extension of the [Bootstrap](https://getbootstrap.com/) framework. An easy to use Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/).
 
-There currently is no homepage to reference but will be coming soon. In the meantime, we recommend simply following the instructions below to get your version of the `Meta Documentation` up and running.
+Follow the instructions below to get your version of the `Meta Documentation` up and running.
 
 ### Running Meta Documentation locally
 1. Quickly start by cloning the repository to your local machine `git clone git@github.com:universelabs/meta.git`.
