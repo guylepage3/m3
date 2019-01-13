@@ -1,8 +1,5 @@
 <div align="center">
-  <h3 align="center">Meta</h3>
-  <p align="center">
-    Meta Documentation
-  </p>
+  <h3 align="center">Meta Documentation</h3>
   <p align="center">
     <a href="https://github.com/universelabs/meta/issues/new?labels=&template=bug_report.md" alt="Report a Bug (Meta)">
       Report bug
