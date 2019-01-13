@@ -73,18 +73,18 @@ Several quick start options are available:
 
 Meta allows developers to quickly design and build quality user interfaces with little effort. With minimal adjustment, developers are able to create unique interfaces in less time. Think of the Meta as your design assistant.
 
-### Full-spectrum Color System
+#### Full-spectrum Color System
 Meta contains a Full-spectrum Color System. Inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color), Meta's Color System guides developers through fool proof color theming while providing them with a wide gamut of colors to choose from. No additional color tools necessary.
 
-### Responsive Ratio Type Scaling
+#### Responsive Ratio Type Scaling
 Functional typography that implements complex type scaling with responsive & ratio scaling for greater readability out of the box. Meta provides complex typography and layout. No need to adjust font-size, line-height, margins, spacing. For those looking for greater flexibility, Meta is easily adjustable. With only a few values, developers can quickly test and deploy dramatic changes to their application.
 
-### Sketch Shared Library
+#### Sketch Shared Library
 Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style Guide and Symbol resources. The library allows developers to quickly access Meta styles, colors, type, components, and more, within Sketch itself. Once installed, the **Meta UI** library syncs directly to Sketch Cloud. Users simply subscribe to **Meta UI** and Sketch will notify them of updates. No need to worry about version updates, etc.
 
 #### To subscribe to Meta UI Sketch Shared Library
 1. Sketch Shared Libraries require you to have **[Sketch installed](https://www.sketchapp.com/get/)** on your Mac.
-2. Once Sketch is installed, click **[Meta UI Sketch Shared Library](https://sketch.cloud/s/Plnvv)** which will take you to Meta UI in Sketch Cloud.
+2. Once Sketch is installed, Add **Meta UI** to your Libraries by visiting the **[Meta UI Sketch Shared Library](https://sketch.cloud/s/Plnvv)** in Sketch Cloud.
 3. Next, click the ”Add Library to Sketch” button in the bottom right corner.
 4. A modal window will pop up.
 5. Click ”Add Library to Sketch.”
