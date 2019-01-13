@@ -52,8 +52,8 @@
 
 Add Meta UI Sketch Shared Library.
 
-1. Install [`Sketch`](https://www.sketchapp.com/get/).
-2. Add **[Meta UI Library](https://sketch.cloud/s/Plnvv)**.
+1. Install [Sketch](https://www.sketchapp.com/get/).
+2. **[Add Meta UI Library](https://sketch.cloud/s/Plnvv)**.
 
 **Meta UI** is now syncing to your Sketch app.
 
@@ -63,7 +63,7 @@ Add Meta UI Sketch Shared Library.
 Visit the [Releases](https://github.com/universelabs/meta/releases) page to read the release notes and learn more about the latest features and updates.
 
 [![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
-[![Install Meta UI](https://img.shields.io/badge/Install-Add_Meta_UI-blue.svg?colorA=212121&colorB=007BFF)](https://sketch.cloud/s/Plnvv)
+[![Sketch Cloud Meta UI](https://img.shields.io/badge/Sketch-Add_Meta_UI-blue.svg?colorA=212121&colorB=007BFF)](https://sketch.cloud/s/Plnvv)
 
 
 ## What's included

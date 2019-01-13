@@ -83,7 +83,7 @@ Functional typography that implements complex type scaling with responsive & rat
 #### Sketch Shared Library
 Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style Guide and Symbol resources. The library allows developers to add Meta UI to their Sketch App for in app access to Meta styles, colors, type, components, and more. Once added, the **Meta UI** library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
 
-Install and learn more about [Meta UI](https://github.com/universelabs/meta/blob/master/META-UI.md).
+**[› Install Meta UI](https://github.com/universelabs/meta/blob/master/META-UI.md)**.
 
 ```text
 @universelabs/meta/
