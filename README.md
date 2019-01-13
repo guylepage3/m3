@@ -73,7 +73,7 @@ Several quick start options are available:
 
 Meta allows developers to quickly design and build quality user interfaces with little effort. With minimal adjustment, developers are able to create unique interfaces in less time. Think of the Meta as your design assistant.
 
-#### Full-spectrum Color System
+### Full-spectrum Color System
 Meta contains a Full-spectrum Color System. Inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color), Meta's Color System guides developers through fool proof color theming while providing them with a wide gamut of colors to choose from. No additional color tools necessary.
 
 ### Responsive Ratio Type Scaling
