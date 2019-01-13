@@ -50,7 +50,7 @@
 Add Meta UI Sketch Shared Library.
 
 1. Install [Sketch](https://www.sketchapp.com/get/).
-2. **[Add Meta UI Library](https://sketch.cloud/s/Plnvv)**.
+2. [Add Meta UI Library](https://sketch.cloud/s/Plnvv).
 
 **Meta UI** is now syncing to your Sketch app.
 
