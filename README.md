@@ -74,14 +74,27 @@ Several quick start options are available:
 
 Meta allows developers to quickly design and build quality user interfaces with little effort. With minimal adjustment, developers are able to create unique interfaces in less time. Think of the Meta as your design assistant.
 
-Meta comes with a [**FREE Meta UI Sketch Library**](https://www.dropbox.com/sh/bgaexmz9gzf7bj3/AABEqSBWuAYwZLCTFzAm55Hta?dl=0) for rapid prototyping. Simply download the library, place it in a sharable location (ie. Dropbox), import the file by going to Preferences > Add Library in Sketch.
+Meta now comes with a FREE **[Meta UI](https://sketch.cloud/s/Plnvv)** Sketch Shared Library resource for rapid prototyping. The Sketch Shared Library allows developers to sync to the latest version of **Meta UI** library. Simply Subscribe to the shared **Meta UI**. Sketch will notify you of additions to the library as well as any changes to existing componentry. Giving you full control of what changes you'd like to add to your version of Meta UI.
+
+#### To subscribe to Meta UI Sketch Shared Library
+1. Sketch Shared Libraries require you to have **[Sketch installed](https://www.sketchapp.com/get/)** on your Mac.
+2. Once Sketch is installed, click **[Meta UI Sketch Shared Library](https://sketch.cloud/s/Plnvv)** which will take you to Meta UI in Sketch Cloud.
+3. Next, click the ”Add Library to Sketch” button in the bottom right corner.
+4. A modal window will pop up.
+5. Click ”Add Library to Sketch.”
+6. Meta UI is now syncing to your Sketch app.
+
+#### To view Meta UI Style Guide and Symbols
+1. Open Sketch App > **Preferences** > **Libraries** > **Meta UI**
+2. Click the "**eye**" icon. This will open a preview. 
+3. Then click "**Open with Sketch**" in the top right corner of the preview window.
 
 Meta v1.3 release features:
 - Simple color theming
 - WCAG accessible Color system.
 - Full color spectrum.
 - Easy to use Responsive Type Scaling offering a wide variety of type options. 
-- [**FREE Meta UI Sketch Library**](https://www.dropbox.com/sh/bgaexmz9gzf7bj3/AABEqSBWuAYwZLCTFzAm55Hta?dl=0).
+- FREE **[Meta UI]()** Sketch library resource.
 
 In v1.3 we've added a full-spectrum color system that is inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color). The Meta Color System guides developers through fool proof color theming while providing them with a wide selection of color options. No need to use additional color tools.
 
