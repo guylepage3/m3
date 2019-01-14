@@ -659,13 +659,6 @@ $blockquote-small-color:    rgba(255,255,255,0.5);
   @extend %blockquote-footer-shared;
 }
 
-// Paragraphs
-//
-// Style p element.
-
-$paragraph-margin-bottom:     1.0625rem;
-
-
 // Utilities
 
 // Utilites > Text
@@ -742,10 +735,8 @@ $line-height-lead-base:             1.45;
 $font-size-blockquote-base:      1.25rem;
 $line-height-blockquote-base:       1.45;
 $margin-top-base:                   2.15;
-$margin-bottom-base:              1.25rem;
-
-$paragraph-margin-top:              1rem;
-$paragraph-letter-spacing:       -.015em;
+$margin-bottom-base:                1rem;
+$paragraph-letter-spacing:             0;
 
 
 // Function to Check for Valid Type Scale Value
@@ -807,40 +798,40 @@ $paragraph-letter-spacing:       -.015em;
   // Add the created font sizes and margin-top to the elements and classes
   h1, .h1 {
     font-size: $font-size-h1;
-    line-height: $line-height-heading-base - .25; // Scaled down by .05
-    margin-top: $font-size-h1 * $margin-top-base;
+    line-height: $line-height-heading-base - .25;
     margin-bottom: $margin-bottom-base;
   }
   h2, .h2 {
     font-size: $font-size-h2;
-    line-height: $line-height-heading-base - .2; // Scaled down by .05
-    margin-top: $font-size-h2 * $margin-top-base;
+    line-height: $line-height-heading-base - .2;
     margin-bottom: $margin-bottom-base;
   }
   h3, .h3 {
     font-size: $font-size-h3;
-    line-height: $line-height-heading-base - .15; // Scaled down by .05
-    margin-top: $font-size-h3 * $margin-top-base;
+    line-height: $line-height-heading-base - .15;
     margin-bottom: $margin-bottom-base;
   }
   h4, .h4 {
     font-size: $font-size-h4;
-    line-height: $line-height-heading-base - .1; // Scaled down by .05
-    margin-top: $font-size-h4 * $margin-top-base;
+    line-height: $line-height-heading-base - .1;
     margin-bottom: $margin-bottom-base;
   }
   h5, .h5 {
     font-size: $font-size-h5;
-    line-height: $line-height-heading-base - .05; // Scaled down by .05
-    margin-top: $font-size-h5 * $margin-top-base;
+    line-height: $line-height-heading-base - .05;
     margin-bottom: $margin-bottom-base;
   }
   h6, .h6 {
     font-size: $font-size-h6;
     line-height: $line-height-heading-base; // Variable base setting
-    margin-top: $font-size-h6 * $margin-top-base;
     margin-bottom: $margin-bottom-base;
   }
+  .h1-editorial { margin-top: $font-size-h1 * $margin-top-base; }
+  .h2-editorial { margin-top: $font-size-h2 * $margin-top-base; }
+  .h3-editorial { margin-top: $font-size-h3 * $margin-top-base; }
+  .h4-editorial { margin-top: $font-size-h4 * $margin-top-base; }
+  .h5-editorial { margin-top: $font-size-h5 * $margin-top-base; }
+  .h6-editorial { margin-top: $font-size-h6 * $margin-top-base; }
 }
 
 @mixin create-display-type-scale($scale) {
@@ -853,6 +844,8 @@ $paragraph-letter-spacing:       -.015em;
   $font-size-display-3: $font-size-display-4 * $the-display-type-scale;
   $font-size-display-2: $font-size-display-3 * $the-display-type-scale;
   $font-size-display-1: $font-size-display-2 * $the-display-type-scale;
+
+  $top-margin-display-editorial: $font-size-display-base * $margin-top-base;
 
   // Add the created font sizes to the elements and classes
   .display-4 {
@@ -871,6 +864,12 @@ $paragraph-letter-spacing:       -.015em;
     font-size: $font-size-display-1;
     margin-bottom: 1.75rem;
   }
+  .display-4-editorial, 
+  .display-3-editorial, 
+  .display-2-editorial, 
+  .display-1-editorial {
+    margin-top: $top-margin-display-editorial;
+  }
 }
 
 @mixin create-lead-type-scale($scale) {
@@ -886,21 +885,21 @@ $paragraph-letter-spacing:       -.015em;
   .lead {
     font-size: $font-size-lead-base;
     line-height: $line-height-lead-base; // Variable base setting
-    margin-top: $font-size-lead-base * $margin-top-base;
     margin-bottom: $margin-bottom-base;
   }
   .lead-md {
     font-size: $font-size-lead-md;
     line-height: $line-height-lead-base - .05; // Scaled down by .05
-    margin-top: $font-size-lead-md * $margin-top-base;
     margin-bottom: $margin-bottom-base;
   }
   .lead-lg {
     font-size: $font-size-lead-lg;
     line-height: $line-height-lead-base - .1; // Scaled down by .05
-    margin-top: $font-size-lead-lg * $margin-top-base;
     margin-bottom: $margin-bottom-base;
   }
+  .lead-editorial { margin-top: $font-size-lead-base * $margin-top-base; }
+  .lead-md-editorial { margin-top: $font-size-lead-md * $margin-top-base; }
+  .lead-lg-editorial { margin-top: $font-size-lead-lg * $margin-top-base; }
 }
 
 @mixin create-blockquote-type-scale($scale) {
@@ -916,21 +915,24 @@ $paragraph-letter-spacing:       -.015em;
   .blockquote {
     font-size: $font-size-blockquote-base;
     line-height: $line-height-blockquote-base; // Variable base setting
-    margin-top: $font-size-blockquote-base * $margin-top-base;
     margin-bottom: $margin-bottom-base;
   }
   .blockquote-md {
     font-size: $font-size-blockquote-md;
     line-height: $line-height-blockquote-base - .05; // Scaled down by .05
-    margin-top: $font-size-blockquote-md * $margin-top-base;
     margin-bottom: $margin-bottom-base;
   }
   .blockquote-lg {
     font-size: $font-size-blockquote-lg;
     line-height: $line-height-blockquote-base - .1; // Scaled down by .05
-    margin-top: $font-size-blockquote-lg * $margin-top-base;
     margin-bottom: $margin-bottom-base;
   }
+  .blockquote-editorial 
+  { margin-top: $font-size-blockquote-base * $margin-top-base; }
+  .blockquote-md-editorial
+  { margin-top: $font-size-blockquote-md * $margin-top-base; }
+  .blockquote-lg-editorial 
+  { margin-top: $font-size-blockquote-lg * $margin-top-base; }
 }
 
 // The base heading and display font sizes to be used from 0px width viewports 
@@ -947,8 +949,7 @@ html, body {
   line-height: 1.75;
   
   p {
-    letter-spacing:    $paragraph-letter-spacing;
-    margin-top:            $paragraph-margin-top;
+    letter-spacing: $paragraph-letter-spacing;
   }
 
   @media (min-width: 768px) {
