@@ -77,8 +77,15 @@ Meta allows developers to quickly design and build quality user interfaces with 
 #### Full-spectrum Color System
 Meta contains a Full-spectrum Color System. Inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color), Meta's Color System guides developers through fool proof color theming while providing them with a wide gamut of colors to choose from. No additional color tools necessary.
 
+#### Duo Type Functionality
+Although Meta is primarily used as an interface framework, developers can use the advanced type options and simply apply a `*-editorial` suffix to type classes to get highly functional editorial typography. No need to adjust font-size, line-height, margins, spacing. There are two types of typography in Meta:
+  1. **Regular Typography** for interface design and layout within graphical 
+     user interfaces. ie. List of songs, play button, settings.
+  2. **Editorial Typography** for lengthier content sets of copy that are for 
+     written communications. ie. promotional pages, blog posts, documentation, etc.
+
 #### Responsive Ratio Type Scaling
-Functional typography that implements complex type scaling with responsive & ratio scaling for greater readability out of the box. Meta provides complex typography and layout. No need to adjust font-size, line-height, margins, spacing. For those looking for greater flexibility, Meta is easily adjustable. With only a few values, developers can quickly test and deploy dramatic changes to their application.
+Functional typography that implements complex type scaling with responsive & ratio scaling for greater readability out of the box. Meta provides complex typography and layout. For those looking for greater flexibility, Meta is easily adjustable. With only a few values, developers can quickly test and deploy dramatic changes to their application.
 
 #### Sketch Shared Library
 Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style Guide and Symbol resources. The library allows developers to add Meta UI to their Sketch App for in app access to Meta styles, colors, type, components, and more. Once added, the **Meta UI** library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
