@@ -1,4 +1,7 @@
 <div align="center">
+  <a href="https://github.com/universelabs/meta">
+    <img src="https://user-images.githubusercontent.com/1711854/51249578-b45c9800-1961-11e9-9bcd-1e34c0b93fe4.png" width=72 height=72>
+  </a>
   <h3 align="center">Meta</h3>
   <p align="center">
     Meta is an open source blockchain UI framework.
