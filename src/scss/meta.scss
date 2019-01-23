@@ -5,7 +5,6 @@
 // To manually compile Sass using Sass, run;
 // `$ sass src/styles/Custom.scss src/styles/Custom.css`
 
-
 // Reboot
 
 html {
@@ -490,6 +489,7 @@ $warning:       $warning-yellow;
 $danger:        $danger-red;
 $light:         $gray-100; // !default
 $dark:          $gray-900; // !default
+$black:         $black; // Additional Meta theme color
 
 $theme-colors: (); // !default
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -502,7 +502,8 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "black":      $black
   ),
   $theme-colors
 );
