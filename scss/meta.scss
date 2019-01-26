@@ -1,3 +1,5 @@
+
+
 // Meta UI (v1.3.3)
 // Meta UI is a custom base theme for the Bootstrap UI framework.
 
@@ -686,12 +688,6 @@ $blockquote-small-color:    rgba(255,255,255,0.5);
 .text-white-70 { color: rgba($white, .7) !important; }
 .text-white-80 { color: rgba($white, .8) !important; }
 .text-white-90 { color: rgba($white, .9) !important; }
-
-
-// Override default variables before the import
-// Import Bootstrap and its default variables
-
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
 
 
 // Complex Type Scaling
