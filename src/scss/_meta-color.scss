@@ -503,3 +503,31 @@ $yiq-contrasted-threshold:  150; // !default
 // function.
 $yiq-text-dark:             $gray-900; // !default
 $yiq-text-light:            $white; // !default
+
+// Hack over text-dark
+a.text-dark,
+.text-dark {
+  color: $dark!important;
+}
+
+a.text-light,
+.text-light {
+  color: $light!important;
+}
+
+a.text-black,
+.text-black {
+  color: $black!important;
+}
+
+a.text-white,
+.text-white {
+  color: $white!important;
+}
+
+a.text-dark:hover,
+a.text-light:hover,
+a.text-black:hover,
+a.text-white:hover {
+  color: $gray-600!important;
+}
