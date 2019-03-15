@@ -100,13 +100,6 @@ Within the download you'll find the following directories and files. Meta's Scss
 This simple structure allows you to simply import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling.
 
 
-## How to use
-
-Although Meta is stand-alone, it uses [Bootstrap](https://getbootstrap.com/) as a guide. This was done as the Bootstrap framework's naming convention is a great place to start so you can get up and running with Meta in no time.
-
-Most classname convention is dirived from the Bootstrap framework so you should feel right at home.
-
-
 ## Getting started
 
 Quickly start by using the one line [NPM](https://www.npmjs.com/package/@universelabs/meta) install.
@@ -120,6 +113,8 @@ Import the `meta.scss` file directly into any project after your other UI framew
 ```
 @import "node_modules/@universelabs/meta/scss/meta.scss";
 ```
+
+Most classname convention is dirived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
 
 
 ## Features and benefits
