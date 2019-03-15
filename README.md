@@ -92,16 +92,16 @@ Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style 
 
 ```text
 @universelabs/meta/
-├── scss/
-│   ├── _meta-color.scss 
-│   ├── _meta-mixins.scss
-│   ├── _meta-spacing.scss
-│   ├── _meta-type-scaling.scss
-│   ├── _meta-type.scss
-│   ├── _meta-reboot.scss
-│   ├── _variables.scss
-│   ├── meta.scss
-│   └── mixins/
+└── scss/
+    ├── _meta-color.scss 
+    ├── _meta-mixins.scss
+    ├── _meta-spacing.scss
+    ├── _meta-type-scaling.scss
+    ├── _meta-type.scss
+    ├── _meta-reboot.scss
+    ├── _variables.scss
+    ├── meta.scss
+    └── mixins/
         └── _lists.scss
 ```
 
