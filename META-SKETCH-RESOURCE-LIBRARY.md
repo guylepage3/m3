@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">Meta UI</h3>
+  <h3 align="center">Meta Sketch Resource Library</h3>
   <p align="center">
     <a href="https://github.com/universelabs/meta/issues/new?labels=&template=bug_report.md" alt="Report a Bug (Meta)">
       Report bug
