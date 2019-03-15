@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">Meta</h3>
   <p align="center">
-    Meta is an open source blockchain UI framework.
+    Meta is an open source Web3 frontend UI framework.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
@@ -41,15 +41,23 @@
 
 ## Table of contents
 
+- [Overview](#overview)
 - [Quick Start](#quick-start)
 - [Status](#status)
 - [What's included](#whats-included)
+- [Getting started](#getting-started)
+- [Features and benefits](#features-and-benefits)
 - [Meta Sketch Resource Library](#meta-sketch-resource-library)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
 - [License](#license)
+
+
+## Overview
+
+Currently Meta focuses on simplifying and making typography easier for developers to design effective content. It also comes with a broad range color system to take away the pain of choosing colors.
 
 
 ## Quick start
@@ -72,23 +80,7 @@ Several quick start options are available:
 
 ## What's included
 
-Meta allows developers to quickly design and build quality user interfaces with little effort. With minimal adjustment, developers are able to create unique interfaces in less time. Think of the Meta as your design assistant.
-
-#### Full-spectrum Color System
-Meta contains a Full-spectrum Color System. Inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color), Meta's Color System guides developers through fool proof color theming while providing them with a wide gamut of colors to choose from. No additional color tools necessary.
-
-#### Duo Type Functionality
-Although Meta is primarily used as an interface framework, developers can use the advanced type options and simply apply a `*-editorial` suffix to type classes to get highly functional editorial typography. No need to adjust font-size, line-height, margins, spacing. There are two types of typography in Meta:
-  1. **Regular Typography** for interface design and layout within graphical 
-     user interfaces. ie. List of songs, play button, settings.
-  2. **Editorial Typography** for lengthier content sets of copy that are for 
-     written communications. ie. promotional pages, blog posts, documentation, etc.
-
-#### Responsive Ratio Type Scaling
-Functional typography that implements complex type scaling with responsive & ratio scaling for greater readability out of the box. Meta provides complex typography and layout. For those looking for greater flexibility, Meta is easily adjustable. With only a few values, developers can quickly test and deploy dramatic changes to their application.
-
-#### Sketch Shared Library
-Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style Guide and Symbol resources. The library allows developers to add Meta UI to their Sketch App for in app access to Meta styles, colors, type, components, and more. Once added, the **Meta UI** library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
+Within the download you'll find the following directories and files. Meta's Scss variables and mixins are all imported to `meta.scss`. You'll see something like this:
 
 ```text
 @universelabs/meta/
@@ -105,24 +97,92 @@ Meta now comes with **"Meta UI"**, a FREE Sketch Shared Library including Style 
         └── _lists.scss
 ```
 
-## Meta Sketch Resource Library
+This simple structure allows you to simply import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling.
 
+
+## How to use
+
+Although Meta is stand-alone, it uses [Bootstrap](https://getbootstrap.com/) as a guide. This was done as the Bootstrap framework's naming convention is a great place to start so you can get up and running with Meta in no time.
+
+Most classname convention is dirived from the Bootstrap framework so you should feel right at home.
+
+
+## Getting started
+
+Quickly start by using the one line [NPM](https://www.npmjs.com/package/@universelabs/meta) install.
+
+```
+npm i @universelabs/meta
+```
+
+Import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
+
+```
+@import "node_modules/@universelabs/meta/scss/meta.scss";
+```
+
+
+## Features and benefits
+
+- Meta is framework and language agnostic.
+- Meta can easily be added in addition to any other frontend framework such as Boostrap, Material UI, etc. 
+- Meta allows developers to quickly design and build quality user interfaces with little effort.
+- Unlike a lot of UI frameworks, Meta's wide scope of typographic and color variables, empower the creation of unique interfaces.
+- Web3 compatible.
+- Easy install and update via [NPM](https://www.npmjs.com/package/@universelabs/meta).
+
+### Color
+- Full-spectrum Color System
+- Color theming.
+- WCAG accessibility compliant.
+- Wide gamut color range.
+- Scalable.
+- Over 200 color hues.
+- Non-breakable.
+- Inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color), Meta's Color System guides developers through fool proof color theming while providing them with a wide gamut of colors to choose from.
+- No additional color tools necessary.
+
+Full color list coming soon...
+
+### Type
+- Meta adds functional typography that implements complex type scaling with responsive & ratio scaling for superior readability.
+- Duo type functionality
+  - There are two types of typography in Meta:
+    1. Regular Typography for interface design and layout within graphical user interfaces. ie. List of songs, play button, settings.
+    2. Editorial Typography for lengthier content sets of copy that are for written communications. ie. promotional pages, blog posts, documentation, etc.
+- Although Meta is primarily used as an interface framework, developers can use the advanced type options and simply apply a *-editorial suffix to type classes to get highly functional editorial typography.
+- Responsive Ratio Type Scaling
+- Customizable ratioing
+- Comes with the following default ratios to choose from;
+  - minor-second (1.067)
+  - major-second (1.125)
+  - minor-third (1.2)
+  - mid-third (1.215)
+  - major-third (1.25)
+  - perfect-fourth (1.333)
+  - augmented-fourth (1.414)
+  - perfect-fifth (1.5)
+  - golden-ratio (1.618)
+- Responsive type scaling for extra small, small and large devices.
+- No need to adjust font-size, line-height, margins, spacing. 
+
+### Spacing
+- Vertical Rhythm Spacing
+- Easy to implement.
+  - margin `m-*`
+  - padding `p-*`
+- Apply spacing to typography and anywhere else needed.
+
+
+## Meta Sketch Resource Library
 **Meta Sketch Resource Library** is an open source Sketch Shared Library including Style Guide and Symbol resources for rapid prototyping in Sketch. The library allows developers to add the Meta Sketch Resource Library to their local Sketch Application. The library provides access to Meta styles, colors, type, components, and more. Once added, the Meta Sketch Resource Library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
 
 For detailed instructions on how to add Meta Sketch Resource Library to your Sketch Libraries, visit [Meta Sketch Resource Library](https://github.com/universelabs/meta/blob/master/META-SKETCH-RESOURCE-LIBRARY.md).
 
+For detailed instructions on how to add Meta UI to your Sketch Libraries, visit [META SKETCH RESOURCE LIBRARY](https://github.com/universelabs/meta/blob/master/META-SKETCH-RESOURCE-LIBRARY.md)
+
 
 ## Documentation
-
-Meta is an extension of the [Bootstrap](https://getbootstrap.com/) framework. An easy to use Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/).
-
-Follow the instructions below to get your version of the `Meta Documentation` up and running.
-
-### Running Meta Documentation locally
-1. Quickly start by cloning the repository to your local machine `git clone git@github.com:universelabs/meta.git`.
-2. Ensure you have [`npm`](https://www.npmjs.com/get-npm) installed. `npm` comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/). `brew install node`.
-3. Add dependencies `npm install`.
-4. Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm start`.
 
 For detailed instructions on how to customize Meta and the Meta Documentation, visit [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md).
 
