@@ -47,7 +47,7 @@
 
 ## Quick start
 
-Add Meta UI Sketch Shared Library.
+Add Meta Sketch Resource Library.
 
 1. Install [Sketch](https://www.sketchapp.com/get/).
 2. [Add Meta UI Library](https://sketch.cloud/s/Plnvv).
@@ -65,14 +65,14 @@ Visit the [Releases](https://github.com/universelabs/meta/releases) page to read
 
 ## What's included
 
-**Meta UI** is a FREE Sketch Shared Library including Style Guide and Symbol resources for rapid prototyping in Sketch. The library allows developers to add Meta UI to their Sketch App for in app access to Meta styles, colors, type, components, and more. Once added, the Meta UI library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
+**Meta Sketch Resource Library** is an open source Sketch Shared Library including Style Guide and Symbol resources for rapid prototyping in Sketch. The library allows developers to add the Meta Sketch Resource Library to their local Sketch Application. The library provides access to Meta styles, colors, type, components, and more. Once added, the Meta Sketch Resource Library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
 
 ```text
 @Meta UI.sketch
-└── Style Guide/
+├── Style Guide/
 |   └── Colors
 |   └── Alternative Colors
-└── Symbols/
+├── Symbols/
 |   └── x / Color Block
 |   └── x / Artboard - Dark
 |   └── x / Artboard - Light
@@ -83,7 +83,7 @@ Visit the [Releases](https://github.com/universelabs/meta/releases) page to read
 
 ## Getting started
 
-#### Add Meta UI Sketch Shared Library
+#### Add Meta Sketch Resource Library
 1. Sketch Shared Libraries require you to have **[Sketch installed](https://www.sketchapp.com/get/)** on your Mac.
 2. Once Sketch is installed, Add **Meta UI** to Sketch by visiting the **[Meta UI Sketch Shared Library](https://sketch.cloud/s/Plnvv)** in Sketch Cloud.
 3. Next, click the ”Add Library to Sketch” button in the bottom right corner.
@@ -94,7 +94,7 @@ Visit the [Releases](https://github.com/universelabs/meta/releases) page to read
 
 ## Style Guide
 
-#### To view Meta UI Style Guide and Resources
+#### To view the Style Guide and Resources
 1. Open Sketch App > **Preferences** > **Libraries** > **Meta UI**
 2. Click the "**eye**" icon. This will open a preview. 
 3. Then click "**Open with Sketch**" in the top right corner of the preview window.

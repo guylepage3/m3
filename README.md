@@ -174,8 +174,6 @@ Full color list coming soon...
 
 For detailed instructions on how to add Meta Sketch Resource Library to your Sketch Libraries, visit [Meta Sketch Resource Library](https://github.com/universelabs/meta/blob/master/META-SKETCH-RESOURCE-LIBRARY.md).
 
-For detailed instructions on how to add Meta UI to your Sketch Libraries, visit [META SKETCH RESOURCE LIBRARY](https://github.com/universelabs/meta/blob/master/META-SKETCH-RESOURCE-LIBRARY.md)
-
 
 ## Documentation
 
