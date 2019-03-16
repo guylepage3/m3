@@ -32,6 +32,15 @@
       npm
     </a>
   </p>
+  <p align="center">
+    <a href="https://twitter.com/intent/follow?screen_name=universelabs">
+      <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="Follow UniverseLabs on Twitter" />
+    </a>
+    &middot;
+    <a href="https://github.com/universelabs/meta/stargazers">
+      <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
+    </a>
+  </p>
 </div>
 <br/>
 <p align="center">

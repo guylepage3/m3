@@ -20,8 +20,12 @@
     <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE">
       Slack
     </a>
-    <br/>
-    <br/>
+    &middot;
+    <a href="https://www.npmjs.com/package/@universelabs/meta" alt="NPM @universelabs/meta">
+      npm
+    </a>
+  </p>
+  <p align="center">
     <a href="https://twitter.com/intent/follow?screen_name=universelabs">
       <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="Follow UniverseLabs on Twitter" />
     </a>
