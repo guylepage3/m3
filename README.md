@@ -27,6 +27,10 @@
     <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE">
       Slack
     </a>
+    &middot;
+    <a href="https://www.npmjs.com/package/@universelabs/meta" alt="NPM @universelabs/meta">
+      npm
+    </a>
   </p>
 </div>
 <br/>
@@ -66,7 +70,7 @@ Several quick start options are available:
 
 - [Download the latest release.](https://github.com/universelabs/meta/releases).
 - Clone the repo: `git@github.com:universelabs/meta.git`.
-- Install with [npm](https://www.npmjs.com/): `npm i @universelabs/meta`.
+- Install with [npm](https://www.npmjs.com/package/@universelabs/meta): `npm i @universelabs/meta`.
 - Install with [yarn](https://yarnpkg.com/): `yarn add @universelabs/meta`.
 
 
