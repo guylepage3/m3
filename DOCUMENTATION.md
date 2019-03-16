@@ -42,46 +42,20 @@
 
 ## Table of contents
 
-- [Quick Start](#quick-start)
 - [Status](#status)
 - [What's included](#whats-included)
 - [Getting started](#getting-started)
 - [Theming](#theming)
+- [Typography](#typography)
+- [Color]()
+- [Spacing]()
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
 - [License](#license)
 
 
-## Quick start
-
-Quickly start by cloning the repository to your local machine
-
-```
-$ git clone git@github.com:universelabs/meta.git
-```
-
-Install [`npm`](https://www.npmjs.com/get-npm). `npm` comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/)
-
-```
-$ brew install node
-```
-
-Add dependencies
-
-```
-$ npm install
-```
-
-Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you
-
-```
-$ npm start
-```
-
 ## Status
-
-Visit the [Releases](https://github.com/universelabs/meta/releases) page to read the release notes and learn more about the latest features and updates.
 
 [![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 [![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
@@ -92,54 +66,41 @@ Visit the [Releases](https://github.com/universelabs/meta/releases) page to read
 
 ## What's included
 
-Meta is currently a simple Sass file that gets compiled with [Bootstrap Theming](https://getbootstrap.com/docs/4.1/getting-started/theming/). More componentry and compatibility coming soon.
+Within the download you'll find the following directories and files. Meta's Scss variables and mixins are all imported to `meta.scss`. You'll see something like this:
 
 ```text
-meta
-├── .circleci/
-|   └── config.yml
-├── .gitignore
-├── DOCUMENTATION.md
-├── LICENSE
-├── META-UI.md
-├── package-lock.json
-├── package.json
-├── public/
-|   └── index.html
-|   └── manifest.json
-├── README.md
-├── scss/
-|   └── meta.scss
-├── src/
-|   └── App.js
-|   └── App.test.js
-|   └── components/
-|   │   └── Footer.js
-|   │   └── Header.js
-|   │   └── Home.js
-|   │   └── NoMatch.js
-|   │   └── Page404.js
-|   │   └── Typography.js
-│   └── css/
-|   |   └── App.css
-|   |   └── index.css
-│   └── index.js
-│   └── scss/
-|   |   └── meta.scss
-│   └── serviceWorker.js
-└── static.json
+@universelabs/meta/
+└── scss/
+    ├── _meta-color.scss 
+    ├── _meta-mixins.scss
+    ├── _meta-spacing.scss
+    ├── _meta-type-scaling.scss
+    ├── _meta-type.scss
+    ├── _meta-reboot.scss
+    ├── _variables.scss
+    ├── meta.scss
+    └── mixins/
+        └── _lists.scss
 ```
+
+This simple structure allows you to simply import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling.
 
 
 ## Getting started
 
-The Meta documentation is a simple and easy to use `Meta Design System` for you to reference and/or modify. There currently is no homepage to reference but will be coming soon. In the meantime, we recommend simply following the instructions below to get your version of the `Meta Design System` up and running.
+Quickly start by using the one line [NPM](https://www.npmjs.com/package/@universelabs/meta) install.
 
-### Running Meta Design System locally
-1. Quickly start by cloning the repository to your local machine `git clone git@github.com:universelabs/meta.git`.
-2. Ensure you have [`npm`](https://www.npmjs.com/get-npm) installed. `npm` comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/). `brew install node`.
-3. Add dependencies `npm install`.
-4. Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm start`.
+```
+npm i @universelabs/meta
+```
+
+```
+@import "node_modules/@universelabs/meta/scss/meta.scss";
+```
+
+Import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
+
+Most classname convention is dirived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
 
 
 ## Theming
@@ -181,37 +142,40 @@ $body-color: #111;
 ```
 
 
+## Typography
+
+Documentation and examples for typography, including global settings, headings, body text, lists, and more.
+
+<code class="highlighter-blue">&lt;h1&gt;&lt;/h1&gt;</code>
+<code class="highlighter-blue">&lt;h2&gt;&lt;/h2&gt;</code>
+<code class="highlighter-blue">&lt;h3&gt;&lt;/h3&gt;</code>
+<code class="highlighter-blue">&lt;h4&gt;&lt;/h4&gt;</code>
+<code class="highlighter-blue">&lt;h5&gt;&lt;/h5&gt;</code>
+<code class="highlighter-blue">&lt;h6&gt;&lt;/h6&gt;</code>
+
+
 ## Contributing
 
-Please read through our [contributing guidelines](CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 Moreover, if your pull request contains JavaScript patches or features, you
-must include relevant unit tests. All code should conform to the [Code Guidelines](CONTRIBUTING.md#code-guidelines).
+must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md#code-guidelines).
 
 
 ## Community
 
-Get updates on Meta's development and chat with the project maintainers and community members.
+Get updates on Universe's development and chat with the project maintainers and community members.
 
-- Follow [@universelabs on Twitter](https://twitter.com/universelabs).
-- Join the official [Universe Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE) chat room.
-
-For more details on how to get involved in the Universe Community visit the [Universe Community page](https://github.com/universelabs/universe/blob/master/COMMUNITY.md) and learn more about events, roadmap, weekly & daily scrum, past weekly community scrum calls, and more...
-
-
-## Maintainers
-
-**Guy Lepage**
-- <https://twitter.com/guylepage3>
-- <https://github.com/guylepage3>
+- Subscribe to the [Universe Newsletter](http://universe.engineering/subscribe)
+- [Star this repo](https://github.com/universelabs/universe/stargazers)
+- Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
+- Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE).
 
 
 ## License
 
 By contributing your code, you agree to license your contribution under the [
 MIT License](LICENSE).
-
-This project was bootstrapped with [Create React App `v2`](https://github.com/facebookincubator/create-react-app) and uses the UI framework [Bootstrap](https://github.com/twbs/bootstrap) as it's foundational base.
 
 
 <div align="right">

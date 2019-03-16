@@ -121,11 +121,11 @@ Quickly start by using the one line [NPM](https://www.npmjs.com/package/@univers
 npm i @universelabs/meta
 ```
 
-Import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
-
 ```
 @import "node_modules/@universelabs/meta/scss/meta.scss";
 ```
+
+Import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
 
 Most classname convention is dirived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
 
@@ -222,8 +222,6 @@ Get updates on Universe's development and chat with the project maintainers and 
 
 By contributing your code, you agree to license your contribution under the [
 MIT License](LICENSE).
-
-This project was bootstrapped with [Create React App `v2`](https://github.com/facebookincubator/create-react-app) and uses the UI framework [Bootstrap](https://github.com/twbs/bootstrap) as it's foundational base.
 
 
 <div align="right">
