@@ -47,22 +47,12 @@
 
 ## Table of contents
 
-- [Status](#status)
 - [What's included](#whats-included)
 - [Getting started](#getting-started)
 - [Theming](#theming)
 - [Typography](#typography)
 - [Color system](#color-system)
 - [Spacing](#spacing)
-
-
-## Status
-
-[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
-[![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
-[![Build status](https://img.shields.io/circleci/project/github/universelabs/meta.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/universelabs/meta)
-[![devDependencies Status](https://img.shields.io/david/dev/universelabs/meta.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/meta?type=dev)
-[![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@universelabs/meta)
 
 
 ## What's included
@@ -257,30 +247,6 @@ Where size is one of:
 - `10` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `5.5`
 - `11` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `6`
 - `auto` - for classes that set the `margin` to `auto`
-
-
-## Contributing
-
-Please read through our [contributing guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, if your pull request contains JavaScript patches or features, you
-must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md#code-guidelines).
-
-
-## Community
-
-Get updates on Universe's development and chat with the project maintainers and community members.
-
-- Subscribe to the [Universe Newsletter](http://universe.engineering/subscribe)
-- [Star this repo](https://github.com/universelabs/universe/stargazers)
-- Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
-- Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE).
-
-
-## License
-
-By contributing your code, you agree to license your contribution under the [
-MIT License](LICENSE).
 
 
 <div align="right">
