@@ -210,16 +210,71 @@ Blockquote classes, wrap `<blockquote class="blockquote">` around any HTML as th
 The Meta color system allows for a full range of color options.
 
 ```
-<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
-<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
-<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
-<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
-<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
-<div class="p-3 mb-2 bg-info text-white">.bg-info</div>
-<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
-<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
-<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
-<div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+<div class="bg-primary">.bg-primary</div>
+<div class="bg-secondary">.bg-secondary</div>
+<div class="bg-success">.bg-success</div>
+<div class="bg-danger">.bg-danger</div>
+<div class="bg-warning">.bg-warning</div>
+<div class="bg-info">.bg-info</div>
+<div class="bg-light">.bg-light</div>
+<div class="bg-dark">.bg-dark</div>
+<div class="bg-white">.bg-white</div>
+<div class="bg-transparent">.bg-transparent</div>
+```
+
+#### Full-spectrum Color System
+
+```
+$base:             #005bf7;
+$success-green:    #00bb00;
+$danger-red:       #ff0000;
+$warning-yellow:   #fbc02d;
+$info-blue:        #1e90ff;
+$white:            #fff;
+$black:            #000;
+
+#### Meta Colors
+50, 100, 200, 300, 400, 500, 600, 700, 800, 900
+
+$navy
+$slate
+$polo-gray
+$midnight
+$blue-gray
+$blue
+$indigo
+$violet
+$fuschia
+$pink
+$red
+$orange
+$yellow
+$lime
+$green
+$teal
+$cyan
+
+#### Google Material Colors
+500 & 600
+
+$material-red
+$material-pink
+$material-purple
+$material-deep-purple
+$material-indigo
+$material-blue
+$material-light-blue
+$material-cyan
+$material-teal
+$material-green
+$material-light-green
+$material-lime
+$material-yellow
+$material-amber
+$material-orange
+$material-deep-orange
+$material-brown
+$material-blue-gray
 ```
 
 
