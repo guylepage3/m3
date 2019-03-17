@@ -216,6 +216,50 @@ Blockquote classes, wrap `<blockquote class="blockquote">` around any HTML as th
 ```
 
 
+## Color
+
+The Meta color system allows for a full gamet of color.
+
+```
+<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+<div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+```
+
+
+## Spacing
+
+Where property is one of:
+
+`m` - for classes that set `margin`.
+`p` - for classes that set `padding`.
+
+Where size is one of:
+
+`0` - for classes that eliminate the`margin` or `padding` by setting it to 0
+`1` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `.25`
+`2` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `.5`
+`3` - (by default) for classes that set the `margin` or `padding` to `$spacer`
+`4` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `1.5`
+`4b` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `2`
+`4c` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `2.5`
+`5` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `3`
+`6` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `3.5`
+`7` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `4`
+`8` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `4.5`
+`9` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `5`
+`10` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `5.5`
+`11` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `6`
+auto - for classes that set the `margin` to auto
+
+
 ## Contributing
 
 Please read through our [contributing guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
