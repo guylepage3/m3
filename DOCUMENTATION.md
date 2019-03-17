@@ -66,7 +66,7 @@
 
 ## What's included
 
-Within the download you'll find the following directories and files. Meta's Scss variables and mixins are all imported to `meta.scss`. You'll see something like this:
+Within the download you'll find the following directories and files. Meta's SCSS variables and mixins are all imported to `meta.scss`. You'll see something like this:
 
 ```text
 @universelabs/meta/
@@ -100,7 +100,7 @@ npm i @universelabs/meta
 
 Import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
 
-Most classname convention is dirived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
+Meta classname convention is derived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
 
 
 ## Theming
@@ -113,7 +113,7 @@ npm i @universelabs/meta
 
 Once you have installed Meta via npm you can theme or cusomize Meta.
 
-When theming Meta we want to import `meta.scss` and then your `custome.scss` to ensure we get the correct compiled CSS. We do this by first creating a `custom.scss`.
+When theming Meta we want to import `meta.scss` and then your `custom.scss` to ensure we get the correct compiled CSS. We do this by first creating a `custom.scss`.
 
 ```
 
@@ -181,7 +181,7 @@ Display headings are larger headings than the traditional `h1` headings.
 
 #### Lead
 
-`.lead` paragraphs are for more prominant content.
+`.lead` paragraphs are for more predominant content.
 
 ```
   <p class="lead"></p>
@@ -191,7 +191,7 @@ Display headings are larger headings than the traditional `h1` headings.
 
 ```
   <p class="lead">
-    Lorem ipsum scaling sit blockchain, decentralized economy elit, sed do replace tempor monetary ut labore et dollare magna distributed.
+    Lorem ipsum scaling sit blockchain, decentralized economic governance.
   </p>
 ```
 
@@ -208,7 +208,7 @@ Blockquote classes, wrap `<blockquote class="blockquote">` around any HTML as th
 ```
   <blockquote class="blockquote">
     <p class="mb-0">
-      Lorem ipsum scaling sit blockchain, decentralized economy elit, sed do replace tempor monetary ut labore et dollare magna distributed.
+      Lorem ipsum scaling sit blockchain, decentralized economic governance.
     </p>
   </blockquote>
 ```
@@ -216,7 +216,7 @@ Blockquote classes, wrap `<blockquote class="blockquote">` around any HTML as th
 
 ## Color system
 
-The Meta color system allows for a full gamet of color.
+The Meta color system allows for a full range of color options.
 
 ```
 <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
