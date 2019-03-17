@@ -61,7 +61,7 @@
 - [Getting started](#getting-started)
 - [Features and benefits](#features-and-benefits)
 - [Meta Sketch Resource Library](#meta-sketch-resource-library)
-- [Documentation](#documentation)
+- [Documentation*](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
