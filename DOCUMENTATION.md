@@ -146,12 +146,74 @@ $body-color: #111;
 
 Documentation and examples for typography, including global settings, headings, body text, lists, and more.
 
-<code class="highlighter-blue">&lt;h1&gt;&lt;/h1&gt;</code>
-<code class="highlighter-blue">&lt;h2&gt;&lt;/h2&gt;</code>
-<code class="highlighter-blue">&lt;h3&gt;&lt;/h3&gt;</code>
-<code class="highlighter-blue">&lt;h4&gt;&lt;/h4&gt;</code>
-<code class="highlighter-blue">&lt;h5&gt;&lt;/h5&gt;</code>
-<code class="highlighter-blue">&lt;h6&gt;&lt;/h6&gt;</code>
+#### Headings
+
+All HTML headings, `<h1>` through `<h6>`, are available.
+
+<code class="highlighter-blue">
+  <h1>h1 Heading</h1>
+  <h2>h2 Heading</h2>
+  <h3>h3 Heading</h3>
+  <h4>h4 Heading</h4>
+  <h5>h5 Heading</h5>
+  <h6>h6 Heading</h6>
+</code>
+
+`.h1` through `.h6` classes are also available, for when you want to match the font styling of a heading but cannot use the associated HTML element.
+
+<code class="highlighter-blue">
+  <p class="h1">h1. Heading</p>
+  <p class="h2">h2. Heading</p>
+  <p class="h3">h3. Heading</p>
+  <p class="h4">h4. Heading</p>
+  <p class="h5">h5. Heading</p>
+  <p class="h6">h6. Heading</p>
+</code>
+
+#### Display headings
+
+Display headings are larger headings than the traditional `h1` headings.
+
+<code class="highlighter-blue">
+  <h1 class="display-1">Display 1</h1>
+  <h1 class="display-2">Display 2</h1>
+  <h1 class="display-3">Display 3</h1>
+  <h1 class="display-4">Display 4</h1>
+</code>
+
+#### Lead
+
+`.lead` paragraphs are for more prominant content.
+
+<code class="highlighter-blue">
+  <p class="lead"></p>
+  <p class="lead-md"></p>
+  <p class="lead-lg"></p>
+</code>
+
+<code class="highlighter-blue">
+  <p class="lead">
+    Lorem ipsum scaling sit blockchain, decentralized economy elit, sed do replace tempor monetary ut labore et dollare magna distributed.
+  </p>
+</code>
+
+#### Blockquotes
+
+Blockquote classes, wrap `<blockquote class="blockquote">` around any HTML as the quote.
+
+<code class="highlighter-blue">
+  <blockquote class="blockquote"></blockquote>
+  <blockquote class="blockquote-md"></blockquote>
+  <blockquote class="blockquote-lg"></blockquote>
+</code>
+
+<code class="highlighter-blue">
+  <blockquote class="blockquote">
+    <p class="mb-0">
+      Lorem ipsum scaling sit blockchain, decentralized economy elit, sed do replace tempor monetary ut labore et dollare magna distributed.
+    </p>
+  </blockquote>
+</code>
 
 
 ## Contributing
