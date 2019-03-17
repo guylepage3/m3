@@ -222,7 +222,7 @@ The Meta color system allows for a full range of color options.
 <div class="bg-transparent">.bg-transparent</div>
 ```
 
-#### Full-spectrum Color System
+#### Full-Spectrum Color Set
 
 ```
 $base:             #005bf7;
