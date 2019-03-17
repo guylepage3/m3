@@ -34,6 +34,11 @@
       <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
     </a>
   </p>
+  <p align="center">
+    <a href="https://github.com/universelabs/meta">
+      ‹ Back to Meta GitHub
+    </a>
+  </p>
 </div>
 <br/>
 
@@ -49,10 +54,6 @@
 - [Typography](#typography)
 - [Color system](#color-system)
 - [Spacing](#spacing)
-- [Contributing](#contributing)
-- [Community](#community)
-- [Maintainers](#maintainers)
-- [License](#license)
 
 
 ## Status
