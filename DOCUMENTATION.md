@@ -113,19 +113,17 @@ npm i @universelabs/meta
 
 Once you have installed Meta via npm you can theme or cusomize Meta.
 
-When theming Meta we want to import bootstrap.scss and then meta.scss to ensure we get the correct compiled CSS. We do this by first creating a `custom.scss`.
+When theming Meta we want to import `meta.scss` and then your `custome.scss` to ensure we get the correct compiled CSS. We do this by first creating a `custom.scss`.
 
 ```
 
 // Custom.scss
 // Include all of Bootstrap and Meta
 
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/@universelabs/meta/scss/meta";
+@import "node_modules/@universelabs/meta/scss/meta.scss";
+@import "node_modules/@universelabs/meta/scss/custom.scss";
 
 ```
-
-Since Meta uses Bootstrap as it's foundation, Meta uses the same class names and properties as Bootstrap.
 
 From there you can simply start overwriting your SCSS with the following
 
@@ -135,9 +133,9 @@ From there you can simply start overwriting your SCSS with the following
 $body-bg: #000;
 $body-color: #111;
 
-// Bootstrap or Meta and its default variables
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/@universelabs/meta/scss/meta";
+// Meta and its default variables
+@import "node_modules/@universelabs/meta/scss/meta.scss";
+@import "node_modules/@universelabs/meta/scss/custom.scss";
 
 ```
 
@@ -243,7 +241,7 @@ Where property is one of:
 
 Where size is one of:
 
-- `0` - for classes that eliminate the`margin` or `padding` by setting it to 0
+- `0` - for classes that eliminate the`margin` or `padding` by setting it to `0`
 - `1` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `.25`
 - `2` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `.5`
 - `3` - (by default) for classes that set the `margin` or `padding` to `$spacer`
@@ -257,7 +255,7 @@ Where size is one of:
 - `9` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `5`
 - `10` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `5.5`
 - `11` - (by default) for classes that set the `margin` or `padding` to `$spacer` * `6`
-- auto - for classes that set the `margin` to auto
+- `auto` - for classes that set the `margin` to `auto`
 
 
 ## Contributing
