@@ -47,8 +47,8 @@
 - [Getting started](#getting-started)
 - [Theming](#theming)
 - [Typography](#typography)
-- [Color]()
-- [Spacing]()
+- [Color system](#color-system)
+- [Spacing](#spacing)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
@@ -216,7 +216,7 @@ Blockquote classes, wrap `<blockquote class="blockquote">` around any HTML as th
 ```
 
 
-## Color
+## Color system
 
 The Meta color system allows for a full gamet of color.
 
