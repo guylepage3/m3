@@ -108,8 +108,8 @@ When theming Meta we want to import `meta.scss` and then your `custom.scss` to e
 
 ```
 
-// Custom.scss
-// Include all of Bootstrap and Meta
+// Meta
+// Your Custom.scss
 
 @import "node_modules/@universelabs/meta/scss/meta.scss";
 @import "node_modules/@universelabs/meta/scss/custom.scss";
