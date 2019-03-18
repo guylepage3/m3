@@ -41,6 +41,9 @@
       <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
     </a>
   </p>
+  <p align="center">
+    <a href="https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md" alt="Meta Documentation">
+      <strong>Meta Documentation › Get Started</strong>
 </div>
 <br/>
 <p align="center">
@@ -61,7 +64,7 @@
 - [Getting started](#getting-started)
 - [Features and benefits](#features-and-benefits)
 - [Meta Sketch Resource Library](#meta-sketch-resource-library)
-- [Documentation*](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md)
+- **[Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md)**
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
