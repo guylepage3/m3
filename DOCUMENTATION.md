@@ -204,6 +204,55 @@ Blockquote classes, wrap `<blockquote class="blockquote">` around any HTML as th
   </blockquote>
 ```
 
+#### Editorial
+
+Meta features `*-editorial` classes for headings, displays, leads and blockquotes. The classes add additional `y` axis `margin` spacing, making them ideal for products and websites looking for advanced typography, such as blogs, editorial sites, infographics, and more.
+
+To use the `*-editorial` classes, simply apply the `*-editorial` suffix to type classes to get highly functional editorial typography.
+
+```
+<h1 class="h1-editorial"></h1>
+<h2 class="h2-editorial"></h2>
+<h3 class="h3-editorial"></h3>
+<h4 class="h4-editorial"></h4>
+<h5 class="h5-editorial"></h5>
+<h6 class="h6-editorial"></h6>
+```
+
+```
+<h1 class="h1 h1-editorial"></h1>
+<h2 class="h2 h2-editorial"></h2>
+<h3 class="h3 h3-editorial"></h3>
+<h4 class="h4 h4-editorial"></h4>
+<h5 class="h5 h5-editorial"></h5>
+<h6 class="h6 h6-editorial"></h6>
+```
+
+```
+<h1 class="display-1 display-1-editorial"></h1>
+<h1 class="display-2 display-2-editorial"></h1>
+<h1 class="display-3 display-3-editorial"></h1>
+<h1 class="display-4 display-4-editorial"></h1>
+```
+
+```
+<p class="lead lead-editorial"></p>
+<p class="lead-md lead-md-editorial"></p>
+<p class="lead-lg lead-lg-editorial"></p>
+```
+
+```
+<blockquote class="blockquote blockquote-editorial"></blockquote>
+<blockquote class="blockquote-md blockquote-md-editorial"></blockquote>
+<blockquote class="blockquote-lg blockquote-lg-editorial"></blockquote>
+```
+
+```
+  <p class="lead-lg lead-lg-editorial">
+    Lorem ipsum scaling sit blockchain, decentralized economic governance.
+  </p>
+```
+
 
 ## Color system
 
