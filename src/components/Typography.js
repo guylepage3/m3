@@ -83,7 +83,7 @@ class Typography extends Component {
                   <FontAwesomeIcon className="mr-2" icon="angle-up" />
                   <code 
                   className="pattern-libarary-typography-code">
-                    .lead</code> with <code 
+                    .lead .lead-editorial</code> with <code 
                     className="pattern-libarary-typography-code">p</code> paragraph.
                 </p>
               </div>
@@ -96,7 +96,7 @@ class Typography extends Component {
                   Ut a imperdiet dui. Mauris egestas semper est ac imperdiet. Ut placerat libero et mi lobortis placerat. In consectetur fermentum accumsan. Nam et dolor eget ex ultricies convallis. Donec ullamcorper ullamcorper mauris nec laoreet. Pellentesque hendrerit, sapien at lacinia fringilla, dolor metus varius diam, feugiat ullamcorper massa neque et justo. 
                 </p>
                 <p className="pattern-library-typography-footnote mt-3">
-                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead-lg</code> centered with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead-lg .lead-lg-editorial</code> centered with <code className="pattern-libarary-typography-code">p</code> paragraph.
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ class Typography extends Component {
               Sed maximus aliquam lectus eget sodales. Donec id quam interdum, varius magna at, scelerisque purus. Mauris neque risus, lacinia feugiat nisi quis, porta interdum magna. Etiam eu auctor ligula, eu commodo ligula. Donec eu facilisis sem. Vivamus eget ante vel odio dictum porttitor in at neque. Proin vulputate sollicitudin tellus sit amet auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h1,.h1</code> with two <code className="pattern-libarary-typography-code">p</code> paragraphs.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h1, .h1-editorial</code> with two <code className="pattern-libarary-typography-code">p</code> paragraphs.
             </p>
 
             <div 
@@ -132,7 +132,7 @@ class Typography extends Component {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel facilisis sapien. Vestibulum nec viverra magna, quis cursus lectus. Maecenas egestas elit nisi, a fringilla mi feugiat eget. Suspendisse sollicitudin tristique fringilla. Ut non risus nulla.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">img</code> and two <code className="pattern-libarary-typography-code">p</code> paragraphs.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2, .h2-editorial</code> with <code className="pattern-libarary-typography-code">img</code> and two <code className="pattern-libarary-typography-code">p</code> paragraphs.
             </p>
             <h2 className="h2-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
@@ -147,7 +147,7 @@ class Typography extends Component {
               Maecenas in rhoncus augue. Fusce diam purus, consequat non enim eget, feugiat dictum velit. Vestibulum ac tincidunt mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vulputate tortor quam, non pulvinar ante porta at. Maecenas finibus bibendum euismod. Maecenas vehicula nunc turpis, non dictum dui scelerisque non. In vulputate convallis porttitor. Cras fringilla diam dolor, eget commodo erat dapibus sed. Nunc in quam congue, aliquet nulla eget, gravida lacus. Quisque fringilla felis a lorem volutpat consequat. Nunc nibh neque, lobortis vel elementum vel, mattis ac neque.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">img</code> and three <code className="pattern-libarary-typography-code">p</code> paragraphs.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2, .h2-editorial</code> with <code className="pattern-libarary-typography-code">img</code> and three <code className="pattern-libarary-typography-code">p</code> paragraphs.
             </p>
 
             <div 
@@ -165,7 +165,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h1,.h1</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h1, .h1-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <h2 className="h2-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
@@ -174,7 +174,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2, .h2-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <h3 className="h3-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
@@ -183,7 +183,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h3,.h3</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h3, .h3-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <h4 className="h4-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
@@ -192,7 +192,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h4,.h4</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h4, .h4-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <h5 className="h5-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis.
@@ -201,7 +201,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h5,.h5</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h5, .h5-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <h6 className="h6-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
@@ -210,7 +210,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h6,.h6</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h6, .h6-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
 
             <div 
@@ -228,7 +228,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead .lead-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <div className="lead-md lead-md-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed suscipit mauris et quam sagittis, eget rhoncus diam lobortis. Integer nec eros magna. Duis non ipsum tincidunt, sodales nulla sed, tempor eros.
@@ -237,7 +237,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead-md</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead-md .lead-md-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <div className="lead-lg lead-lg-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed suscipit mauris et quam sagittis, eget rhoncus diam lobortis. Integer nec eros magna. Duis non ipsum tincidunt, sodales nulla sed, tempor eros.
@@ -246,7 +246,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead-lg</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead-lg .lead-lg-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
 
             <div 
@@ -271,7 +271,7 @@ class Typography extends Component {
               </li>
             </ul>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">ul,li</code> unordered list.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h3, h3-editorial</code> with <code className="pattern-libarary-typography-code">ul,li</code> unordered list.
             </p>
           
             <h3 className="h3-editorial text-white">Recipe (ordered) list</h3>
@@ -288,7 +288,7 @@ class Typography extends Component {
               </li>
             </ol>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">ol,li</code> ordered list.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h3, h3-editorial</code> with <code className="pattern-libarary-typography-code">ol,li</code> ordered list.
             </p>
             
             <h3 className="h3-editorial text-white">Ingredient description list</h3>
@@ -309,7 +309,7 @@ class Typography extends Component {
               </dd>
             </dl>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-1" icon="angle-up" /><code className="pattern-libarary-typography-code">dl,dt,dd</code> description list.
+              <FontAwesomeIcon className="mr-1" icon="angle-up" /><code className="pattern-libarary-typography-code">h3, h3-editorial</code> with <code className="pattern-libarary-typography-code">dl,dt,dd</code> description list.
             </p>
 
             <p className="text-white-50 small">
@@ -333,7 +333,7 @@ class Typography extends Component {
                   <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
                 <p className="pattern-library-typography-footnote mt-3">
-                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote</code>, <code className="pattern-libarary-typography-code">.blockquote</code> and <code className="pattern-libarary-typography-code">.blockquote-footer</code>.
+                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote</code>, <code className="pattern-libarary-typography-code">.blockquote .blockquote-editorial</code> and <code className="pattern-libarary-typography-code">.blockquote-footer</code>.
                 </p>
               </div>
             </div>
@@ -346,7 +346,7 @@ class Typography extends Component {
                   <footer className="blockquote-footer-md">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
                 <p className="pattern-library-typography-footnote mt-3">
-                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.blockquote-md</code> and <code className="pattern-libarary-typography-code">.blockquote-footer-md</code>.
+                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.blockquote-md .blockquote-md-editorial</code> and <code className="pattern-libarary-typography-code">.blockquote-footer-md</code>.
                 </p>
               </div>
             </div>
@@ -359,7 +359,7 @@ class Typography extends Component {
                   <footer className="blockquote-footer-lg">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
                 <p className="pattern-library-typography-footnote mt-3">
-                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.blockquote-lg</code> and <code className="pattern-libarary-typography-code">.blockquote-footer-lg</code>.
+                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.blockquote-lg .blockquote-lg-editorial</code> and <code className="pattern-libarary-typography-code">.blockquote-footer-lg</code>.
                 </p>
               </div>
             </div>
@@ -372,7 +372,7 @@ class Typography extends Component {
                   <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
                 <p className="pattern-library-typography-footnote mt-3">
-                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote</code> with <code className="pattern-libarary-typography-code">.text-center</code>.
+                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote .blockquote-editorial</code> with <code className="pattern-libarary-typography-code">.text-center</code>.
                 </p>
               </div>
             </div>
@@ -385,7 +385,7 @@ class Typography extends Component {
                   <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
                 <p className="pattern-library-typography-footnote mt-3">
-                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote</code> with <code className="pattern-libarary-typography-code">.text-right</code>.
+                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">blockquote  .blockquote-editorial</code> with <code className="pattern-libarary-typography-code">.text-right</code>.
                 </p>
               </div>
             </div>
@@ -405,7 +405,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-1</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-1 .display-1-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <h1 className="display-2 display-2-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
@@ -414,7 +414,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-2</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-2 .display-2-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <h1 className="display-3 display-3-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
@@ -423,7 +423,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-3</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-3 .display-3-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
             <h1 className="display-4 display-4-editorial text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
@@ -432,7 +432,7 @@ class Typography extends Component {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris.
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-4</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-4 .display-4-editorial</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
             </p>
 
           </div>
