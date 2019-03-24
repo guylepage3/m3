@@ -161,7 +161,7 @@ Full color list coming soon...
   - There are two types of typography in Meta:
     1. Regular Typography for interface design and layout within graphical user interfaces. ie. List of songs, play button, settings.
     2. Editorial Typography for lengthier content sets of copy that are for written communications. ie. promotional pages, blog posts, documentation, etc.
-- Although Meta is primarily used as an interface framework, developers can use the advanced type options and simply apply a `* *-editorial` suffix to type classes to get highly functional editorial typography. [› See instructions](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md#editorial).
+- Although Meta is primarily used as an interface framework, developers can use the advanced type options and simply apply a `*-editorial` suffix to type classes to get highly functional editorial typography. [Learn more](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md#editorial).
 - Responsive Ratio Type Scaling
 - Customizable ratioing
 - Comes with the following default ratios to choose from;
