@@ -63,8 +63,8 @@
 - [What's included](#whats-included)
 - [Getting started](#getting-started)
 - [Features and benefits](#features-and-benefits)
-- [Meta Sketch Resource Library](#meta-sketch-resource-library)
-- **[Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md)**
+- [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md)
+- [Meta UI (Sketch Library)](#meta-ui-sketch-library)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
@@ -185,10 +185,10 @@ Full color list coming soon...
 - Apply spacing to typography and anywhere else needed.
 
 
-## Meta Sketch Resource Library
-**Meta Sketch Resource Library** is an open source Sketch Shared Library including Style Guide and Symbol resources for rapid prototyping in Sketch. The library allows developers to add the Meta Sketch Resource Library to their local Sketch Application. The library provides access to Meta styles, colors, type, components, and more. Once added, the Meta Sketch Resource Library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
+## Meta UI
+**Meta UI** is an open source [Sketch Shared Library](https://www.sketch.com/docs/libraries/shared-libraries) including Style Guide and Symbol resources for rapid prototyping in Sketch. The library allows developers to add the Meta Sketch Resource Library to their local Sketch Application. The library provides access to Meta styles, colors, type, components, and more. Once added, the Meta Sketch Resource Library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
 
-For detailed instructions on how to add Meta Sketch Resource Library to your Sketch Libraries, visit [Meta Sketch Resource Library](https://github.com/universelabs/meta/blob/master/META-SKETCH-RESOURCE-LIBRARY.md).
+For detailed instructions on how to add Meta UI to your Sketch Libraries, visit [Meta UI](https://github.com/universelabs/meta-ui).
 
 
 ## Documentation
