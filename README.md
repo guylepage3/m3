@@ -54,7 +54,6 @@
 
 <br/>
 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -70,11 +69,9 @@
 - [Maintainers](#maintainers)
 - [License](#license)
 
-
 ## Overview
 
 Currently Meta focuses on simplifying and making typography easier for developers to design effective content. It also comes with a broad range color system to take away the pain of choosing colors.
-
 
 ## Quick start
 
@@ -84,7 +81,6 @@ Several quick start options are available:
 - Clone the repo: `git@github.com:universelabs/meta.git`.
 - Install with [npm](https://www.npmjs.com/package/@universelabs/meta): `npm i @universelabs/meta`.
 - Install with [yarn](https://yarnpkg.com/): `yarn add @universelabs/meta`.
-
 
 ## Status
 
@@ -101,7 +97,7 @@ Within the download you'll find the following directories and files. Meta's Scss
 ```text
 @universelabs/meta/
 └── scss/
-    ├── _meta-color.scss 
+    ├── _meta-color.scss
     ├── _meta-mixins.scss
     ├── _meta-spacing.scss
     ├── _meta-type-scaling.scss
@@ -115,7 +111,6 @@ Within the download you'll find the following directories and files. Meta's Scss
 
 This simple structure allows you to simply import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling.
 
-
 ## Getting started
 
 Quickly start by using the one line [NPM](https://www.npmjs.com/package/@universelabs/meta) install.
@@ -128,21 +123,27 @@ npm i @universelabs/meta
 @import "node_modules/@universelabs/meta/scss/meta.scss";
 ```
 
+alternatively, you can import css directly
+
+```
+@import "node_modules/@universelabs/meta/css/meta.css";
+```
+
 Import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
 
 Most classname convention is dirived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
 
-
 ## Features and benefits
 
 - Meta is framework and language agnostic.
-- Meta can easily be added in addition to any other frontend framework such as Boostrap, Material UI, etc. 
+- Meta can easily be added in addition to any other frontend framework such as Boostrap, Material UI, etc.
 - Meta allows developers to quickly design and build quality user interfaces with little effort.
 - Unlike a lot of UI frameworks, Meta's wide scope of typographic and color variables, empower the creation of unique interfaces.
 - Web3 compatible.
 - Easy install and update via [NPM](https://www.npmjs.com/package/@universelabs/meta).
 
 ### Color
+
 - Full-spectrum Color System
 - Color theming.
 - WCAG accessibility compliant.
@@ -156,6 +157,7 @@ Most classname convention is dirived from the [Bootstrap](https://getbootstrap.c
 Full color list coming soon...
 
 ### Type
+
 - Meta adds functional typography that implements complex type scaling with responsive & ratio scaling for superior readability.
 - Duo type functionality
   - There are two types of typography in Meta:
@@ -175,26 +177,25 @@ Full color list coming soon...
   - perfect-fifth (1.5)
   - golden-ratio (1.618)
 - Responsive type scaling for extra small, small and large devices.
-- No need to adjust font-size, line-height, margins, spacing. 
+- No need to adjust font-size, line-height, margins, spacing.
 
 ### Spacing
+
 - Vertical Rhythm Spacing
 - Easy to implement.
   - margin `m-*`
   - padding `p-*`
 - Apply spacing to typography and anywhere else needed.
 
-
 ## Meta UI
+
 **Meta UI** is an open source [Sketch Shared Library](https://www.sketch.com/docs/libraries/shared-libraries) including Style Guide and Symbol resources for rapid prototyping in Sketch. The library allows developers to add the Meta Sketch Resource Library to their local Sketch Application. The library provides access to Meta styles, colors, type, components, and more. Once added, the Meta Sketch Resource Library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
 
 For detailed instructions on how to add Meta UI to your Sketch Libraries, visit [Meta UI](https://github.com/universelabs/meta-ui).
 
-
 ## Documentation
 
 For detailed instructions on how to customize Meta and the Meta Documentation, visit [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md).
-
 
 ## Contributing
 
@@ -202,7 +203,6 @@ Please read through our [contributing guidelines](https://github.com/universelab
 
 Moreover, if your pull request contains JavaScript patches or features, you
 must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md#code-guidelines).
-
 
 ## Community
 
@@ -213,19 +213,17 @@ Get updates on Universe's development and chat with the project maintainers and 
 - Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
 - Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE).
 
-
 ## Maintainers
 
 **Guy Lepage**
+
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
-
 
 ## License
 
 By contributing your code, you agree to license your contribution under the [
 MIT License](LICENSE).
-
 
 <div align="right">
   <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
