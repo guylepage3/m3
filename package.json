@@ -39,7 +39,7 @@
     "prepublish": "",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-css": "npx node-sass --include-path scss scss/meta.scss css/meta.css",
+    "build-css": "npx node-sass --include-path scss scss/meta.scss css/meta.css && npx node-sass --include-path scss scss/meta.scss css/meta.min.css --output-style compressed",
     "watch-css": "npx nodemon -e scss -x \"npm run build-css\"",
     "dist": "shx mkdir -p scss/ && shx cp -r src/scss/meta.scss scss/ && npm run build-css",
     "test": "react-scripts test",
