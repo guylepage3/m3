@@ -41,7 +41,7 @@
     "build": "react-scripts build",
     "build-css": "npx node-sass --include-path scss scss/meta.scss css/meta.css",
     "watch-css": "npx nodemon -e scss -x \"npm run build-css\"",
-    "dist": "shx mkdir -p scss/ && shx cp -r src/scss/meta.scss scss/",
+    "dist": "shx mkdir -p scss/ && shx cp -r src/scss/meta.scss scss/ && npm run build-css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
