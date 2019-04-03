@@ -43,11 +43,11 @@
   </p>
   <p align="center">
     <a href="https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md" alt="Meta Documentation">
-      <strong>Documentation</strong>
+      Documentation
     </a>
     &middot;
     <a href="https://github.com/universelabs/meta-ui" alt="Meta UI (Sketch Library)">
-      <strong>Meta UI (Sketch Library)</strong>
+      Meta UI (Sketch Library)
     </a>
 </div>
 <br/>
