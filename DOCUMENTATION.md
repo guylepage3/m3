@@ -36,7 +36,7 @@
   </p>
   <p align="center">
     <a href="https://github.com/universelabs/meta">
-      ‹ Back to Meta GitHub
+      ‹ Back to Meta
     </a>
   </p>
 </div>
