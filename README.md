@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">Meta</h3>
   <p align="center">
-    Meta is an open source Web3 blockchain UI framework.
+    Meta is an open source UI framework for both web2 & web3 applications.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
