@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Typography from './Typography';
-import Footer from './Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Hero from '../components/Hero';
 
 class Home extends Component {
   render() {
     return (
       <div className="d-flex w-100 h-100 mx-auto flex-column">
-        <Header />
-        <Typography />
+        <Navbar />
+        <Hero />
         <Footer />
       </div>
     );
