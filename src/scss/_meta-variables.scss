@@ -4,6 +4,31 @@
 // To manually compile Sass using Sass, run;
 // `$ sass src/styles/Custom.scss src/styles/Custom.css`
 
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $white !default;
+$body-color:                $gray-900 !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                              theme-color("primary") !default;
+$link-decoration:                         none !default;
+$link-hover-color:                        darken($link-color, 15%) !default;
+$link-hover-decoration:                   underline !default;
+// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
+$emphasized-link-hover-darken-percentage: 15% !default;
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom:   1rem !default;
+
+
 // Grid breakpoints
 //
 // Define the minimum dimensions at which your layout will change,
@@ -125,7 +150,11 @@ $mark-bg:                     #fcf8e3 !default;
 
 $hr-margin-y:                 $spacer !default;
 
+// Utilities
 
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;
+$overflows: auto, hidden !default;
+$positions: static, relative, absolute, fixed, sticky !default;
 
 // Headings
 //

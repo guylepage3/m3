@@ -3,14 +3,21 @@
 // Licensed under MIT
 //
 
+// Functions
 @import "meta-functions";
-@import "meta-color"; // Colors are here becuase they're pulled out of variables
-@import "variables"; // // Variable edits here.
+
+// Stand alone variable components
+@import "meta-color";
+@import "meta-options";
+@import "meta-spacing";
+
+// Variables
+@import "meta-variables";
+
+// Other
 @import "meta-mixins";
 @import "meta-reboot";
 @import "meta-type";
-@import "meta-type-scaling"; // Foundational type changes here.
+@import "meta-type-scaling";
 @import "meta-grid";
-@import "meta-spacing";
 @import "meta-utilities";
-
