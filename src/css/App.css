@@ -6,6 +6,26 @@
   font-size: 1rem;
 }
 
+.underline {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.underline:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  transition: width .3s ease, background-color .3s ease;
+  background-color: white;
+}
+
+.underline:hover:after {
+  width: 0;
+  background: white;
+}
+
 /* Blockquote */
 blockquote {
   padding-left: 1.5rem;
@@ -48,3 +68,4 @@ blockquote {
   padding: 2px 3px 1px 3px;
   margin: auto 3px;
 }
+

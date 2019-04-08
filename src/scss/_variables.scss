@@ -4,13 +4,44 @@
 // To manually compile Sass using Sass, run;
 // `$ sass src/styles/Custom.scss src/styles/Custom.css`
 
-// Reboot
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
 
-html {
-  dd {
-    margin-bottom: 1rem;
-  }
-}
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           30px !default;
+
 
 // Components
 //
@@ -18,42 +49,6 @@ html {
 
 $border-width:                1px !default;
 $border-color:                $gray-300 !default;
-
-
-// Body
-//
-// Settings for the `<body>` element.
-
-// $body-bg:                   $black !default;
-// $body-color:                $gray-900 !default;
-
-// Links
-
-// $link-color:                $white;
-// $link-hover-color:          primary;
-// $link-hover-decoration:     none;
-
-.underline {
-  display: inline-block;
-  margin-right: 4px;
-  margin-left: 4px;
-}
-
-.underline:after {
-  content: '';
-  display: block;
-  height: 2px;
-  width: 100%;
-  transition: width .3s ease, background-color .3s ease;
-  background-color: white;
-}
-
-.underline:hover:after {
-  width: 0;
-  background: white;
-}
-
-
 
 
 // Fonts
@@ -132,13 +127,6 @@ $hr-margin-y:                 $spacer !default;
 
 
 
-
-
-
-
-
-
-
 // Headings
 //
 // Style h1, h2, h3, h4, h5, h6 elements and 
@@ -193,30 +181,3 @@ $blockquote-small-color:    rgba(255,255,255,0.5);
 .blockquote-footer, .blockquote-footer-md, .blockquote-footer-lg {
   @extend %blockquote-footer-shared;
 }
-
-// Utilities
-
-// Utilites > Text
-//
-
-// Contextual colors
-
-.text-black-10 { color: rgba($black, .1) !important; }
-.text-black-20 { color: rgba($black, .2) !important; }
-.text-black-30 { color: rgba($black, .3) !important; }
-.text-black-40 { color: rgba($black, .4) !important; }
-.text-black-50 { color: rgba($black, .5) !important; }
-.text-black-60 { color: rgba($black, .6) !important; }
-.text-black-70 { color: rgba($black, .7) !important; }
-.text-black-80 { color: rgba($black, .8) !important; }
-.text-black-90 { color: rgba($black, .9) !important; }
-
-.text-white-10 { color: rgba($white, .1) !important; }
-.text-white-20 { color: rgba($white, .2) !important; }
-.text-white-30 { color: rgba($white, .3) !important; }
-.text-white-40 { color: rgba($white, .4) !important; }
-.text-white-50 { color: rgba($white, .5) !important; }
-.text-white-60 { color: rgba($white, .6) !important; }
-.text-white-70 { color: rgba($white, .7) !important; }
-.text-white-80 { color: rgba($white, .8) !important; }
-.text-white-90 { color: rgba($white, .9) !important; }
