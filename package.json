@@ -45,7 +45,8 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "copyright-update": "^1.3.2"
+    "copyright-update": "^1.3.2",
+    "styled-components": "4.2.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.17",

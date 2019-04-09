@@ -9,8 +9,8 @@ class Footer extends Component {
         <div className="text-white-50 text-footer font-weight-bold">
           <ul className="list-inline my-2">
             <li className="list-inline-item mx-2">
-              <a href="https://github.com/universelabs/" 
-                alt="GitHub universelabs (Universe Labs)"
+              <a href="https://github.com/universelabs/meta" 
+                alt="GitHub Meta (Meta)"
                 className="text-white">
                 <FontAwesomeIcon className="mr-1" icon={['fab', 'github']} /> GitHub
               </a>

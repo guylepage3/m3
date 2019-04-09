@@ -4,7 +4,8 @@ import NoMatch from './containers/NoMatch';
 import Type from './containers/Type';
 import TypeEditorial from './containers/TypeEditorial';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import './css/App.css';
+import './App.css';
+
 
 class App extends Component {
   render() {

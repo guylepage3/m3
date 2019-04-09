@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Type extends Component {
   render() {
     return (
       <div>
+      <Navbar colorScheme="bg-black"/>
       <div 
         style={{
           paddingTop: '57px'
