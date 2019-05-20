@@ -270,6 +270,21 @@ template {
 [hidden] {
   display: none !important; }
 
+html, body {
+  letter-spacing: 0 0.008em; }
+
+.small-font-size-50 {
+  font-size: 50%; }
+
+.small-font-size-60 {
+  font-size: 60%; }
+
+.small-font-size-70 {
+  font-size: 70%; }
+
+.small-font-size-90 {
+  font-size: 90%; }
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -328,7 +343,8 @@ hr {
 
 small,
 .small {
-  font-size: 80%; }
+  font-size: 80%;
+  font-weight: 500; }
 
 mark,
 .mark {
@@ -349,18 +365,6 @@ mark,
   color: rgba(255, 255, 255, 0.5); }
   .blockquote-footer::before {
     content: "\2014\00A0"; }
-
-html, body {
-  letter-spacing: 0 0.008em; }
-
-.small-font-size-50 {
-  font-size: 50%; }
-
-.small-font-size-60 {
-  font-size: 60%; }
-
-.small-font-size-70 {
-  font-size: 70%; }
 
 html, body {
   font-size: 15px;
