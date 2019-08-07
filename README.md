@@ -225,6 +225,11 @@ Get updates on Universe's development and chat with the project maintainers and 
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
 
+**Modestos Kaffes**
+
+- <https://twitter.com/modkaffes>
+- <https://github.com/modkaffes>
+
 ## License
 
 By contributing your code, you agree to license your contribution under the [
