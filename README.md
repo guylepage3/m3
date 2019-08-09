@@ -94,7 +94,7 @@ Several quick start options are available:
 [![Build status](https://img.shields.io/circleci/project/github/universelabs/meta.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/universelabs/meta)
 [![devDependencies Status](https://img.shields.io/david/dev/universelabs/meta.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/meta?type=dev)
 [![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@universelabs/meta)
-![npm](https://img.shields.io/npm/dt/@universelabs/meta?color=orange)
+![npm](https://img.shields.io/npm/dt/@universelabs/meta?colorA=%23212121&colorB=%23007BFF)
 
 ## What's included
 
