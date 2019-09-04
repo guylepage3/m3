@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">Meta</h3>
   <p align="center">
-    Meta is an open source web2 & web3 (blockchain) front-end framework.
+    Meta is an open source web 2.0 & web 3.0 (blockchain) front-end framework.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
