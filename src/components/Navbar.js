@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Social from '../components/Social';
 import SocialText from '../components/SocialText';
 import logo from './../img/meta-logo-wordmark-white.svg';
 import NavbarToggler from '../components/NavbarToggler';
@@ -18,14 +17,6 @@ const Nav = styled.nav`
 
 const Div = styled.div`
   height: 70px;
-`;
-
-const Button = styled.a`
-  margin-top: 24px;
-
-  @media (min-width: 768px) {
-    margin-top: 0px;
-  }
 `;
 
 class Navbar extends Component {
