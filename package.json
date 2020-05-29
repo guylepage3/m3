@@ -47,7 +47,7 @@
   "dependencies": {
     "copyright-update": "^1.6.3",
     "npm-check-updates": "4.0.1",
-    "styled-components": "5.0.0"
+    "styled-components": "5.0.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.26",
