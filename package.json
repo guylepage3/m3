@@ -54,7 +54,7 @@
     "@fortawesome/free-brands-svg-icons": "5.12.1",
     "@fortawesome/free-solid-svg-icons": "5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
-    "ajv": "6.11.0",
+    "ajv": "6.12.0",
     "bootstrap": "4.4.1",
     "jquery": "3.4.1",
     "node-sass": "^4.13.0",
