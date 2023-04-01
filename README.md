@@ -3,46 +3,42 @@
   <p align="center">
     Meta is an open source web 2.0 & web 3.0 (blockchain) front-end framework.
     <br/>
-    <a href="https://universe.engineering">
-      <strong>universe.engineering</strong>
+    <a href="https://guylepage.com">
+      <strong>guylepage.com</strong>
     </a>
   </p>
   <p align="center">
-    <a href="https://github.com/universelabs/meta/issues/new?labels=&template=bug_report.md" alt="Report a Bug (Meta)">
+    <a href="https://github.com/guylepage3/meta/issues/new?labels=&template=bug_report.md" alt="Report a Bug (Meta)">
       Report bug
     </a>
     &middot;
-    <a href="https://github.com/universelabs/meta/issues/new?labels=&template=feature_request.md" alt="Request feature (Meta)">
+    <a href="https://github.com/guylepage3/meta/issues/new?labels=&template=feature_request.md" alt="Request feature (Meta)">
       Request feature
     </a>
     &middot;
-    <a href="https://twitter.com/intent/follow?screen_name=universelabs" alt="Follow UniverseLabs on Twitter">
+    <a href="https://twitter.com/intent/follow?screen_name=guylepage3" alt="Follow me on Twitter">
       Twitter
     </a>
     &middot;
-    <a href="https://medium.com/universelabs" alt="UniverseLabs – Medium">
+    <a href="https://medium.com/guylepage3" alt="guylepage3 – Medium">
       Medium
     </a>
     &middot;
-    <a href="https://slack.universe.engineering">
-      Slack
-    </a>
-    &middot;
-    <a href="https://www.npmjs.com/package/@universelabs/meta" alt="NPM @universelabs/meta">
+    <a href="https://www.npmjs.com/package/@universelabs/meta" alt="npm">
       npm
     </a>
   </p>
   <p align="center">
-    <a href="https://twitter.com/intent/follow?screen_name=universelabs">
-      <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="Follow UniverseLabs on Twitter" />
+    <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
+      <img src="https://img.shields.io/twitter/url/https/twitter.com/guylepage3.svg?style=social&label=Follow%20%40guylepage3&logo=twitter" alt="Follow guylepage3 on Twitter" />
     </a>
     &middot;
-    <a href="https://github.com/universelabs/meta/stargazers">
-      <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
+    <a href="https://github.com/guylepage3/meta/stargazers">
+      <img src="https://img.shields.io/github/stars/guylepage3/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
     </a>
   </p>
   <p align="center">
-    <a href="https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md" alt="Meta Documentation">
+    <a href="https://github.com/guylepage3/meta/blob/master/DOCUMENTATION.md" alt="Meta Documentation">
       Documentation
     </a>
     &middot;
@@ -52,7 +48,7 @@
 </div>
 <br/>
 <p align="center">
-  <a href="https://universe.engineering">
+  <a href="https://guylepage.com">
     <img width="600" alt="meta-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
   </a>
 </p>
@@ -67,7 +63,7 @@
 - [What's included](#whats-included)
 - [Getting started](#getting-started)
 - [Features and benefits](#features-and-benefits)
-- [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md)
+- [Documentation](https://github.com/guylepage3/meta/blob/master/DOCUMENTATION.md)
 - [Meta UI – Sketch Library Resource](#meta-ui)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -82,17 +78,16 @@ Currently Meta focuses on simplifying and making typography easier for developer
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/universelabs/meta/releases).
-- Clone the repo: `git@github.com:universelabs/meta.git`.
+- [Download the latest release.](https://github.com/guylepage3/meta/releases).
+- Clone the repo: `git@github.com:guylepage3/meta.git`.
 - Install with [npm](https://www.npmjs.com/package/@universelabs/meta): `npm i @universelabs/meta`.
 - Install with [yarn](https://yarnpkg.com/): `yarn add @universelabs/meta`.
 
 ## Status
 
-[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://slack.universe.engineering)
-[![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/meta)
-[![Build status](https://img.shields.io/circleci/project/github/universelabs/meta.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/universelabs/meta)
-[![devDependencies Status](https://img.shields.io/david/dev/universelabs/meta.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/meta?type=dev)
+[![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/guylepage3/meta)
+[![Build status](https://img.shields.io/circleci/project/github/guylepage3/meta.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/guylepage3/meta)
+[![devDependencies Status](https://img.shields.io/david/dev/guylepage3/meta.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/guylepage3/meta?type=dev)
 [![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@universelabs/meta)
 ![npm](https://img.shields.io/npm/dt/@universelabs/meta?colorA=%23212121&colorB=%23007BFF)
 
@@ -101,7 +96,7 @@ Several quick start options are available:
 Within the download you'll find the following directories and files. Meta's Scss variables and mixins are all imported to `meta.scss`. You'll see something like this:
 
 ```text
-@universelabs/meta/
+meta/
 └── scss/
     ├── _meta-color.scss
     ├── _meta-mixins.scss
@@ -214,10 +209,8 @@ must include relevant unit tests. All code should conform to the [Code Guideline
 
 Get updates on Universe's development and chat with the project maintainers and community members.
 
-- Subscribe to the [Universe Newsletter](http://universe.engineering/subscribe)
-- [Star this repo](https://github.com/universelabs/universe/stargazers)
-- Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
-- Join the official Universe [Slack](https://slack.universe.engineering).
+- [Star this repo](https://github.com/guylepage3/meta/stargazers)
+- Follow [@guylepage3](https://twitter.com/guylepage3) on Twitter.
 
 ## Maintainers
 
