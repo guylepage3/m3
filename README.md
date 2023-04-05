@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">Meta</h3>
   <p align="center">
-    Meta is an open source web 2.0 & web 3.0 (blockchain) front-end framework.
+    m3 is an open source web3 (blockchain) front-end framework (Formerly Meta).
     <br/>
     <a href="https://guylepage.com">
       <strong>guylepage.com</strong>
