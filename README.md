@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">Meta</h3>
+  <h3 align="center">m3</h3>
   <p align="center">
     m3 is an open source web3 (blockchain) front-end framework (Formerly Meta).
     <br/>
