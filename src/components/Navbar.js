@@ -53,14 +53,13 @@ class Navbar extends Component {
         >
         <div className="container">
           <a 
-            className="
-              navbar-brand 
+            className=" 
               d-flex 
               text-white 
               align-items-center" 
             style={{ 
               fontWeight: '700',
-              fontSize: '2rem'
+              fontSize: '1.75rem'
             }}
             href="/"
           >
@@ -97,7 +96,7 @@ class Navbar extends Component {
                   alt="Guy Lepage Logo"/>
               </a>
             </Div>
-            <ul className="navbar-nav">
+            <ul className="navbar-nav" style={{ backgroundColor: '#000'}}>
               <li className="nav-item d-md-none">
                 <a 
                   href="/"
