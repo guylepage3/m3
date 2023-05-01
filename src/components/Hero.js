@@ -18,8 +18,8 @@ class Hero extends Component {
                 mt-0
                 mb-2
               ">
-              Meta. <br />
-              A Web3 UI Framework.
+              m3 <br />
+              CSS Framework
             </h1>
           </div>
           <div 
@@ -29,11 +29,11 @@ class Hero extends Component {
             anima-fadein 
             text-white
           ">
-            Meta is an open source UI framework for both web2 & web3 applications. 
+            m3 is an Web3 front-end framework with advanced typography tooling. (Formerly Meta). 
             <br />
             <br />
             <p>
-              <a href="/" alt="GitHub (Meta)">GitHub</a>
+              <a href="https://github.com/guylepage3/m3" alt="GitHub (m3)">GitHub</a>
             </p>
           </div>
         </div>

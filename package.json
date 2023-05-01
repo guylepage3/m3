@@ -1,7 +1,7 @@
 {
-  "name": "@universelabs/meta",
-  "version": "1.12.0",
-  "description": "Meta is an open source UI framework for both web2 & web3 applications.",
+  "name": "m3css",
+  "version": "1.13.0",
+  "description": "m3 is an Web3 front-end framework with advanced typography(Formerly Meta).",
   "keywords": [
     "framework",
     "web3",
@@ -18,28 +18,28 @@
     {
       "name": "Guy Lepage",
       "email": "guylepage3@gmail.com",
-      "url": "https://lepage.cc"
+      "url": "https://guylepage.com"
     }
   ],
   "contributors": {
-    "url": "https://github.com/universelabs/meta/graphs/contributors"
+    "url": "https://github.com/guylepage3/m3/graphs/contributors"
   },
   "bugs": {
-    "url": "https://github.com/universelabs/meta/issues/new"
+    "url": "https://github.com/guylepage3/m3/issues/new"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/universelabs/meta.git"
+    "url": "https://github.com/guylepage3/m3.git"
   },
-  "homepage": "https://github.com/universelabs/meta",
+  "homepage": "https://github.com/guylepage3/m3",
   "main": "index.js",
-  "sass": "scss/meta.scss",
+  "sass": "scss/m3.scss",
   "scripts": {
     "prepublish": "",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-css": "node-sass --include-path scss src/scss/meta.scss css/meta.css && node-sass --include-path scss src/scss/meta.scss css/meta.min.css --output-style compressed",
+    "build-css": "node-sass --include-path scss src/scss/m3.scss css/m3.css && node-sass --include-path scss src/scss/m3.scss css/m3.min.css --output-style compressed",
     "dist": "shx mkdir -p scss/ && shx cp -r src/scss/. scss/ && npm run build-css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

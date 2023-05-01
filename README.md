@@ -1,18 +1,18 @@
 <div align="center">
   <h3 align="center">m3</h3>
   <p align="center">
-    m3 is an open source web3 (blockchain) front-end framework (Formerly Meta).
+    m3 is an Web3 front-end framework with advanced typography tooling. (Formerly Meta).
     <br/>
     <a href="https://guylepage.com">
       <strong>guylepage.com</strong>
     </a>
   </p>
   <p align="center">
-    <a href="https://github.com/guylepage3/meta/issues/new?labels=&template=bug_report.md" alt="Report a Bug (Meta)">
+    <a href="https://github.com/guylepage3/m3/issues/new?labels=&template=bug_report.md" alt="Report a Bug (m3)">
       Report bug
     </a>
     &middot;
-    <a href="https://github.com/guylepage3/meta/issues/new?labels=&template=feature_request.md" alt="Request feature (Meta)">
+    <a href="https://github.com/guylepage3/m3/issues/new?labels=&template=feature_request.md" alt="Request feature (m3)">
       Request feature
     </a>
     &middot;
@@ -24,7 +24,7 @@
       Medium
     </a>
     &middot;
-    <a href="https://www.npmjs.com/package/@universelabs/meta" alt="npm">
+    <a href="https://www.npmjs.com/package/m3css" alt="npm">
       npm
     </a>
   </p>
@@ -33,23 +33,19 @@
       <img src="https://img.shields.io/twitter/url/https/twitter.com/guylepage3.svg?style=social&label=Follow%20%40guylepage3&logo=twitter" alt="Follow guylepage3 on Twitter" />
     </a>
     &middot;
-    <a href="https://github.com/guylepage3/meta/stargazers">
+    <a href="https://github.com/guylepage3/m3/stargazers">
       <img src="https://img.shields.io/github/stars/guylepage3/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
     </a>
   </p>
   <p align="center">
-    <a href="https://github.com/guylepage3/meta/blob/master/DOCUMENTATION.md" alt="Meta Documentation">
+    <a href="https://github.com/guylepage3/m3/blob/master/DOCUMENTATION.md" alt="m3 Documentation">
       Documentation
-    </a>
-    &middot;
-    <a href="https://github.com/universelabs/meta-ui" alt="Meta UI (Sketch Library)">
-      Meta UI (Sketch Library)
     </a>
 </div>
 <br/>
 <p align="center">
   <a href="https://guylepage.com">
-    <img width="600" alt="meta-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
+    <img width="600" alt="m3-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
   </a>
 </p>
 
@@ -63,8 +59,8 @@
 - [What's included](#whats-included)
 - [Getting started](#getting-started)
 - [Features and benefits](#features-and-benefits)
-- [Documentation](https://github.com/guylepage3/meta/blob/master/DOCUMENTATION.md)
-- [Meta UI – Sketch Library Resource](#meta-ui)
+- [Documentation](https://github.com/guylepage3/m3/blob/master/DOCUMENTATION.md)
+- [m3 UI-1 – Figma Resource](#m3-ui-1)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
@@ -78,70 +74,69 @@ Currently Meta focuses on simplifying and making typography easier for developer
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/guylepage3/meta/releases).
-- Clone the repo: `git@github.com:guylepage3/meta.git`.
-- Install with [npm](https://www.npmjs.com/package/@universelabs/meta): `npm i @universelabs/meta`.
-- Install with [yarn](https://yarnpkg.com/): `yarn add @universelabs/meta`.
+- [Download the latest release.](https://github.com/guylepage3/m3/releases).
+- Clone the repo: `git@github.com:guylepage3/m3.git`.
+- Install with [npm](https://www.npmjs.com/package/m3css): `npm i m3css`.
+- Install with [yarn](https://yarnpkg.com/): `yarn add m3css`.
 
 ## Status
 
-[![Meta version](https://img.shields.io/badge/dynamic/json.svg?label=Meta+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Fmeta%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/guylepage3/meta)
-[![Build status](https://img.shields.io/circleci/project/github/guylepage3/meta.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/guylepage3/meta)
-[![devDependencies Status](https://img.shields.io/david/dev/guylepage3/meta.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/guylepage3/meta?type=dev)
-[![npm version](https://img.shields.io/npm/v/@universelabs/meta.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@universelabs/meta)
-![npm](https://img.shields.io/npm/dt/@universelabs/meta?colorA=%23212121&colorB=%23007BFF)
+[![m3 version](https://img.shields.io/badge/dynamic/json.svg?label=m3+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Fm3%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/guylepage3/m3)
+[![Build status](https://img.shields.io/circleci/project/github/guylepage3/m3.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/guylepage3/m3)
+[![npm version](https://img.shields.io/npm/v/@universelabs/m3.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/m3css)
+![npm](https://img.shields.io/npm/dt/m3css?colorA=%23212121&colorB=%23007BFF)
 
 ## What's included
 
-Within the download you'll find the following directories and files. Meta's Scss variables and mixins are all imported to `meta.scss`. You'll see something like this:
+Within the download you'll find the following directories and files. m3's Scss variables and mixins are all imported to `m3.scss`. You'll see something like this:
 
 ```text
-meta/
+m3/
 └── scss/
-    ├── _meta-color.scss
-    ├── _meta-mixins.scss
-    ├── _meta-spacing.scss
-    ├── _meta-type-scaling.scss
-    ├── _meta-type.scss
-    ├── _meta-reboot.scss
+    ├── _m3-color.scss
+    ├── _m3-mixins.scss
+    ├── _m3-spacing.scss
+    ├── _m3-type-scaling.scss
+    ├── _m3-type.scss
+    ├── _m3-reboot.scss
     ├── _variables.scss
-    ├── meta.scss
+    ├── m3.scss
     └── mixins/
         └── _lists.scss
 ```
 
-This simple structure allows you to simply import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling.
+This simple structure allows you to simply import the `m3.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling.
 
 ## Getting started
 
-Quickly start by using the one line [NPM](https://www.npmjs.com/package/@universelabs/meta) install.
+Quickly start by using the one line [NPM](https://www.npmjs.com/package/m3css) install.
 
 ```
-npm i @universelabs/meta
+npm i m3css
 ```
 
 ```
-@import "node_modules/@universelabs/meta/scss/meta.scss";
+@import "node_modules/m3css/scss/m3.scss";
 ```
 
 alternatively, you can import css directly
 
 ```
-@import "node_modules/@universelabs/meta/css/meta.css";
+@import "node_modules/m3css/css/m3.css";
 ```
 
-Import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
+Import the `m3.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
 
 Most classname convention is dirived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
 
 ## Features and benefits
 
-- Meta is framework and language agnostic.
-- Meta can easily be added in addition to any other frontend framework such as Boostrap, Material UI, etc.
-- Meta allows developers to quickly design and build quality user interfaces with little effort.
+- m3 is framework and language agnostic.
+- m3 can easily be added in addition to any other frontend framework such as Boostrap, Material UI, etc.
+- m3 allows developers to quickly design and build quality user interfaces with little effort.
 - Unlike a lot of UI frameworks, Meta's wide scope of typographic and color variables, empower the creation of unique interfaces.
 - Web3 compatible.
-- Easy install and update via [NPM](https://www.npmjs.com/package/@universelabs/meta).
+- Easy install and update via [NPM](https://www.npmjs.com/package/m3css).
 
 ### Color
 
@@ -159,12 +154,12 @@ Full color list coming soon...
 
 ### Type
 
-- Meta adds functional typography that implements complex type scaling with responsive & ratio scaling for superior readability.
+- m3 adds functional typography that implements complex type scaling with responsive & ratio scaling for superior readability.
 - Duo type functionality
   - There are two types of typography in Meta:
     1. Regular Typography for interface design and layout within graphical user interfaces. ie. List of songs, play button, settings.
     2. Editorial Typography for lengthier content sets of copy that are for written communications. ie. promotional pages, blog posts, documentation, etc.
-- Although Meta is primarily used as an interface framework, developers can use the advanced type options and simply apply a `*-editorial` suffix to type classes to get highly functional editorial typography. [Learn more](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md#editorial).
+- Although m3 is primarily used as an interface framework, developers can use the advanced type options and simply apply a `*-editorial` suffix to type classes to get highly functional editorial typography. [Learn more](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md#editorial).
 - Responsive Ratio Type Scaling
 - Customizable ratioing
 - Comes with the following default ratios to choose from;
@@ -188,28 +183,26 @@ Full color list coming soon...
   - padding `p-*`
 - Apply spacing to typography and anywhere else needed.
 
-## Meta UI
+## m3 UI-1
 
-**Meta UI** is an open source [Sketch Shared Library](https://www.sketch.com/docs/libraries/shared-libraries) including Style Guide and Symbol resources for rapid prototyping in Sketch. The library allows developers to add the Meta Sketch Resource Library to their local Sketch Application. The library provides access to Meta styles, colors, type, components, and more. Once added, the Meta Sketch Resource Library syncs directly to Sketch Cloud. Sketch will notify users of any additions or updates.
-
-For detailed instructions on how to add Meta UI to your Sketch Libraries, visit [Meta UI](https://github.com/universelabs/meta-ui).
+**m3 UI-1** (Coming soon!) is an open source Figma template including Style Guide and Symbol resources for rapid prototyping in Figma. The library provides access to m3 styles, colors, type, components, and more.
 
 ## Documentation
 
-For detailed instructions on how to customize Meta and the Meta Documentation, visit [Documentation](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md).
+For detailed instructions on how to customize Meta and the Meta Documentation, visit [Documentation](https://github.com/guylepage3/m3/blob/master/DOCUMENTATION.md).
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/guylepage3/m3/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 Moreover, if your pull request contains JavaScript patches or features, you
-must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md#code-guidelines).
+must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/guylepage3/m3/blob/master/CONTRIBUTING.md#code-guidelines).
 
 ## Community
 
-Get updates on Universe's development and chat with the project maintainers and community members.
+Get updates on development and chat with the project maintainers and community members.
 
-- [Star this repo](https://github.com/guylepage3/meta/stargazers)
+- [Star this repo](https://github.com/guylepage3/m3/stargazers)
 - Follow [@guylepage3](https://twitter.com/guylepage3) on Twitter.
 
 ## Maintainers

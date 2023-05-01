@@ -1,42 +1,38 @@
 <div align="center">
-  <h3 align="center">Meta Documentation</h3>
+  <h3 align="center">m3 Documentation</h3>
   <p align="center">
-    <a href="https://github.com/universelabs/meta/issues/new?labels=&template=bug_report.md" alt="Report a Bug (Meta)">
+    <a href="https://github.com/guylepage3/m3/issues/new?labels=&template=bug_report.md" alt="Report a Bug (m3)">
       Report bug
     </a>
     &middot;
-    <a href="https://github.com/universelabs/meta/issues/new?labels=&template=feature_request.md" alt="Request feature (Meta)">
+    <a href="https://github.com/guylepage3/m3/issues/new?labels=&template=feature_request.md" alt="Request feature (m3)">
       Request feature
     </a>
     &middot;
-    <a href="https://twitter.com/intent/follow?screen_name=universelabs" alt="Follow UniverseLabs on Twitter">
+    <a href="https://twitter.com/intent/follow?screen_name=guylepage3" alt="Follow Guy Lepage on Twitter">
       Twitter
     </a>
     &middot;
-    <a href="https://medium.com/universelabs" alt="UniverseLabs – Medium">
+    <a href="https://medium.com/guylepage3" alt="Guy Lepage – Medium">
       Medium
     </a>
     &middot;
-    <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE">
-      Slack
-    </a>
-    &middot;
-    <a href="https://www.npmjs.com/package/@universelabs/meta" alt="NPM @universelabs/meta">
+    <a href="https://www.npmjs.com/package/m3css" alt="NPM m3">
       npm
     </a>
   </p>
   <p align="center">
-    <a href="https://twitter.com/intent/follow?screen_name=universelabs">
-      <img src="https://img.shields.io/twitter/url/https/twitter.com/universelabs.svg?style=social&label=Follow%20%40universelabs&logo=twitter" alt="Follow UniverseLabs on Twitter" />
+    <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
+      <img src="https://img.shields.io/twitter/url/https/twitter.com/guylepage3.svg?style=social&label=Follow%20%40guylepage3&logo=twitter" alt="Follow Guy Lepage on Twitter" />
     </a>
     &middot;
-    <a href="https://github.com/universelabs/meta/stargazers">
-      <img src="https://img.shields.io/github/stars/universelabs/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
+    <a href="https://github.com/guylepage3/m3/stargazers">
+      <img src="https://img.shields.io/github/stars/guylepage3/m3.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
     </a>
   </p>
   <p align="center">
-    <a href="https://github.com/universelabs/meta">
-      ‹ Back to Meta
+    <a href="https://github.com/guylepage3/m3">
+      ‹ Back to m3
     </a>
   </p>
 </div>
@@ -57,62 +53,62 @@
 
 ## What's included
 
-Within the download you'll find the following directories and files. Meta's SCSS variables and mixins are all imported to `meta.scss`. You'll see something like this:
+Within the download you'll find the following directories and files. m3's SCSS variables and mixins are all imported to `m3.scss`. You'll see something like this:
 
 ```text
-@universelabs/meta/
+guylepage3/m3/
 └── scss/
-    ├── _meta-color.scss 
-    ├── _meta-mixins.scss
-    ├── _meta-spacing.scss
-    ├── _meta-type-scaling.scss
-    ├── _meta-type.scss
-    ├── _meta-reboot.scss
+    ├── _m3-color.scss 
+    ├── _m3-mixins.scss
+    ├── _m3-spacing.scss
+    ├── _m3-type-scaling.scss
+    ├── _m3-type.scss
+    ├── _m3-reboot.scss
     ├── _variables.scss
-    ├── meta.scss
+    ├── m3.scss
     └── mixins/
         └── _lists.scss
 ```
 
-This simple structure allows you to simply import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling.
+This simple structure allows you to simply import the `m3.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling.
 
 
 ## Getting started
 
-Quickly start by using the one line [NPM](https://www.npmjs.com/package/@universelabs/meta) install.
+Quickly start by using the one line [NPM](https://www.npmjs.com/package/m3css) install.
 
 ```
-npm i @universelabs/meta
+npm i m3css
 ```
 
 ```
-@import "node_modules/@universelabs/meta/scss/meta.scss";
+@import "node_modules/m3css/scss/m3.scss";
 ```
 
-Import the `meta.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
+Import the `m3.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
 
-Meta classname convention is derived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
+m3 classname convention is derived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
 
 
 ## Theming
 
-In order to theme Meta, you'll need to first install and connect Meta to your project using...
+In order to theme m3, you'll need to first install and connect m3 to your project using...
 
 ```
-npm i @universelabs/meta
+npm i m3css
 ```
 
-Once you have installed Meta via npm you can theme or cusomize Meta.
+Once you have installed m3 via npm you can theme or cusomize m3.
 
-When theming Meta we want to import `meta.scss` and then your `custom.scss` to ensure we get the correct compiled CSS. We do this by first creating a `custom.scss`.
+When theming m3 we want to import `m3.scss` and then your `custom.scss` to ensure we get the correct compiled CSS. We do this by first creating a `custom.scss`.
 
 ```
 
-// Meta
+// m3
 // Your Custom.scss
 
-@import "node_modules/@universelabs/meta/scss/meta.scss";
-@import "node_modules/@universelabs/meta/scss/custom.scss";
+@import "node_modules/m3css/scss/m3.scss";
+@import "node_modules/m3css/scss/custom.scss";
 
 ```
 
@@ -124,9 +120,9 @@ From there you can simply start overwriting your SCSS with the following
 $body-bg: #000;
 $body-color: #111;
 
-// Meta and its default variables
-@import "node_modules/@universelabs/meta/scss/meta.scss";
-@import "node_modules/@universelabs/meta/scss/custom.scss";
+// m3 and its default variables
+@import "node_modules/m3css/scss/m3.scss";
+@import "node_modules/m3css/scss/custom.scss";
 
 ```
 
@@ -206,7 +202,7 @@ Blockquote classes, wrap `<blockquote class="blockquote">` around any HTML as th
 
 #### Editorial
 
-Meta features `*-editorial` classes for `headings`, `displays`, `leads` and `blockquotes`. The classes add additional `y` axis `margin` spacing, making them ideal for products looking for advanced typography, such as blogs, editorial sites, infographics, and more.
+m3 features `*-editorial` classes for `headings`, `displays`, `leads` and `blockquotes`. The classes add additional `y` axis `margin` spacing, making them ideal for products looking for advanced typography, such as blogs, editorial sites, infographics, and more.
 
 To use the `*-editorial` classes, simply apply the `*-editorial` suffix to type classes to get highly functional editorial typography.
 
@@ -256,7 +252,7 @@ To use the `*-editorial` classes, simply apply the `*-editorial` suffix to type 
 
 ## Color system
 
-The Meta color system allows for a full range of color options.
+The m3 color system allows for a full range of color options.
 
 ```
 <div class="bg-primary">.bg-primary</div>
@@ -282,7 +278,7 @@ $info-blue:        #1e90ff;
 $white:            #fff;
 $black:            #000;
 
-#### Meta Colors
+#### m3 Colors
 50, 100, 200, 300, 400, 500, 600, 700, 800, 900
 
 $navy

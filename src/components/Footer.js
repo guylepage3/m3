@@ -9,37 +9,30 @@ class Footer extends Component {
         <div className="text-white-50 text-footer font-weight-bold">
           <ul className="list-inline my-2">
             <li className="list-inline-item mx-2">
-              <a href="https://github.com/universelabs/meta" 
-                alt="GitHub Meta (Meta)"
+              <a href="https://github.com/guylepage3/m3" 
+                alt="GitHub m3 (m3)"
                 className="text-white">
                 <FontAwesomeIcon className="mr-1" icon={['fab', 'github']} /> GitHub
               </a>
             </li>
             <li className="list-inline-item mx-2">
-              <a href="https://twitter.com/UniverseLabs" 
-                alt="Twitter Universe Labs (@UniverseLabs)"
+              <a href="https://twitter.com/guylepage3" 
+                alt="Twitter Guy Lepage"
                 className="text-white">
                 <FontAwesomeIcon className="mr-1" icon={['fab', 'twitter']} /> Twitter
               </a>
             </li>
             <li className="list-inline-item mx-2">
-              <a href="https://medium.com/universelabs" 
-                alt="UniverseLabs – Medium"
+              <a href="https://medium.com/guylepage3" 
+                alt="Guy Lepage – Medium"
                 className="text-white">
                 <FontAwesomeIcon className="mr-1" icon={['fab', 'medium']} /> Medium
-              </a>
-            </li>
-            <li className="list-inline-item mx-2">
-              <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE" 
-                alt="Universe – Slack"
-                className="text-white">
-                <FontAwesomeIcon className="mr-1" icon={['fab', 'slack']} /> Slack
               </a>
             </li>
           </ul>
         </div>
         <div className="text-white-50 font-weight-normal small">
-          Universe Labs
+          Guy Lepage
           <CopyrightUpdate />
         </div>
       </footer>

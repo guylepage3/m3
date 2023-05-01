@@ -24,31 +24,24 @@ class Navbar extends Component {
     socialItems: [
       {
         id: 1,
-        href: 'https://github.com/universelabs/meta',
-        alt: 'GitHub Meta (Meta)',
+        href: 'https://github.com/guylepage3/m3',
+        alt: 'GitHub m3 (m3)',
         icon: 'github',
         text: 'GitHub'
       },
       {
         id: 2,
-        href: 'https://twitter.com/UniverseLabs',
-        alt: 'Twitter Universe Labs (@UniverseLabs)',
+        href: 'https://twitter.com/guylepage3',
+        alt: 'Twitter Guy Lepage',
         icon: 'twitter',
         text: 'Twitter'
       },
       {
         id: 3,
-        href: 'https://medium.com/universelabs',
-        alt: 'Universe Labs – Medium',
+        href: 'https://medium.com/guylepage3',
+        alt: 'Guy Lepage – Medium',
         icon: 'medium',
         text: 'Medium'
-      },
-      {
-        id: 4,
-        href: 'https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE',
-        alt: 'Universe Labs – Slack',
-        icon: 'slack',
-        text: 'Slack'
       }
     ]
   }
@@ -92,7 +85,7 @@ class Navbar extends Component {
                 <img
                   src={logo} 
                   className="navbar-brand-img d-none" 
-                  alt="Meta Logo"/>
+                  alt="Guy Lepage Logo"/>
               </a>
             </Div>
             <ul className="navbar-nav">
