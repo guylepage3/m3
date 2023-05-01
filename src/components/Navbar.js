@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import SocialText from '../components/SocialText';
-import logo from './../img/meta-logo-wordmark-white.svg';
+import logo from './../img/m3-logo-wordmark-white.svg';
 import NavbarToggler from '../components/NavbarToggler';
 
 const Nav = styled.nav`
@@ -52,12 +52,21 @@ class Navbar extends Component {
         style={this.props.style}
         >
         <div className="container">
-          <a className="navbar-brand d-flex align-items-center" href="/">
-            <img 
-              src={logo} 
-              alt="Guy Lepage Logo"
-              className="navbar-brand-img" 
-              />
+          <a 
+            className="
+              navbar-brand 
+              d-flex 
+              text-white 
+              align-items-center" 
+            style={{ 
+              fontWeight: '700',
+              fontSize: '2rem'
+            }}
+            href="/"
+          >
+            <span style={{ fontWeight: '400' }}>[</span>
+              m3
+            <span style={{ fontWeight: '400' }}>]</span>
           </a>
           <NavbarToggler 
             className="d-flex align-items-right navbar-toggler-light"/>
@@ -99,15 +108,15 @@ class Navbar extends Component {
               <li className="nav-item">
                 <a 
                   href="/type"
-                  className="nav-link ml-md-5">
-                   Typography
+                  className="nav-link mt-md-2 ml-md-5">
+                   Type
                 </a>
               </li>
               <li className="nav-item">
                 <a 
                   href="/type-editorial"
-                  className="nav-link">
-                   Typography Editorial
+                  className="nav-link mt-md-2 ml-md-3">
+                   Type Editorial
                 </a>
               </li>
               <div className="nav-item d-md-none">

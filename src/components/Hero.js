@@ -16,11 +16,22 @@ class Hero extends Component {
                 anima-fadein 
                 quote
                 mt-0
-                mb-2
+                mb-4
+                display-3
               ">
-              m3 <br />
-              CSS Framework
+              <span style={{ fontWeight: '400' }}>[</span>
+                m3
+              <span style={{ fontWeight: '400' }}>]</span>
             </h1>
+            <p className="
+              text-white 
+              font-weight-bold 
+              anima-fadein 
+              quote
+              mt-0
+              mb-4
+              h2
+            ">CSS Framework</p>
           </div>
           <div 
             className="
@@ -29,7 +40,9 @@ class Hero extends Component {
             anima-fadein 
             text-white
           ">
-            m3 is an Web3 front-end framework with advanced typography tooling. (Formerly Meta). 
+            m3 is an Web3 front-end framework with advanced typography tooling.
+            <br />
+            (Formerly Meta). 
             <br />
             <br />
             <p>
