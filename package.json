@@ -1,7 +1,7 @@
 {
-  "name": "@universelabs/meta",
-  "version": "1.5.5",
-  "description": "A blockchain enhhanced front-end framework based off Bootstrap for developing decentralized apps.",
+  "name": "m3css",
+  "version": "1.13.0",
+  "description": "m3 is an Web3 front-end framework with advanced typography(Formerly Meta).",
   "keywords": [
     "framework",
     "web3",
@@ -18,56 +18,60 @@
     {
       "name": "Guy Lepage",
       "email": "guylepage3@gmail.com",
-      "url": "https://lepage.cc"
+      "url": "https://guylepage.com"
     }
   ],
   "contributors": {
-    "url": "https://github.com/universelabs/meta/graphs/contributors"
+    "url": "https://github.com/guylepage3/m3/graphs/contributors"
   },
   "bugs": {
-    "url": "https://github.com/universelabs/meta/issues/new"
+    "url": "https://github.com/guylepage3/m3/issues/new"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/universelabs/meta.git"
+    "url": "https://github.com/guylepage3/m3.git"
   },
-  "homepage": "https://github.com/universelabs/meta",
+  "homepage": "https://github.com/guylepage3/m3",
   "main": "index.js",
-  "sass": "scss/meta.scss",
+  "sass": "scss/m3.scss",
   "scripts": {
     "prepublish": "",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "dist": "shx mkdir -p scss/ && shx cp -r src/scss/meta.scss scss/",
+    "build-css": "node-sass --include-path scss src/scss/m3.scss css/m3.css && node-sass --include-path scss src/scss/m3.scss css/m3.min.css --output-style compressed",
+    "dist": "shx mkdir -p scss/ && shx cp -r src/scss/. scss/ && npm run build-css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "copyright-update": "^1.3.2"
+    "copyright-update": "^1.15.0",
+    "npm-check-updates": "16.10.9",
+    "styled-components": "5.3.10"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.14",
-    "@fortawesome/free-brands-svg-icons": "^5.7.1",
-    "@fortawesome/free-solid-svg-icons": "^5.7.1",
-    "@fortawesome/react-fontawesome": "^0.1.4",
-    "ajv": "^6.8.1",
-    "bootstrap": "^4.2.1",
-    "jquery": "^3.3.1",
-    "node-sass": "^4.11.0",
+    "@fortawesome/fontawesome-svg-core": "6.4.0",
+    "@fortawesome/free-brands-svg-icons": "6.4.0",
+    "@fortawesome/free-solid-svg-icons": "6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "ajv": "8.12.0",
+    "bootstrap": "5.2.3",
+    "jquery": "3.6.4",
+    "node-sass": "^8.0.0",
     "npm-run-all": "^4.1.5",
-    "popper.js": "^1.14.7",
+    "popper.js": "1.16.1",
     "px-rem-reference": "^1.3.6",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.3",
-    "serve": "^10.1.2",
-    "shx": "^0.3.2",
-    "source-map-explorer": "^1.6.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "serve": "^14.2.0",
+    "shx": "^0.3.4",
+    "source-map-explorer": "2.5.3"
   },
   "files": [
-    "scss/"
+    "scss/",
+    "css/"
   ],
   "browserslist": [
     ">0.2%",

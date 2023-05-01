@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import Page404 from './Page404';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Page404 from '../components/Page404';
 
 class NoMatch extends Component {
   render() {
     return (
       <div className="d-flex w-100 h-100 mx-auto px-4 flex-column">
-        <Header />
+        <Navbar />
         <div 
           style={{
             paddingTop: '56px'
