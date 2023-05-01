@@ -114,6 +114,41 @@ When theming m3 we want to import `m3.scss` and then your `custom.scss` to ensur
 
 From there you can simply start overwriting your SCSS with the following
 
+```text
+m3
+├── .circleci/
+|   └── config.yml
+├── .gitignore
+├── DOCUMENTATION.md
+├── LICENSE
+├── m3-UI.md
+├── package-lock.json
+├── package.json
+├── public/
+|   └── index.html
+|   └── manifest.json
+├── README.md
+├── scss/
+|   └── m3.scss
+├── src/
+|   └── App.js
+|   └── App.test.js
+|   └── components/
+|   │   └── Footer.js
+|   │   └── Header.js
+|   │   └── Home.js
+|   │   └── NoMatch.js
+|   │   └── Page404.js
+|   │   └── Typography.js
+│   └── css/
+|   |   └── App.css
+|   |   └── Buttons.css
+|   |   └── index.css
+│   └── index.js
+│   └── scss/
+|   |   └── meta.scss
+│   └── serviceWorker.js
+└── static.json
 ```
 
 // Your variable overrides
