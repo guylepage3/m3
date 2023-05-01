@@ -32,8 +32,7 @@ class Footer extends Component {
           </ul>
         </div>
         <div className="text-white-50 font-weight-normal small">
-          Guy Lepage
-          <CopyrightUpdate />
+        <CopyrightUpdate /> Guy Lepage. All rights reserved.
         </div>
       </footer>
     );
