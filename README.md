@@ -82,7 +82,7 @@ Several quick start options are available:
 <h3>Status</h3>
 
 [![m3 version](https://img.shields.io/badge/dynamic/json.svg?label=m3+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Fm3%2Fmaster%2Fpackage.json&query=%24.version&style=for-the-badge&colorA=%23000000&colorB=%23007BFF)](https://github.com/guylepage3/m3)
-[![Build status](https://img.shields.io/circleci/project/github/guylepage3/m3.svg?style=for-the-badge&label=Build+status&colorA=%23212121)](https://circleci.com/gh/guylepage3/m3)
+[![Build status](https://img.shields.io/circleci/project/github/guylepage3/m3.svg?style=for-the-badge&label=Build+status&colorA=%23000000)](https://circleci.com/gh/guylepage3/m3)
 [![npm version](https://img.shields.io/npm/v/@universelabs/m3.svg?style=for-the-badge&colorA=%23000000&colorB=%23CA0000)](https://www.npmjs.com/package/m3css)
 ![npm](https://img.shields.io/npm/dt/m3css?style=for-the-badge&colorA=%23000000&colorB=%23CA0000)
 <br />
