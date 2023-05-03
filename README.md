@@ -1,15 +1,11 @@
 <div align="center">
-  <h3 align="center">m3</h3>
+  <h3 align="center">m[3]</h3>
   <p align="center">
-    m3 is an Web3 front-end framework with advanced typography tooling. (Formerly Meta).
-    <br/>
-    <a href="https://guylepage.com">
-      <strong>guylepage.com</strong>
-    </a>
+    m3. Advanced typography framework.
   </p>
   <p align="center">
-    <a href="https://m3-one.vercel.app" alt="Vercel App (m3)">
-      Web App
+    <a href="https://m3-one.vercel.app" alt="m3-one.vercel.app">
+      m3-one.vercel.app
     </a>
     &middot;
     <a href="https://github.com/guylepage3/m3/issues/new?labels=&template=bug_report.md" alt="Report a Bug (m3)">
@@ -28,7 +24,7 @@
       Medium
     </a>
     &middot;
-    <a href="https://www.npmjs.com/package/m3css" alt="npm">
+    <a href="https://www.npmjs.com/package/m3-one" alt="npm">
       npm
     </a>
   </p>
@@ -38,7 +34,7 @@
     </a>
     &middot;
     <a href="https://github.com/guylepage3/m3/stargazers">
-      <img src="https://img.shields.io/github/stars/guylepage3/meta.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
+      <img src="https://img.shields.io/github/stars/guylepage3/m3.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
     </a>
   </p>
   <p align="center">
@@ -64,7 +60,7 @@
 - [Getting started](#getting-started)
 - [Features and benefits](#features-and-benefits)
 - [Documentation](https://github.com/guylepage3/m3/blob/master/DOCUMENTATION.md)
-- [m3 UI-1 – Figma Resource](#m3-ui-1)
+- [m3-figma](#m3-figma)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
@@ -72,7 +68,7 @@
 
 ## Overview
 
-Currently Meta focuses on simplifying and making typography easier for developers to design effective content. It also comes with a broad range color system to take away the pain of choosing colors.
+m3 (v2) currently focuses on making typography easier for developers to layout content effectively. It also comes with a guided type system to take away the pain of choosing type layout.
 
 ## Quick start
 
@@ -80,15 +76,15 @@ Several quick start options are available:
 
 - [Download the latest release.](https://github.com/guylepage3/m3/releases).
 - Clone the repo: `git@github.com:guylepage3/m3.git`.
-- Install with [npm](https://www.npmjs.com/package/m3css): `npm i m3css`.
-- Install with [yarn](https://yarnpkg.com/): `yarn add m3css`.
+- Install with [npm](https://www.npmjs.com/package/m3-one): `npm i m3-one`.
+- Install with [yarn](https://yarnpkg.com/): `yarn add m3-one`.
 
 <h3>Status</h3>
 
 [![m3 version](https://img.shields.io/badge/dynamic/json.svg?label=m3+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Fm3%2Fmaster%2Fpackage.json&query=%24.version&style=for-the-badge&colorA=%23000000&colorB=%23007BFF)](https://github.com/guylepage3/m3)
 [![Build status](https://img.shields.io/circleci/project/github/guylepage3/m3.svg?style=for-the-badge&label=Build+status&colorA=%23000000)](https://circleci.com/gh/guylepage3/m3)
-[![npm version](https://img.shields.io/npm/v/@universelabs/m3.svg?style=for-the-badge&colorA=%23000000&colorB=%23CA0000)](https://www.npmjs.com/package/m3css)
-![npm](https://img.shields.io/npm/dt/m3css?style=for-the-badge&colorA=%23000000&colorB=%23CA0000)
+[![npm version](https://img.shields.io/npm/v/@universelabs/m3.svg?style=for-the-badge&colorA=%23000000&colorB=%23CA0000)](https://www.npmjs.com/package/m3-one)
+![npm](https://img.shields.io/npm/dt/m3-one?style=for-the-badge&colorA=%23000000&colorB=%23CA0000)
 <br />
 
 ## What's included
@@ -114,20 +110,20 @@ This simple structure allows you to simply import the `m3.scss` file directly in
 
 ## Getting started
 
-Quickly start by using the one line [NPM](https://www.npmjs.com/package/m3css) install.
+Quickly start by using the one line [NPM](https://www.npmjs.com/package/m3-one) install.
 
 ```
-npm i m3css
+npm i m3-one
 ```
 
 ```
-@import "node_modules/m3css/scss/m3.scss";
+@import "node_modules/m3-one/scss/m3.scss";
 ```
 
 alternatively, you can import css directly
 
 ```
-@import "node_modules/m3css/css/m3.css";
+@import "node_modules/m3-one/css/m3.css";
 ```
 
 Import the `m3.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
@@ -136,35 +132,20 @@ Most classname convention is dirived from the [Bootstrap](https://getbootstrap.c
 
 ## Features and benefits
 
-- m3 is framework and language agnostic.
-- m3 can easily be added in addition to any other frontend framework such as Boostrap, Material UI, etc.
+- m3 computes and scales type and spacing, making it much easier to layout content.
+- m3 can easily be added in addition to any other frontend framework such as Boostrap, Tailwind CSS, Material UI, etc.
 - m3 allows developers to quickly design and build quality user interfaces with little effort.
-- Unlike a lot of UI frameworks, Meta's wide scope of typographic and color variables, empower the creation of unique interfaces.
-- Web3 compatible.
-- Easy install and update via [NPM](https://www.npmjs.com/package/m3css).
+- Both Web3 compatible.
+- Easy install and update via [NPM](https://www.npmjs.com/package/m3-one) and PNPM.
 
-### Color
-
-- Full-spectrum Color System
-- Color theming.
-- WCAG accessibility compliant.
-- Wide gamut color range.
-- Scalable.
-- Over 200 color hues.
-- Non-breakable.
-- Inspired by [Palx](https://github.com/jxnblk/palx) and [Open Color](https://yeun.github.io/open-color), Meta's Color System guides developers through fool proof color theming while providing them with a wide gamut of colors to choose from.
-- No additional color tools necessary.
-
-Full color list coming soon...
-
-### Type
+### Typography
 
 - m3 adds functional typography that implements complex type scaling with responsive & ratio scaling for superior readability.
 - Duo type functionality
-  - There are two types of typography in Meta:
+  - There are two types of typography in m3:
     1. Regular Typography for interface design and layout within graphical user interfaces. ie. List of songs, play button, settings.
     2. Editorial Typography for lengthier content sets of copy that are for written communications. ie. promotional pages, blog posts, documentation, etc.
-- Although m3 is primarily used as an interface framework, developers can use the advanced type options and simply apply a `*-editorial` suffix to type classes to get highly functional editorial typography. [Learn more](https://github.com/universelabs/meta/blob/master/DOCUMENTATION.md#editorial).
+- Although m3 is primarily used as an interface framework, developers can use the advanced type options and simply apply a `*-editorial` suffix to type classes to get highly functional editorial typography. [Learn more](https://github.com/guylepage3/m3/blob/master/DOCUMENTATION.md#editorial).
 - Responsive Ratio Type Scaling
 - Customizable ratioing
 - Comes with the following default ratios to choose from;
@@ -188,13 +169,13 @@ Full color list coming soon...
   - padding `p-*`
 - Apply spacing to typography and anywhere else needed.
 
-## m3 UI-1
+## m3 Palette
 
-**m3 UI-1** (Coming soon!) is an open source Figma template including Style Guide and Symbol resources for rapid prototyping in Figma. The library provides access to m3 styles, colors, type, components, and more.
+**m3 Palette** (Coming soon!) is an open source Figma template including Style Guide and Symbol resources for rapid prototyping in Figma. The library provides access to m3 advanced typography, scaling, spacing, styling, components, and more.
 
 ## Documentation
 
-For detailed instructions on how to customize Meta and the Meta Documentation, visit [Documentation](https://github.com/guylepage3/m3/blob/master/DOCUMENTATION.md).
+View the [Documentation](https://github.com/guylepage3/m3/blob/master/DOCUMENTATION.md) for detailed instructions on how to use and customize m3.
 
 ## Contributing
 
