@@ -140,7 +140,7 @@ export default function Editorial() {
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. Etiam aliquet nibh eu vulputate pellentesque.
             </p>
             <p className="text-white">
-              Think of variables as a way to store information that you want to reuse throughout your stylesheet. You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. Sass uses the $ symbol to make something a variable
+              Think of variables as a way to store information that you want to reuse throughout your stylesheet. You can store things like colors, font stacks, or any CSS value you think you&#39;ll want to reuse. Sass uses the $ symbol to make something a variable
             </p>
             <p className="text-white">
               Maecenas in rhoncus augue. Fusce diam purus, consequat non enim eget, feugiat dictum velit. Vestibulum ac tincidunt mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vulputate tortor quam, non pulvinar ante porta at. Maecenas finibus bibendum euismod. Maecenas vehicula nunc turpis, non dictum dui scelerisque non. In vulputate convallis porttitor. Cras fringilla diam dolor, eget commodo erat dapibus sed. Nunc in quam congue, aliquet nulla eget, gravida lacus. Quisque fringilla felis a lorem volutpat consequat. Nunc nibh neque, lobortis vel elementum vel, mattis ac neque.
