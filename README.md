@@ -126,9 +126,7 @@ alternatively, you can import css directly
 @import "node_modules/m3-one/css/m3.css";
 ```
 
-Import the `m3.scss` file directly into any project after your other UI framework imports and/or before your project's custom styling. (The following is an example of how to import via React.js).
-
-Most classname convention is dirived from the [Bootstrap](https://getbootstrap.com/) framework so you should feel right at home.
+Import the `m3.scss` file directly into any project after other front-end framework imports and/or before your project's custom styling.
 
 ## Features and benefits
 
