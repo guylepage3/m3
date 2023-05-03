@@ -29,12 +29,8 @@
     </a>
   </p>
   <p align="center">
-    <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
-      <img src="https://img.shields.io/twitter/url/https/twitter.com/guylepage3.svg?style=social&label=Follow%20%40guylepage3&logo=twitter" alt="Follow guylepage3 on Twitter" />
-    </a>
-    &middot;
     <a href="https://github.com/guylepage3/m3/stargazers">
-      <img src="https://img.shields.io/github/stars/guylepage3/m3.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo" />
+      <img src="https://img.shields.io/github/stars/guylepage3/m3.svg?style=for-the-badge&label=Star+Repo&logo=github&logoColor=white&colorA=%232667C6&colorB=%232f81f7&maxAge=2592000" alt="Star Repo" />
     </a>
   </p>
   <p align="center">
