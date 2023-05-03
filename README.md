@@ -60,7 +60,7 @@
 - [Getting started](#getting-started)
 - [Features and benefits](#features-and-benefits)
 - [Documentation](https://github.com/guylepage3/m3/blob/master/DOCUMENTATION.md)
-- [m3-figma](#m3-figma)
+- [m3 Palette](#m3-palette)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Maintainers](#maintainers)
@@ -68,7 +68,7 @@
 
 ## Overview
 
-m3 (v2) currently focuses on making typography easier for developers to layout content effectively. It also comes with a guided type system to take away the pain of choosing type layout.
+m3 (v2.0.0) currently focuses on making typography easier for developers to layout content effectively. It also comes with a guided type system to take away the pain of choosing type layout.
 
 ## Quick start
 
