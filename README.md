@@ -45,7 +45,7 @@
 <br/>
 <p align="center">
   <a href="https://guylepage.com">
-    <img width="600" alt="m3-v0.2.7" src="https://user-images.githubusercontent.com/1711854/48637773-b07dbb00-e99c-11e8-8c5c-0ef2a431ab8a.png">
+    <img width="600px" alt="2023-05-02-m3 [3360x2100]" src="https://user-images.githubusercontent.com/1711854/235768362-1aed404c-7cb4-4b85-9759-816bdfad3f4f.png">
   </a>
 </p>
 

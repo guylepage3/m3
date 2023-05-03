@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'; // Add this line
 import './globals.css';
-import { open_sans } from './fonts';
+import { abcdiatype } from './fonts';
 
 export const metadata = {
   title: 'm3',
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={open_sans.className}>{children}</body>
+      <body className={abcdiatype.className}>{children}</body>
     </html>
   )
 }

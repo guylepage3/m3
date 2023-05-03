@@ -1,10 +1,10 @@
-import { karla } from '../app/fonts';
-import { open_sans } from '../app/fonts';
+import { abcdiatype, abcdiatypemono, karla } from '../app/fonts';
 
 const Hero = () => {
   return (
     <main 
       className="
+        container
         text-center 
         text-white
       "
@@ -13,32 +13,34 @@ const Hero = () => {
         <h1 
           className={`
             ${karla.className} 
-            ${'fw-semibold'} 
-            ${'display-1'} 
-            ${'mb-2'}`}
+            ${'fw-700'} 
+            ${'display-3'} 
+            ${'mb-3'}`}
           >
-          <span className={`${open_sans.className} ${'fw-light'}`}>[</span>
+          <span className={`${abcdiatypemono.className} ${'fw-light'}`}>[</span>
             m3
-          <span className={`${open_sans.className} ${'fw-light'}`}>]</span>
+          <span className={`${abcdiatypemono.className} ${'fw-light'}`}>]</span>
         </h1>
         <p className="  
-          fw-semibold 
-          mb-4
-          h1
-        ">
+          fw-600 
+          mb-3
+          h3
+        "
+        style={{ letterSpacing: '.03em'}}>
           CSS Framework
         </p>
       </div>
       <div 
-        className="
-        container  
-        lead
-      ">
+        className={`
+          ${abcdiatype.className}
+          ${'container'} 
+          ${'lead'}
+        `}
+      >
         A Web3 front-end framework with advanced typography.
         <br />
-        <br />
-        <p>
-          <a href="https://github.com/guylepage3/m3">GitHub</a>
+        <p style={{ marginTop: '1rem'}}>
+          <a href="https://github.com/guylepage3/m3" target='_blank'>GitHub</a>
         </p>
       </div>
     </main>

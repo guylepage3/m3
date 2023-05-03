@@ -1,30 +1,31 @@
-import { karla } from '../app/fonts';
+import Link from 'next/link'
+import { karla, abcdiatypemono } from '../app/fonts';
 import NavbarToggler from './NavbarToggler';
 
 const Navbar = () => {
   return (
-      <nav className={`${'navbar'} ${'navbar-expand-md'} ${'text-white'}`}
-        style={{ padding: '0.15rem 0', backgroundColor: 'transparent' }}
+    <nav className={`${'navbar'} ${'navbar-expand-md'} ${'text-white'}`}
+      style={{ padding: '0.15rem 0', backgroundColor: 'transparent' }}
+      >
+      <div className="container">
+        <a 
+          className={`
+          ${karla.className} 
+          ${'fw-semibold'}
+          ${'align-items-center'}
+          ${'text-white'}`}
+          style={{ 
+            fontWeight: '700',
+            fontSize: '1.65rem'
+          }}
+          href="/"
         >
-        <div className="container">
-          <a 
-            className={`
-            ${karla.className} 
-            ${'fw-semibold'}
-            ${'d-flex'} 
-            ${'align-items-center'}`}
-            style={{ 
-              fontWeight: '700',
-              fontSize: '1.75rem'
-            }}
-            href="/"
-          >
-            <span className="fw-light">[</span>
-              m3
-            <span className="fw-light">]</span>
-          </a>
+          <span className={`${abcdiatypemono.className} ${'fw-light'}`}>[</span>
+            m3
+          <span className={`${abcdiatypemono.className} ${'fw-light'}`}>]</span>
+        </a>
         <NavbarToggler />
-        <div className="collapse navbar-collapse" id="navbarBasic">
+        <div className="collapse navbar-collapse text-white" id="navbarBasic">
           <div 
             className="
               container 
@@ -51,23 +52,27 @@ const Navbar = () => {
             <li className="nav-item d-md-none">
               <a 
                 href="/"
-                className="nav-link">
+                className="nav-link text-white">
                  Home
               </a>
             </li>
             <li className="nav-item">
-              <a 
-                href="/type"
-                className="nav-link mt-md-2 ml-md-5">
-                 Type
-              </a>
+              <Link 
+                href="/typography"
+                className="nav-link mt-md-1 text-white"
+                style={{ marginLeft: '4rem'}}
+              >
+                Typography
+              </Link>
             </li>
             <li className="nav-item">
-              <a 
-                href="/type-editorial"
-                className="nav-link mt-md-2 ml-md-3">
-                 Type Editorial
-              </a>
+              <Link 
+                href="/editorial"
+                className="nav-link mt-md-1 text-white"
+                style={{ marginLeft: '4rem'}}
+              >
+                Editorial
+              </Link>
             </li>
           </ul>
         </div>
