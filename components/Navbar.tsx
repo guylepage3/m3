@@ -4,9 +4,22 @@ import NavbarToggler from './NavbarToggler';
 
 const Navbar = () => {
   return (
-    <nav className={`${'navbar'} ${'navbar-expand-md'} ${'text-white'}`}
-      style={{ padding: '0.15rem 0', backgroundColor: 'transparent' }}
-      >
+    <nav 
+      className={`
+        ${'navbar'} 
+        ${'navbar-expand-md'} 
+        ${'text-white'}
+        ${'col-lg-12'} 
+        ${'col-xl-11'}
+        ${'mx-auto'}
+        `}
+      style={{ 
+        position: 'fixed',
+        width: '100%',
+        zIndex: '3000',
+        backgroundColor: 'rgba(0,0,0,0.15)',
+        backdropFilter: 'saturate(180%) blur(20px)'
+      }}>
       <div className="container">
         <a 
           className={`
@@ -48,7 +61,7 @@ const Navbar = () => {
             }}>
             </a>
           </div>
-          <ul className="navbar-nav" style={{ backgroundColor: '#000'}}>
+          <ul className="navbar-nav">
             <li className="nav-item d-md-none">
               <a 
                 href="/"
@@ -59,7 +72,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link 
                 href="/typography"
-                className="nav-link mt-md-1 text-white"
+                className="nav-link text-white"
                 style={{ marginLeft: '4rem'}}
               >
                 Typography
@@ -68,8 +81,8 @@ const Navbar = () => {
             <li className="nav-item">
               <Link 
                 href="/editorial"
-                className="nav-link mt-md-1 text-white"
-                style={{ marginLeft: '4rem'}}
+                className="nav-link text-white"
+                style={{ marginLeft: '2rem'}}
               >
                 Editorial
               </Link>

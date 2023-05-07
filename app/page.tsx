@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar />
-      <div className={styles.center}>
-        <Hero />
-      </div>
+        <div className={styles.center}>
+          <Hero />
+        </div>
       {/* <Footer /> */}
     </main>
   )

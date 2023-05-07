@@ -4,7 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Typography() {
   return (
-    <div className={abcdiatype.className}>
+    <div 
+      className={`
+        ${abcdiatype.className} 
+        `}
+      style={{ height: '100%' }}>
       <Navbar />
       <div 
         style={{
@@ -16,8 +20,6 @@ export default function Typography() {
         className="
           container 
           mb-9
-          mt-auto 
-          mx-auto 
           anima-fadein
         ">
         <div className="row px-3">
@@ -111,7 +113,13 @@ export default function Typography() {
               Sed maximus aliquam lectus eget sodales. Donec id quam interdum, varius magna at, scelerisque purus. Mauris neque risus, lacinia feugiat nisi quis, porta interdum magna. Etiam eu auctor ligula, eu commodo ligula. Donec eu facilisis sem. Vivamus eget ante vel odio dictum porttitor in at neque. Proin vulputate sollicitudin tellus sit amet auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             </p>
             <p className="pattern-library-typography-footnote mt-3">
-              <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h1</code> with two <code className="pattern-libarary-typography-code">p</code> paragraphs.
+              <FontAwesomeIcon className="mr-2" icon="angle-up" />
+              <code className="pattern-libarary-typography-code">
+                h1
+              </code> with two 
+              <code className="pattern-libarary-typography-code">
+                p
+              </code> paragraphs.
             </p>
             <div 
               className="

@@ -7,8 +7,7 @@ const Hero = () => {
         container
         text-center 
         text-white
-      "
-      style={{marginTop: '10%'}}>
+      ">
       <div>
         <h1 
           className={`
@@ -16,10 +15,13 @@ const Hero = () => {
             ${'fw-700'} 
             ${'display-3'} 
             ${'mb-3'}`}
+          style={{ letterSpacing: '-0.05rem' }}
           >
-          <span className={`${abcdiatypemono.className} ${'fw-light'}`}>[</span>
-            m3
-          <span className={`${abcdiatypemono.className} ${'fw-light'}`}>]</span>
+          <span 
+            className={`${abcdiatypemono.className} ${'fw-light'}`}>[</span>
+          m3
+          <span 
+            className={`${abcdiatypemono.className} ${'fw-light'}`}>]</span>
         </h1>
         <p className="  
           fw-600 

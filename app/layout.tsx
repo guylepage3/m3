@@ -4,7 +4,7 @@ import { abcdiatype } from './fonts';
 
 export const metadata = {
   title: 'm3',
-  description: 'Web3 front-end framework with advanced typography',
+  description: 'm3 is an advanced typography framework.',
 }
 
 export default function RootLayout({

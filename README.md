@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">m[3]</h3>
+  <h2 align="center">[m3]</h2>
   <p align="center">
     m3. Advanced typography framework.
   </p>
